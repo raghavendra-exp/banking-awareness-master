@@ -1,0 +1,163 @@
+{
+  "section": "Payment and Settlement Systems & NPCI Ecosystem",
+  "metadata": {
+    "source": "Payment and Settlement Systems Act 2007 (PSSA), NPCI Official Portal, RBI DPSS",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Extremely High (9-14 Questions across Mains shifts)"
+  },
+  "npci_overview": {
+    "organization": "National Payments Corporation of India (NPCI)",
+    "established": "2008 (incorporated under Section 8 of Companies Act 2013 / Section 25 of Companies Act 1956 as a not-for-profit company)",
+    "governing_act": "Payment and Settlement Systems Act, 2007 (PSSA, 2007)",
+    "initiative_of": "Reserve Bank of India (RBI) and Indian Banks' Association (IBA)",
+    "promoter_banks": "Originally promoted by 10 major core banks (SBI, PNB, BoB, Canara, Union Bank, BoI, ICICI, HDFC, Citibank, HSBC)",
+    "headquarters": "Mumbai, Maharashtra",
+    "subsidiaries": [
+      { "name": "NPCI International Payments Limited (NIPL)", "purpose": "Deployment of RuPay and UPI outside India" },
+      { "name": "NPCI Bharat BillPay Limited (NBBL)", "purpose": "Operation and growth of Bharat Bill Payment System (BBPS)" }
+    ]
+  },
+  "systems": [
+    {
+      "id": "upi",
+      "name": "Unified Payments Interface (UPI)",
+      "developer": "NPCI",
+      "launch_date": "April 11, 2016 (by then RBI Governor Dr. Raghuram Rajan)",
+      "underlying_rail": "Built on Immediate Payment Service (IMPS) infrastructure",
+      "addressing_mechanism": "Virtual Payment Address (VPA / UPI ID) eliminating need to share bank account or IFSC",
+      "transaction_limits": {
+        "standard_per_transaction": "₹1,00,000 (₹1 Lakh) per transaction (individual banks may set lower internal limits)",
+        "capital_markets_collections": "₹2,00,000 (₹2 Lakh) for select verified merchant collections",
+        "special_categories_limit": "₹5,00,000 (₹5 Lakh) per transaction for: (1) Hospitals & Medical Care, (2) Educational Institutions, (3) IPO applications via ASBA, (4) RBI Retail Direct scheme investments"
+      },
+      "sub_products": [
+        {
+          "name": "UPI Lite",
+          "launched": "September 2022",
+          "concept": "On-device local wallet for small-value transactions without sending request to remitter bank's core banking system (CBS), requiring NO UPI PIN",
+          "per_transaction_limit": "₹500 per transaction",
+          "wallet_balance_limit": "₹2,000 at any point of time"
+        },
+        {
+          "name": "UPI 123Pay",
+          "launched": "March 2022",
+          "target": "Over 40 crore feature phone users without internet access",
+          "four_technologies": [
+            "IVR (Interactive Voice Response) automated calls",
+            "App functionality on feature phones (OEM embedded)",
+            "Missed call-based approach",
+            "Proximity sound-based payment technology"
+          ]
+        },
+        {
+          "name": "UPI Lite X",
+          "launched": "Global FinTech Fest 2023",
+          "technology": "Near Field Communication (NFC) enabling 100% offline peer-to-peer and merchant payments even with zero internet connectivity"
+        }
+      ]
+    },
+    {
+      "id": "neft",
+      "name": "National Electronic Funds Transfer (NEFT)",
+      "operator": "Operated and maintained directly by Reserve Bank of India (RBI)",
+      "operating_hours": "24x7x365 availability round the clock (effective December 16, 2019)",
+      "settlement_type": "Deferred Net Settlement (DNS) in half-hourly batches (48 batches every day)",
+      "minimum_limit": "No minimum limit (can transfer even ₹1)",
+      "maximum_limit": "No maximum limit prescribed by RBI for account-to-account online transfers",
+      "cash_remittance_walk_in": "Maximum ₹50,000 per transaction for walk-in customers without an account",
+      "indo_nepal_facility": "Under Indo-Nepal Remittance Scheme, maximum remittance is ₹2,00,000 per transaction (for walk-in customers without bank account, cap is ₹50,000 with max 12 remittances a year)"
+    },
+    {
+      "id": "rtgs",
+      "name": "Real Time Gross Settlement (RTGS)",
+      "operator": "Operated and maintained directly by Reserve Bank of India (RBI)",
+      "operating_hours": "24x7x365 availability round the clock (effective December 14, 2020)",
+      "settlement_type": "Real-time individual gross settlement (each transaction settled continuously one-by-one on RBI's books without netting)",
+      "minimum_limit": "₹2,00,000 (₹2 Lakh) minimum threshold",
+      "maximum_limit": "No upper limit (unlimited)",
+      "nature": "Intended for high-value transactions requiring immediate unconditioned finality"
+    },
+    {
+      "id": "imps",
+      "name": "Immediate Payment Service (IMPS)",
+      "operator": "NPCI",
+      "launched": "November 22, 2010",
+      "operating_hours": "24x7x365 real-time instantaneous inter-bank settlement",
+      "maximum_limit": "₹5,00,000 (₹5 Lakh) per transaction (raised from ₹2 Lakh in October 2021)",
+      "minimum_limit": "₹1",
+      "identifiers": "Can route using Mobile Number + MMID (Mobile Money Identifier, a 7-digit unique code) OR Account Number + IFSC"
+    },
+    {
+      "id": "nach",
+      "name": "National Automated Clearing House (NACH)",
+      "operator": "NPCI",
+      "function": "Web-based high-volume, centralized electronic clearing system for handling bulk recurring debit and credit transactions",
+      "variants": {
+        "nach_credit": "Bulk payouts like dividend, interest, salary, pension, government subsidies (DBT)",
+        "nach_debit": "Bulk collections like loan EMIs, mutual fund SIPs, utility bills, insurance premiums",
+        "e_mandate": "Electronic mandate registration via Aadhaar OTP or Net Banking/Debit Card, eliminating physical paper ECS forms"
+      }
+    },
+    {
+      "id": "aeps",
+      "name": "Aadhaar Enabled Payment System (AePS)",
+      "operator": "NPCI",
+      "channel": "Micro-ATMs / Point of Sale (PoS) terminals operated by Business Correspondents (Bank Mitras)",
+      "authentication": "Biometric (Fingerprint or Iris scan) matching with UIDAI central database",
+      "services": ["Cash Withdrawal", "Cash Deposit", "Balance Enquiry", "Aadhaar to Aadhaar Fund Transfer", "Mini Statement"],
+      "significance": "Crucial driver for doorstep financial inclusion in rural unbanked regions"
+    },
+    {
+      "id": "fastag",
+      "name": "FASTag (NETC Ecosystem)",
+      "operator": "National Electronic Toll Collection (NETC) run by NPCI under IHMCL / NHAI mandate",
+      "technology": "Radio Frequency Identification (RFID) passive tag operating on EPC Class 1 Gen 2 standards",
+      "function": "Affixed on vehicle windscreen, enables electronic contactless toll payment directly from linked prepaid wallet or bank account without stopping"
+    },
+    {
+      "id": "cbdc",
+      "name": "Central Bank Digital Currency (Digital Rupee - e₹)",
+      "issuer": "Reserve Bank of India (statutory amendment to Section 22 & 24 of RBI Act via Finance Act, 2022)",
+      "definition": "Legal tender issued by a central bank in digital form, appearing on RBI's balance sheet as a liability, freely convertible 1:1 against physical cash",
+      "interest": "CBDC does NOT earn any interest (to prevent disintermediation and flight of bank deposits)",
+      "pilots": [
+        {
+          "pilot": "e₹-W (Wholesale Pilot)",
+          "launch_date": "November 1, 2022",
+          "use_case": "Settlement of secondary market transactions in Government Securities among participating scheduled banks"
+        },
+        {
+          "pilot": "e₹-R (Retail Pilot)",
+          "launch_date": "December 1, 2022",
+          "use_case": "Person-to-Person (P2P) and Person-to-Merchant (P2M) digital token transactions via dedicated digital token wallets"
+        }
+      ],
+      "interoperability": "UPI QR code interoperability rolled out allowing users to scan any standard UPI merchant QR code to pay using Digital Rupee (e₹) wallet"
+    }
+  ],
+  "comparison_matrix": [
+    { "system": "NEFT", "operator": "RBI", "settlement": "Batch (30 min)", "timing": "24x7x365", "min_limit": "No minimum", "max_limit": "No maximum", "charges_for_savings_online": "Zero" },
+    { "system": "RTGS", "operator": "RBI", "settlement": "Real-time Gross", "timing": "24x7x365", "min_limit": "₹2,00,000", "max_limit": "No maximum", "charges_for_savings_online": "Zero" },
+    { "system": "IMPS", "operator": "NPCI", "settlement": "Real-time Instant", "timing": "24x7x365", "min_limit": "₹1", "max_limit": "₹5,00,000", "charges_for_savings_online": "Set by individual banks" },
+    { "system": "UPI", "operator": "NPCI", "settlement": "Instant (via IMPS)", "timing": "24x7x365", "min_limit": "₹1", "max_limit": "₹1,00,000 (₹5L for hospital/edu/IPO)", "charges_for_savings_online": "Zero" },
+    { "system": "UPI Lite", "operator": "NPCI", "settlement": "Offline Device Wallet", "timing": "24x7x365", "min_limit": "₹1", "max_limit": "₹500/tx (₹2,000 balance)", "charges_for_savings_online": "Zero" }
+  ],
+  "exam_traps": [
+    {
+      "trap": "Believing NEFT and RTGS are operated by NPCI.",
+      "fact": "NEFT and RTGS are owned, operated, and maintained directly by the Reserve Bank of India (RBI). UPI and IMPS are operated by NPCI."
+    },
+    {
+      "trap": "Thinking RTGS has a minimum limit of ₹1 Lakh.",
+      "fact": "RTGS has a statutory minimum limit of ₹2,00,000 (₹2 Lakh). There is NO upper limit."
+    },
+    {
+      "trap": "Assuming Central Bank Digital Currency (CBDC / e₹) earns savings interest.",
+      "fact": "CBDC is explicitly non-interest-bearing to prevent sudden massive flight of deposits away from commercial banks."
+    },
+    {
+      "trap": "Thinking UPI per-transaction limit is ₹1 Lakh in all situations.",
+      "fact": "Standard limit is ₹1 Lakh, but the limit is ₹5 Lakh for Hospitals, Educational Institutions, IPOs, and RBI Retail Direct."
+    }
+  ]
+}

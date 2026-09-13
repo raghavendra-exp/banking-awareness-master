@@ -1,0 +1,137 @@
+{
+  "section": "Financial Markets (Money Market & Capital Market)",
+  "metadata": {
+    "source": "RBI Financial Markets Regulation Department, SEBI, FIMMDA",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "High (7-10 Questions across Mains shifts)"
+  },
+  "market_structure": {
+    "money_market": {
+      "regulator": "Reserve Bank of India (RBI)",
+      "tenor": "Short-term debt instruments (Maturity up to 1 year)",
+      "primary_objective": "Managing short-term liquidity requirements of banks, corporates, and governments"
+    },
+    "capital_market": {
+      "regulator": "Securities and Exchange Board of India (SEBI)",
+      "tenor": "Medium and Long-term capital instruments (Maturity > 1 year)",
+      "primary_objective": "Capital mobilization for corporate expansion, infrastructure, and wealth creation"
+    }
+  },
+  "money_market_instruments": [
+    {
+      "name": "Call Money, Notice Money & Term Money",
+      "nature": "Inter-bank uncollateralised borrowing and lending market",
+      "tenors": {
+        "call_money": "Overnight (1 Day)",
+        "notice_money": "2 Days to 14 Days",
+        "term_money": "15 Days to 1 Year"
+      },
+      "interest_rate_benchmark": "Mumbai Interbank Outright Rate (MIBOR)",
+      "participants": "Scheduled Commercial Banks, Cooperative Banks, Primary Dealers"
+    },
+    {
+      "name": "Treasury Bills (T-Bills)",
+      "issuer": "Issued by Government of India (managed by RBI)",
+      "tenors": ["91-day", "182-day", "364-day"],
+      "pricing": "Issued at a discount to face value and redeemed at par (Face Value). Difference is the yield.",
+      "minimum_investment": "₹10,000 and in multiples of ₹10,000 thereafter",
+      "eligibility": "Individuals, firms, companies, banks, institutions. State Governments do NOT issue T-Bills (they issue State Development Loans - SDLs)."
+    },
+    {
+      "name": "Cash Management Bills (CMBs)",
+      "issuer": "Government of India in consultation with RBI",
+      "introduced": "August 2009",
+      "tenor": "Maturities less than 91 days",
+      "purpose": "To meet temporary mismatches in the cash flow of the Government of India",
+      "characteristic": "Same features as T-Bills but ultra short-term (issued at discount, redeemed at face value)"
+    },
+    {
+      "name": "Commercial Paper (CP)",
+      "nature": "Unsecured money market promissory note issued by highly rated corporate borrowers, primary dealers (PDs), and all-India financial institutions (AIFIs)",
+      "introduced": "1990 (on recommendations of Vaghul Working Group)",
+      "minimum_denomination": "₹5 Lakh and multiples of ₹5 Lakh thereafter",
+      "maturity_period": "Minimum 7 days and maximum up to 1 year from the date of issue",
+      "credit_rating_mandate": "Minimum credit rating of A2 as per SEBI approved CRA rating scale"
+    },
+    {
+      "name": "Certificate of Deposit (CD)",
+      "nature": "Negotiable money market receipt issued by Scheduled Commercial Banks and Select All-India Financial Institutions",
+      "introduced": "1989",
+      "minimum_denomination": "₹1 Lakh and multiples of ₹1 Lakh thereafter",
+      "maturity_period": {
+        "banks": "Minimum 7 days and maximum up to 1 year",
+        "financial_institutions": "Minimum 1 year and maximum up to 3 years"
+      },
+      "demat": "Issued in dematerialised form or as usance promissory note"
+    },
+    {
+      "name": "Ways and Means Advances (WMA)",
+      "section": "Section 17(5) of RBI Act, 1934",
+      "nature": "Temporary loan facility provided by RBI to Central and State Governments to tide over temporary mismatches in receipts and payments",
+      "types": [
+        { "type": "Normal WMA", "description": "Clean advance without collateral at prevailing Repo Rate" },
+        { "type": "Special WMA / Overdraft", "description": "Extended against the pledge of Government of India securities" }
+      ],
+      "repayment_period": "Clean advances must be fully repaid within 90 days"
+    }
+  ],
+  "capital_market_components": {
+    "segments": [
+      {
+        "segment": "Primary Market",
+        "description": "Market for new securities where capital is raised directly from investors by issuers.",
+        "modes": [
+          { "mode": "Initial Public Offering (IPO)", "description": "First time a privately held company sells shares to the public on a stock exchange." },
+          { "mode": "Follow-on Public Offering (FPO)", "description": "Issuance of additional shares by an already listed company." },
+          { "mode": "Rights Issue", "description": "Offering new shares to existing shareholders in proportion to their existing holding at a discounted price." },
+          { "mode": "Qualified Institutional Placement (QIP)", "description": "Private placement of shares by listed company exclusively to QIBs (Mutual Funds, FPIs, Insurers)." }
+        ]
+      },
+      {
+        "segment": "Secondary Market",
+        "description": "Market where already issued securities are bought and sold among investors.",
+        "exchanges": [
+          { "name": "BSE (Bombay Stock Exchange)", "established": "1875 (oldest stock exchange in Asia)", "flagship_index": "SENSEX (30 blue-chip stocks)" },
+          { "name": "NSE (National Stock Exchange)", "established": "1992 (incorporated) / 1994 (operations)", "committee": "Pherwani Committee (1991)", "flagship_index": "NIFTY 50 (50 leading stocks across 13 sectors)" }
+        ]
+      }
+    ],
+    "depositories_in_india": [
+      {
+        "name": "National Securities Depository Limited (NSDL)",
+        "established": "August 1996 (first depository in India)",
+        "promoters": "IDBI, UTI, and NSE",
+        "headquarters": "Mumbai"
+      },
+      {
+        "name": "Central Depository Services (India) Limited (CDSL)",
+        "established": "February 1999",
+        "promoters": "BSE and leading banks (SBI, BoI, BoB)",
+        "headquarters": "Mumbai"
+      }
+    ],
+    "specialized_bonds": [
+      { "name": "Masala Bonds", "description": "Rupee-denominated debt instruments issued by Indian entities in foreign overseas markets to raise capital, transferring currency risk to foreign investors." },
+      { "name": "Sovereign Green Bonds (SGrBs)", "description": "Rupee-denominated sovereign bonds issued by Government of India to raise proceeds exclusively for public sector green and climate-friendly infrastructure projects." },
+      { "name": "Sovereign Gold Bonds (SGB)", "description": "Government securities denominated in grams of gold issued by RBI on behalf of GoI, paying 2.50% annual fixed interest with 8-year tenor." }
+    ]
+  },
+  "exam_traps": [
+    {
+      "trap": "Believing State Governments can issue Treasury Bills (T-Bills).",
+      "fact": "State Governments CANNOT issue T-Bills. T-Bills are issued solely by the Central Government. State Governments issue State Development Loans (SDLs)."
+    },
+    {
+      "trap": "Confusing the minimum denomination of Commercial Paper (CP) with Certificate of Deposit (CD).",
+      "fact": "Commercial Paper (CP) minimum is ₹5 Lakh. Certificate of Deposit (CD) minimum is ₹1 Lakh."
+    },
+    {
+      "trap": "Thinking Notice Money is for up to 30 days.",
+      "fact": "Notice Money is strictly 2 to 14 days. Term Money is 15 to 365 days."
+    },
+    {
+      "trap": "Assuming Capital Market is regulated by RBI.",
+      "fact": "Money Market is regulated by RBI. Capital Market is regulated by SEBI."
+    }
+  ]
+}

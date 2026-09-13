@@ -1,0 +1,97 @@
+{
+  "version": "2026.09",
+  "lastUpdated": "2026-09-13",
+  "lastVerified": "2026-09-13",
+  "officialSources": [
+    {
+      "id": "rbi",
+      "name": "Reserve Bank of India",
+      "shortName": "RBI",
+      "type": "Central Monetary & Banking Authority",
+      "website": "https://www.rbi.org.in",
+      "priority": 1,
+      "domainsCovered": ["Monetary Policy", "Bank Regulations", "Currency Management", "Payment Systems", "Forex"]
+    },
+    {
+      "id": "mof-dfs",
+      "name": "Department of Financial Services, Ministry of Finance, Government of India",
+      "shortName": "MoF / DFS",
+      "type": "Union Government Ministry",
+      "website": "https://financialservices.gov.in",
+      "priority": 2,
+      "domainsCovered": ["Government Schemes", "Public Sector Banks", "Financial Inclusion", "Appointments", "Budget"]
+    },
+    {
+      "id": "sebi",
+      "name": "Securities and Exchange Board of India",
+      "shortName": "SEBI",
+      "type": "Capital Markets Regulator",
+      "website": "https://www.sebi.gov.in",
+      "priority": 3,
+      "domainsCovered": ["Capital Markets", "Securities", "Mutual Funds", "Stock Exchanges", "Credit Rating Agencies"]
+    },
+    {
+      "id": "nabard",
+      "name": "National Bank for Agriculture and Rural Development",
+      "shortName": "NABARD",
+      "type": "Apex Rural & Agricultural Development Bank",
+      "website": "https://www.nabard.org",
+      "priority": 4,
+      "domainsCovered": ["Rural Banking", "Regional Rural Banks (RRBs)", "Kisan Credit Card (KCC)", "Priority Sector Lending"]
+    },
+    {
+      "id": "sidbi",
+      "name": "Small Industries Development Bank of India",
+      "shortName": "SIDBI",
+      "type": "Principal DFI for MSME Sector",
+      "website": "https://www.sidbi.in",
+      "priority": 5,
+      "domainsCovered": ["MSME Financing", "MUDRA", "Venture Capital", "Credit Guarantee"]
+    },
+    {
+      "id": "irdai",
+      "name": "Insurance Regulatory and Development Authority of India",
+      "shortName": "IRDAI",
+      "type": "Insurance Sector Regulator",
+      "website": "https://www.irdai.gov.in",
+      "priority": 6,
+      "domainsCovered": ["Life Insurance", "General Insurance", "Bancassurance", "PMJJBY", "PMSBY"]
+    },
+    {
+      "id": "pfrda",
+      "name": "Pension Fund Regulatory and Development Authority",
+      "shortName": "PFRDA",
+      "type": "Pension Sector Regulator",
+      "website": "https://www.pfrda.org.in",
+      "priority": 7,
+      "domainsCovered": ["National Pension System (NPS)", "Atal Pension Yojana (APY)"]
+    },
+    {
+      "id": "npci",
+      "name": "National Payments Corporation of India",
+      "shortName": "NPCI",
+      "type": "Umbrella Organisation for Retail Payments",
+      "website": "https://www.npci.org.in",
+      "priority": 8,
+      "domainsCovered": ["UPI", "IMPS", "RuPay", "AePS", "NACH", "BBPS", "FASTag"]
+    },
+    {
+      "id": "dicgc",
+      "name": "Deposit Insurance and Credit Guarantee Corporation",
+      "shortName": "DICGC",
+      "type": "Wholly Owned Subsidiary of RBI",
+      "website": "https://www.dicgc.org.in",
+      "priority": 9,
+      "domainsCovered": ["Deposit Insurance (₹5 Lakh Limit)", "Liquidation Payouts", "Insured Banks"]
+    },
+    {
+      "id": "iba",
+      "name": "Indian Banks' Association",
+      "shortName": "IBA",
+      "type": "Banking Industry Representative Body",
+      "website": "https://www.iba.org.in",
+      "priority": 10,
+      "domainsCovered": ["Bank Wage Revisions", "Banking Code of Conduct", "Industry Standards"]
+    }
+  ]
+}

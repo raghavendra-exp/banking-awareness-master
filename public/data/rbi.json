@@ -1,0 +1,170 @@
+{
+  "section": "Reserve Bank of India (RBI)",
+  "metadata": {
+    "source": "Reserve Bank of India Act, 1934 & RBI Official Portal (rbi.org.in)",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Very High (8-12 Questions across Mains shifts)"
+  },
+  "history": {
+    "recommended_by": "Royal Commission on Indian Currency and Finance (Hilton Young Commission) in 1926",
+    "enabling_act": "Reserve Bank of India Act, 1934 (Act II of 1934)",
+    "commencement_date": "April 1, 1935",
+    "original_headquarters": "Calcutta (now Kolkata)",
+    "permanent_move_to_mumbai": "1937",
+    "original_ownership": "Privately held shareholders' bank with paid-up capital of ₹5 Crore",
+    "nationalisation_date": "January 1, 1949",
+    "nationalisation_act": "Reserve Bank (Transfer to Public Ownership) Act, 1948",
+    "first_governor": "Sir Osborne Arkell Smith (1935 - 1937)",
+    "first_indian_governor": "Sir C.D. Deshmukh (Chintaman Dwarakanath Deshmukh, 1943 - 1949)",
+    "longest_serving_governor": "Sir Benegal Rama Rau (July 1, 1949 to Jan 14, 1957 - 7.5 years)",
+    "shortest_serving_governor": "Amitav Ghosh (Jan 15, 1985 to Feb 4, 1985 - 21 days)",
+    "only_pm_who_was_rbi_governor": "Dr. Manmohan Singh (15th Governor, Sep 1982 to Jan 1985)",
+    "financial_year_change": "Shifted from July-June to April-March starting from FY 2021-22 (transition year was July 2020 - March 2021, 9 months)"
+  },
+  "organization": {
+    "central_board_of_directors": {
+      "constitution": "Constituted under Section 8 of the RBI Act, 1934",
+      "official_directors": "1 Governor and not more than 4 Deputy Governors (appointed by Central Govt under ACC)",
+      "non_official_directors": "4 Directors nominated from 4 Local Boards; 10 Directors nominated by Central Govt from diverse fields; 2 Government Officials (usually Economic Affairs Secretary & Financial Services Secretary)",
+      "term_of_office": "Governor and Deputy Governors hold office for a period not exceeding 5 years (eligible for re-appointment); Non-official Directors hold office for 4 years"
+    },
+    "local_boards": [
+      { "location": "Mumbai", "region": "Western Area" },
+      { "location": "Kolkata", "region": "Eastern Area" },
+      { "location": "Chennai", "region": "Southern Area" },
+      { "location": "New Delhi", "region": "Northern Area" }
+    ],
+    "subsidiaries": [
+      {
+        "name": "Deposit Insurance and Credit Guarantee Corporation (DICGC)",
+        "established": "1978 (merger of DIC and CGCI)",
+        "act": "DICGC Act, 1961",
+        "coverage": "₹5,00,000 (₹5 Lakh) per depositor per insured bank (principal + interest)",
+        "headquarters": "Mumbai",
+        "ownership": "100% RBI owned"
+      },
+      {
+        "name": "Bharatiya Reserve Bank Note Mudran Private Limited (BRBNMPL)",
+        "established": "February 3, 1995",
+        "function": "Prints Indian Banknotes to augment production capacity",
+        "presses": "Mysuru (Karnataka) and Salboni (West Bengal)",
+        "headquarters": "Bengaluru",
+        "ownership": "100% RBI owned"
+      },
+      {
+        "name": "Reserve Bank Information Technology Private Limited (ReBIT)",
+        "established": "2016",
+        "function": "Serves IT and cybersecurity needs and improves cyber resilience of Indian banking sector",
+        "headquarters": "Navi Mumbai",
+        "ownership": "100% RBI owned"
+      },
+      {
+        "name": "Indian Financial Technology and Allied Services (IFTAS)",
+        "established": "2015",
+        "function": "Designs, deploys and operates critical IT infrastructure for RBI & banks (e.g. INFINET, SFMS, Cloud services)",
+        "headquarters": "Mumbai",
+        "ownership": "100% RBI owned"
+      },
+      {
+        "name": "Reserve Bank Innovation Hub (RBIH)",
+        "established": "2022 (incorporated under Section 8 of Companies Act 2013)",
+        "function": "Promotes innovation across the financial sector with frictionless credit initiative, Swanari, etc.",
+        "headquarters": "Bengaluru",
+        "ownership": "100% RBI owned"
+      }
+    ],
+    "training_colleges": [
+      { "name": "Reserve Bank Staff College (RBSC)", "city": "Chennai" },
+      { "name": "College of Agricultural Banking (CAB)", "city": "Pune" },
+      { "name": "Bankers Institute of Rural Development (BIRD)", "city": "Lucknow (run by NABARD)" }
+    ]
+  },
+  "printing_and_minting": {
+    "banknote_presses": {
+      "rbi_owned_presses_brbnmpl": ["Mysuru (Karnataka)", "Salboni (West Bengal)"],
+      "govt_owned_presses_spmcil": ["Nasik (Maharashtra - oldest, 1928)", "Dewas (Madhya Pradesh)"]
+    },
+    "coin_mints": {
+      "entity": "Security Printing and Minting Corporation of India Limited (SPMCIL) - 100% GoI owned",
+      "locations": [
+        { "city": "Mumbai", "identification_mark": "Diamond shape under the year of issue" },
+        { "city": "Kolkata", "identification_mark": "No mark below the year of issue" },
+        { "city": "Hyderabad", "identification_mark": "Star mark (★) or split diamond" },
+        { "city": "Noida", "identification_mark": "Round solid dot (•) below the year of issue" }
+      ]
+    },
+    "currency_regulations": {
+      "maximum_banknote_denomination": "₹10,000 (under Section 24 of RBI Act, 1934; previously printed in 1938 and 1954, demonetised in 1978)",
+      "maximum_coin_denomination": "₹1,000 (under Section 6 of Coinage Act, 2011)",
+      "one_rupee_note": "Issued by Ministry of Finance, Government of India; bears signature of Finance Secretary (NOT RBI Governor); defined as currency under Coinage Act",
+      "all_other_banknotes": "Issued by RBI under Section 22 of RBI Act, 1934; bear signature of RBI Governor with promise clause",
+      "legal_tender_coins_limit": "Under Coinage Act 2011, coins of ₹1 and above are legal tender up to ₹1,000; 50 paise coins are legal tender up to ₹10"
+    }
+  },
+  "core_functions": [
+    {
+      "id": "monetary_authority",
+      "title": "Monetary Authority",
+      "description": "Formulates, implements, and monitors the monetary policy to maintain price stability while keeping in mind the objective of growth.",
+      "legal_provision": "Preamble and Chapter III-F of RBI Act, 1934 (inserted by Finance Act, 2016)"
+    },
+    {
+      "id": "regulator_supervisor",
+      "title": "Regulator and Supervisor of Financial System",
+      "description": "Prescribes broad parameters of banking operations, licensing, branch expansion, liquidity of assets, and management supervision.",
+      "legal_provision": "Banking Regulation Act, 1949 and RBI Act, 1934"
+    },
+    {
+      "id": "manager_forex",
+      "title": "Manager of Foreign Exchange",
+      "description": "Administers foreign exchange, facilitates external trade and payments, and promotes orderly development of the forex market.",
+      "legal_provision": "Foreign Exchange Management Act (FEMA), 1999"
+    },
+    {
+      "id": "issuer_of_currency",
+      "title": "Issuer of Currency",
+      "description": "Has the sole right to issue banknotes in India (excluding one rupee notes). Destroys unfit currency notes.",
+      "legal_provision": "Section 22 of RBI Act, 1934"
+    },
+    {
+      "id": "banker_to_government",
+      "title": "Banker and Debt Manager to Government",
+      "description": "Performs banking functions for Central and State Governments; manages public debt issues; provides Ways and Means Advances (WMA).",
+      "legal_provision": "Sections 20, 21 and 21A of RBI Act, 1934"
+    },
+    {
+      "id": "banker_to_banks",
+      "title": "Banker to Banks (Lender of Last Resort)",
+      "description": "Maintains banking accounts of scheduled banks, provides rediscounting, liquidity through repo/MSF, and acts as emergency lender.",
+      "legal_provision": "Sections 17 and 18 of RBI Act, 1934"
+    },
+    {
+      "id": "regulator_payment_settlement",
+      "title": "Regulator of Payment and Settlement Systems",
+      "description": "Authorises, regulates, and supervises payment systems like RTGS, NEFT, UPI, NACH, and card networks to ensure safe and efficient clearing.",
+      "legal_provision": "Payment and Settlement Systems Act (PSSA), 2007"
+    }
+  ],
+  "exam_traps": [
+    {
+      "trap": "Thinking RBI was established under the Banking Regulation Act 1949.",
+      "fact": "RBI was established under the Reserve Bank of India Act, 1934. Banking Regulation Act was passed later in 1949."
+    },
+    {
+      "trap": "Thinking ₹1 note bears the signature of the RBI Governor.",
+      "fact": "₹1 note is issued by Ministry of Finance, Government of India and bears the signature of the Finance Secretary."
+    },
+    {
+      "trap": "Thinking coins are minted by RBI.",
+      "fact": "Coins are minted by the Government of India (SPMCIL). RBI only distributes coins as an agent of the Government."
+    },
+    {
+      "trap": "Thinking all 4 currency printing presses are owned by RBI.",
+      "fact": "Only Mysuru and Salboni are owned by RBI (BRBNMPL). Nasik and Dewas are owned by Government of India (SPMCIL)."
+    },
+    {
+      "trap": "Assuming the maximum denomination banknote RBI can ever issue is ₹2,000.",
+      "fact": "Under Section 24 of the RBI Act 1934, RBI has statutory power to issue banknotes up to denomination ₹10,000."
+    }
+  ]
+}

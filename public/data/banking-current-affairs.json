@@ -1,0 +1,100 @@
+{
+  "section": "Curated Banking & Financial Current Affairs",
+  "metadata": {
+    "source": "RBI Notifications, Ministry of Finance Press Releases, PIB, Financial Express, Economic Times",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Extremely High (15-20 Questions across Mains shifts)"
+  },
+  "items": [
+    {
+      "id": "ca_01",
+      "headline": "RBI Draft Guidelines on Project Finance: Stricter Provisioning Norms",
+      "date": "May 2024 / Ongoing Review",
+      "category": "RBI Regulations & Prudential Norms",
+      "linked_static_concept": "NPA, Provisioning & Capital Adequacy",
+      "summary": "RBI proposed a phased provisioning framework for infrastructure and project loans during the construction phase. The proposed framework mandates up to 5.0% provisioning during construction (phased as 2.0% initially, rising to 5.0%), tapering down to 2.5% once commercial operations start, and down to standard 0.40% once debt repayment stabilizes.",
+      "exam_takeaway": "Prudential provisioning during construction phase proposed up to 5.0%. Standard asset provisioning for normal loans is 0.40%."
+    },
+    {
+      "id": "ca_02",
+      "headline": "RBI Tightens Liquidity Coverage Ratio (LCR) Norms for Digital Deposits",
+      "date": "July 2024 / Effective 2025",
+      "category": "Basel III & Liquidity Management",
+      "linked_static_concept": "Liquidity Coverage Ratio (LCR) & High Quality Liquid Assets (HQLA)",
+      "summary": "To address the risk of rapid deposit flight driven by internet and mobile banking (as witnessed in Silicon Valley Bank failure), RBI proposed an additional 5% run-off factor on retail and small business deposits enabled with internet/mobile banking. Stable retail deposits enabled with digital banking will have a 10% run-off factor (up from 5%), and less stable digital deposits will face a 15% run-off factor (up from 10%).",
+      "exam_takeaway": "Banks must hold more High-Quality Liquid Assets (HQLA) like G-Secs against digitally active deposits."
+    },
+    {
+      "id": "ca_03",
+      "headline": "RBI Hikes Risk Weights on Unsecured Consumer Credit and NBFC Loans",
+      "date": "November 2023 / Maintained",
+      "category": "Credit Risk & Capital Adequacy",
+      "linked_static_concept": "Risk-Weighted Assets (RWA) & CRAR",
+      "summary": "To curb runaway growth in unsecured personal loans and credit cards, RBI increased the risk weight on consumer credit exposure of commercial banks and NBFCs by 25 percentage points from 100% to 125%. Credit card receivables risk weights were hiked from 125% to 150% for banks and from 100% to 125% for NBFCs. Housing loans, education loans, vehicle loans, and gold loans were excluded from this hike.",
+      "exam_takeaway": "Risk weight on bank personal loans = 125%; bank credit card receivables = 150%. Home and vehicle loans remain untouched."
+    },
+    {
+      "id": "ca_04",
+      "headline": "International Expansion of UPI: Cross-Border Fast Payment Linkages",
+      "date": "2023 - 2026",
+      "category": "NPCI & Digital Payments",
+      "linked_static_concept": "UPI, NPCI International Payments Ltd (NIPL), Cross-Border Payments",
+      "summary": "NPCI's subsidiary NIPL has enabled cross-border real-time remittances and merchant acceptance across numerous nations. Landmarks include: Singapore (UPI linked to PayNow - first real-time bilateral linkage), UAE (linked to Jaywan domestic card switch and AANI fast payment), France (UPI at Eiffel Tower via Lyra Network), Sri Lanka, Mauritius, Nepal, and Bhutan.",
+      "exam_takeaway": "Singapore's PayNow was the first cross-border national fast payment system linked directly with India's UPI."
+    },
+    {
+      "id": "ca_05",
+      "headline": "Special Rupee Vostro Accounts (SRVA) for Invoicing and Settling International Trade in INR",
+      "date": "RBI Circular July 11, 2022 / Ongoing Execution",
+      "category": "Foreign Exchange & International Banking",
+      "linked_static_concept": "Vostro Account, Exchange Control, Nostro vs Vostro",
+      "summary": "To promote international trade invoicing and settlements in Indian Rupees (INR) and reduce reliance on US Dollars, RBI permitted Authorized Dealer (AD Category-I) banks to open Special Rupee Vostro Accounts (SRVA) of correspondent banks of partner trading nations (e.g. Russia, Sri Lanka, Mauritius, UAE).",
+      "exam_takeaway": "SRVA accounts are denominated in Indian Rupees (INR) and held by overseas banks with authorized domestic banks in India."
+    },
+    {
+      "id": "ca_06",
+      "headline": "Mandatory Key Fact Statement (KFS) for All Retail and MSME Loans",
+      "date": "Effective October 1, 2024",
+      "category": "Consumer Protection & Fair Practices Code",
+      "linked_static_concept": "Digital Lending, APR, Transparency in Lending",
+      "summary": "RBI mandated that all Regulated Entities (Commercial Banks, Cooperative Banks, NBFCs) must provide a standardized Key Fact Statement (KFS) to all prospective retail and MSME loan borrowers. The KFS must clearly declare the Annual Percentage Rate (APR), which includes the interest rate and all associated charges (processing fees, insurance, legal fees) so borrowers know the true total cost of credit.",
+      "exam_takeaway": "Mandatory across all retail and MSME loans; APR must include all hidden and explicit fees."
+    },
+    {
+      "id": "ca_07",
+      "headline": "MUDRA Loan Enhancement: Introduction of 'Tarun Plus' Category up to ₹20 Lakh",
+      "date": "Union Budget Announcement",
+      "category": "Government Schemes & MSME Credit",
+      "linked_static_concept": "PMMY, Micro Finance, SIDBI",
+      "summary": "Union Finance Minister Nirmala Sitharaman announced an increase in the loan limit under the Pradhan Mantri MUDRA Yojana (PMMY) to ₹20 Lakh under a newly created 'Tarun Plus' category. This enhanced ceiling applies to entrepreneurs who have previously taken and successfully repaid loans under the 'Tarun' category (₹5-10 Lakh).",
+      "exam_takeaway": "MUDRA now has 4 tiers: Shishu (up to ₹50k), Kishore (₹50k-₹5L), Tarun (₹5L-₹10L), and Tarun Plus (₹10L-₹20L)."
+    },
+    {
+      "id": "ca_08",
+      "headline": "RBI Monetary Policy Committee (MPC) Decision: Holding Repo Rate at 6.50%",
+      "date": "Bi-Monthly MPC Resolutions",
+      "category": "Monetary Policy",
+      "linked_static_concept": "MPC, Repo Rate, SDF, MSF, Inflation Target",
+      "summary": "The MPC kept the policy repo rate unchanged at 6.50% to maintain vigilance on headline food inflation while supporting domestic economic momentum. Consequently, the Standing Deposit Facility (SDF) rate stands at 6.25% and the Marginal Standing Facility (MSF) and Bank Rate stand at 6.75%.",
+      "exam_takeaway": "Repo Rate = 6.50%; SDF = 6.25% (25 bps below repo); MSF/Bank Rate = 6.75% (25 bps above repo)."
+    },
+    {
+      "id": "ca_09",
+      "headline": "Credit Guarantee Scheme for MSMEs in Manufacturing Sector",
+      "date": "Union Budget 2024-25 Initiative",
+      "category": "Government Schemes & Credit Guarantees",
+      "linked_static_concept": "MSME, CGTMSE, Collateral-Free Credit",
+      "summary": "A new credit guarantee scheme was announced for facilitating term loans to MSMEs for the purchase of machinery and equipment without collateral or third-party guarantee. A separately constituted self-financing guarantee fund will provide guarantee coverage up to ₹100 Crore per applicant.",
+      "exam_takeaway": "Guarantee cover up to ₹100 Crore for machinery and equipment purchases for MSMEs."
+    },
+    {
+      "id": "ca_10",
+      "headline": "RBI Guidelines on Default Loss Guarantee (DLG) in Digital Lending",
+      "date": "June 2023 / Operational Guidelines",
+      "category": "Digital Lending & FinTech",
+      "linked_static_concept": "Lending Service Providers (LSPs), First Loss Default Guarantee (FLDG)",
+      "summary": "RBI permitted Default Loss Guarantee (DLG / FLDG) arrangements between Regulated Entities and Lending Service Providers (FinTechs), subject to an explicit regulatory cap of 5.0% on the total outstanding loan portfolio backed by such guarantee.",
+      "exam_takeaway": "Total DLG/FLDG cover cannot exceed 5.0% of the underlying loan portfolio."
+    }
+  ]
+}

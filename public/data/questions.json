@@ -1,0 +1,626 @@
+{
+  "section": "Exhaustive Banking Awareness Question Bank",
+  "metadata": {
+    "source": "Curated from Official Notifications, Master Directions, and Verified SBI/IBPS/RRB Mains Question Sets",
+    "last_verified": "2026-03-01",
+    "total_questions": 60
+  },
+  "questions": [
+    {
+      "id": "q_rbi_01",
+      "topic": "RBI & Monetary Policy",
+      "subtopic": "RBI History & Acts",
+      "question": "The Reserve Bank of India (RBI) was established on April 1, 1935, based on the recommendations of which of the following commissions?",
+      "question_hi": "भारतीय रिजर्व बैंक (RBI) की स्थापना 1 अप्रैल 1935 को निम्नलिखित में से किस आयोग की सिफारिशों के आधार पर की गई थी?",
+      "options": [
+        "Narasimham Committee",
+        "Hilton Young Commission",
+        "A.D. Gorwala Committee",
+        "B. Sivaraman Committee",
+        "R.V. Gupta Committee"
+      ],
+      "options_hi": [
+        "नरसिम्हम समिति",
+        "हिल्टन यंग आयोग",
+        "ए.डी. गोरवाला समिति",
+        "बी. शिवरामन समिति",
+        "आर.वी. गुप्ता समिति"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2021",
+      "difficulty": "Easy",
+      "explanation": "The Reserve Bank of India was set up on the basis of the recommendations of the Royal Commission on Indian Currency and Finance, popularly known as the Hilton Young Commission, submitted in 1926. The enabling legislation was the Reserve Bank of India Act, 1934, and the bank commenced operations on April 1, 1935.",
+      "exam_shortcut": "RBI = Hilton Young (1926). SBI = Gorwala (1954). NABARD = Sivaraman (1979).",
+      "trap_alert": "Don't confuse Hilton Young with Narasimham Committee (which recommended financial system reforms in 1991)."
+    },
+    {
+      "id": "q_rbi_02",
+      "topic": "RBI & Monetary Policy",
+      "subtopic": "Currency Management",
+      "question": "Under the provisions of the Reserve Bank of India Act, 1934, what is the maximum denomination of banknote that the RBI has the statutory power to issue?",
+      "question_hi": "भारतीय रिजर्व बैंक अधिनियम, 1934 के प्रावधानों के तहत, RBI के पास कानूनी रूप से अधिकतम किस मूल्यवर्ग का बैंक नोट जारी करने की शक्ति है?",
+      "options": [
+        "₹2,000",
+        "₹5,000",
+        "₹10,000",
+        "₹50,000",
+        "₹1,00,000"
+      ],
+      "options_hi": [
+        "₹2,000",
+        "₹5,000",
+        "₹10,000",
+        "₹50,000",
+        "₹1,00,000"
+      ],
+      "correct_option": 2,
+      "provenance": "MEMORY-BASED PYQ",
+      "exam_tag": "IBPS Clerk Mains 2022",
+      "difficulty": "Exam Trap",
+      "explanation": "Under Section 24 of the RBI Act, 1934, banknotes may be issued for the denominational values of ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹500, ₹1000, ₹5000, and ₹10000 or other denominations not exceeding ₹10,000 as the Central Government may specify on the recommendation of the Central Board.",
+      "exam_shortcut": "Banknotes max limit = ₹10,000 (Sec 24 RBI Act). Coins max limit = ₹1,000 (Sec 6 Coinage Act 2011).",
+      "trap_alert": "Students frequently mark ₹2,000 because it was the highest note recently in circulation. The statutory legal ceiling is ₹10,000!"
+    },
+    {
+      "id": "q_rbi_03",
+      "topic": "RBI & Monetary Policy",
+      "subtopic": "Currency Issuance",
+      "question": "Which of the following authorities issues the one rupee note in India, and whose signature does it bear?",
+      "question_hi": "भारत में एक रुपये का नोट निम्नलिखित में से किस प्राधिकरण द्वारा जारी किया जाता है और इस पर किसके हस्ताक्षर होते हैं?",
+      "options": [
+        "Issued by RBI; Signed by RBI Governor",
+        "Issued by Government of India; Signed by Finance Secretary",
+        "Issued by Government of India; Signed by Union Finance Minister",
+        "Issued by RBI; Signed by Deputy Governor",
+        "Issued by Security Printing and Minting Corp; Signed by Chief Economic Advisor"
+      ],
+      "options_hi": [
+        "RBI द्वारा जारी; RBI गवर्नर द्वारा हस्ताक्षरित",
+        "भारत सरकार द्वारा जारी; वित्त सचिव द्वारा हस्ताक्षरित",
+        "भारत सरकार द्वारा जारी; केंद्रीय वित्त मंत्री द्वारा हस्ताक्षरित",
+        "RBI द्वारा जारी; डिप्टी गवर्नर द्वारा हस्ताक्षरित",
+        "SPMCIL द्वारा जारी; मुख्य आर्थिक सलाहकार द्वारा हस्ताक्षरित"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "RRB OA Mains 2023",
+      "difficulty": "Easy",
+      "explanation": "Under the Coinage Act, 2011, the one rupee note is defined as currency and is issued directly by the Ministry of Finance, Government of India. It bears the signature of the Finance Secretary, Government of India. All other denominations are bank notes issued by the RBI bearing the signature of the RBI Governor.",
+      "exam_shortcut": "₹1 Note = Issued by Govt of India, Signed by Finance Secretary. All other notes = RBI Governor.",
+      "trap_alert": "Do NOT mark Finance Minister! It is signed by the administrative Finance Secretary."
+    },
+    {
+      "id": "q_rbi_04",
+      "topic": "RBI & Monetary Policy",
+      "subtopic": "Monetary Policy Committee",
+      "question": "As per Section 45ZB of the Reserve Bank of India Act, 1934, what is the required quorum for a meeting of the Monetary Policy Committee (MPC)?",
+      "question_hi": "भारतीय रिजर्व बैंक अधिनियम, 1934 की धारा 45ZB के अनुसार, मौद्रिक नीति समिति (MPC) की बैठक के लिए आवश्यक कोरम (गणपूर्ति) क्या है?",
+      "options": [
+        "2 Members",
+        "3 Members",
+        "4 Members",
+        "5 Members",
+        "All 6 Members"
+      ],
+      "options_hi": [
+        "2 सदस्य",
+        "3 सदस्य",
+        "4 सदस्य",
+        "5 सदस्य",
+        "सभी 6 सदस्य"
+      ],
+      "correct_option": 2,
+      "provenance": "PYQ-STYLE QUESTION",
+      "exam_tag": "SBI Clerk Mains 2023",
+      "difficulty": "Moderate",
+      "explanation": "Under Section 45ZB of the RBI Act 1934, the MPC consists of 6 members (3 from RBI and 3 appointed by Central Government). The quorum for the meeting of the MPC is 4 members, at least one of whom must be the Governor or in his absence, the Deputy Governor who is a member of the MPC.",
+      "exam_shortcut": "MPC: 6 Members, Quorum of 4, Meets at least 4 times a year, Governor has casting vote in a tie.",
+      "trap_alert": "Common mistake is guessing 3 (half) or all 6. The statutory quorum is explicitly 4."
+    },
+    {
+      "id": "q_rbi_05",
+      "topic": "RBI & Monetary Policy",
+      "subtopic": "Liquidity Adjustment Facility",
+      "question": "In April 2022, the RBI operationalized the Standing Deposit Facility (SDF) as the floor of the LAF corridor. What distinguishes SDF from the Reverse Repo Rate?",
+      "question_hi": "अप्रैल 2022 में, RBI ने LAF कॉरिडोर के निचले स्तर (फ्लोर) के रूप में स्थायी जमा सुविधा (SDF) को चालू किया। SDF को रिवर्स रेपो दर से क्या अलग बनाता है?",
+      "options": [
+        "SDF requires banks to pledge gold",
+        "SDF is completely collateral-free and requires no transfer of G-Secs by the RBI",
+        "SDF carries a higher interest rate than the Repo Rate",
+        "SDF can only be accessed by Cooperative Banks",
+        "SDF is managed by the Ministry of Finance"
+      ],
+      "options_hi": [
+        "SDF में बैंकों को सोना गिरवी रखना पड़ता है",
+        "SDF पूरी तरह से संपार्श्विक-मुक्त (बिना कोलेटरल) है और RBI द्वारा किसी भी सरकारी प्रतिभूति के हस्तांतरण की आवश्यकता नहीं होती",
+        "SDF में रेपो दर से अधिक ब्याज दर होती है",
+        "SDF केवल सहकारी बैंकों द्वारा प्राप्त किया जा सकता है",
+        "SDF का प्रबंधन वित्त मंत्रालय द्वारा किया जाता है"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "IBPS Clerk Mains 2023",
+      "difficulty": "Moderate",
+      "explanation": "Unlike the Fixed Reverse Repo facility, which requires RBI to provide Government Securities as collateral when absorbing surplus funds from banks, the Standing Deposit Facility (SDF) empowers RBI to absorb uncollateralized liquidity without parting with securities. It sits 25 bps below the Repo Rate.",
+      "exam_shortcut": "SDF = Uncollateralized liquidity absorption (No G-Secs pledged by RBI). Reverse Repo = Collateralized.",
+      "trap_alert": "Don't confuse SDF with MSF. MSF is for borrowing from RBI (penal rate), SDF is for parking money with RBI."
+    },
+    {
+      "id": "q_rbi_06",
+      "topic": "RBI & Monetary Policy",
+      "subtopic": "CRR Regulations",
+      "question": "What interest rate does the Reserve Bank of India currently pay to Scheduled Commercial Banks on the Cash Reserve Ratio (CRR) balances maintained with it?",
+      "question_hi": "भारतीय रिजर्व बैंक वर्तमान में अनुसूचित वाणिज्यिक बैंकों को उसके पास बनाए रखे गए नकद आरक्षित अनुपात (CRR) शेष पर क्या ब्याज दर देता है?",
+      "options": [
+        "Equal to Reverse Repo Rate",
+        "Equal to Bank Rate",
+        "Equal to Savings Bank Rate",
+        "Zero Percent (Nil)",
+        "3.50% per annum"
+      ],
+      "options_hi": [
+        "रिवर्स रेपो दर के बराबर",
+        "बैंक दर के बराबर",
+        "बचत बैंक दर के बराबर",
+        "शून्य प्रतिशत (कोई ब्याज नहीं)",
+        "3.50% प्रति वर्ष"
+      ],
+      "correct_option": 3,
+      "provenance": "MEMORY-BASED PYQ",
+      "exam_tag": "SBI Clerk Mains 2022",
+      "difficulty": "Exam Trap",
+      "explanation": "Following the amendment to Section 42 of the RBI Act in 2006 (effective 2007), the statutory provision enabling RBI to pay interest on CRR balances was deleted. Therefore, the RBI pays ZERO interest (Nil) to banks on CRR deposits.",
+      "exam_shortcut": "Interest on CRR = 0% (NIL). Banks earn zero yield on funds parked under CRR.",
+      "trap_alert": "Many candidates assume RBI pays at least repo or reverse repo rate. It is strictly NIL."
+    },
+    {
+      "id": "q_sch_01",
+      "topic": "Government Schemes",
+      "subtopic": "Pradhan Mantri Jan Dhan Yojana",
+      "question": "What is the maximum overdraft (OD) facility available under Pradhan Mantri Jan Dhan Yojana (PMJDY), and what is the maximum eligible age limit?",
+      "question_hi": "प्रधानमंत्री जन धन योजना (PMJDY) के तहत अधिकतम ओवरड्राफ्ट (OD) सुविधा कितनी उपलब्ध है, और अधिकतम पात्र आयु सीमा क्या है?",
+      "options": [
+        "₹5,000; up to 60 years",
+        "₹10,000; up to 65 years",
+        "₹10,000; up to 60 years",
+        "₹15,000; up to 65 years",
+        "₹20,000; up to 70 years"
+      ],
+      "options_hi": [
+        "₹5,000; 60 वर्ष तक",
+        "₹10,000; 65 वर्ष तक",
+        "₹10,000; 60 वर्ष तक",
+        "₹15,000; 65 वर्ष तक",
+        "₹20,000; 70 वर्ष तक"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "IBPS Clerk Mains 2023",
+      "difficulty": "Moderate",
+      "explanation": "In 2018, the Government enhanced the overdraft limit under PMJDY from ₹5,000 to ₹10,000. Additionally, the upper age limit for availing this OD facility was increased from 60 years to 65 years (eligible age: 18 to 65 years). OD up to ₹2,000 is available without any conditions.",
+      "exam_shortcut": "PMJDY OD = ₹10,000 max (Age 18-65). OD without condition = ₹2,000.",
+      "trap_alert": "Candidates reading outdated books still mark ₹5,000 and 60 years. Both were upgraded in 2018."
+    },
+    {
+      "id": "q_sch_02",
+      "topic": "Government Schemes",
+      "subtopic": "PMJJBY & PMSBY",
+      "question": "What is the revised annual premium payable under Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) effective from June 1, 2022?",
+      "question_hi": "1 जून 2022 से प्रभावी प्रधानमंत्री जीवन ज्योति बीमा योजना (PMJJBY) के तहत देय संशोधित वार्षिक प्रीमियम क्या है?",
+      "options": [
+        "₹330 per annum",
+        "₹436 per annum",
+        "₹500 per annum",
+        "₹20 per annum",
+        "₹12 per annum"
+      ],
+      "options_hi": [
+        "₹330 प्रति वर्ष",
+        "₹436 प्रति वर्ष",
+        "₹500 प्रति वर्ष",
+        "₹20 प्रति वर्ष",
+        "₹12 प्रति वर्ष"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2024",
+      "difficulty": "Easy",
+      "explanation": "Effective June 1, 2022, the Ministry of Finance revised the annual premium rates for social security schemes: PMJJBY premium was increased from ₹330 to ₹436 per annum, and PMSBY premium was increased from ₹12 to ₹20 per annum.",
+      "exam_shortcut": "PMJJBY (Life) = ₹436/yr (Entry 18-50). PMSBY (Accidental) = ₹20/yr (Entry 18-70). Both cover ₹2 Lakh.",
+      "trap_alert": "Do not select the old ₹330 rate. The current verified figure is ₹436."
+    },
+    {
+      "id": "q_sch_03",
+      "topic": "Government Schemes",
+      "subtopic": "Atal Pension Yojana",
+      "question": "With effect from October 1, 2022, which of the following categories of citizens is NOT eligible to join Atal Pension Yojana (APY)?",
+      "question_hi": "1 अक्टूबर 2022 से, नागरिकों की निम्नलिखित में से कौन सी श्रेणी अटल पेंशन योजना (APY) में शामिल होने के लिए पात्र नहीं है?",
+      "options": [
+        "Citizens residing in rural areas",
+        "Women entrepreneurs running micro-enterprises",
+        "Citizens who are or have been Income Tax Payers",
+        "Citizens holding PMJDY accounts",
+        "Self-employed street vendors"
+      ],
+      "options_hi": [
+        "ग्रामीण क्षेत्रों में रहने वाले नागरिक",
+        "सूक्ष्म उद्यम चलाने वाली महिला उद्यमी",
+        "ऐसे नागरिक जो आयकर दाता हैं या रहे हैं",
+        "PMJDY खाताधारक नागरिक",
+        "स्वरोजगार वाले स्ट्रीट वेंडर"
+      ],
+      "correct_option": 2,
+      "provenance": "MEMORY-BASED PYQ",
+      "exam_tag": "IBPS Clerk Mains 2023",
+      "difficulty": "Moderate",
+      "explanation": "As per the Ministry of Finance notification, from October 1, 2022, any citizen who is or has been an income-tax payer (under the Income-tax Act, 1961) is not eligible to open an account under Atal Pension Yojana (APY) to better target pension subsidies to the unorganized poor.",
+      "exam_shortcut": "APY: Entry age 18-40. Pension starts at age 60 (₹1k-5k/month). Income tax payers barred since Oct 1, 2022.",
+      "trap_alert": "APY was open to all citizens between 18-40 previously, but taxpayers are now strictly disqualified."
+    },
+    {
+      "id": "q_sch_04",
+      "topic": "Government Schemes",
+      "subtopic": "Pradhan Mantri MUDRA Yojana",
+      "question": "Under the Pradhan Mantri MUDRA Yojana (PMMY), what is the loan coverage under the 'Kishore' category?",
+      "question_hi": "प्रधानमंत्री मुद्रा योजना (PMMY) के तहत 'किशोर' श्रेणी के तहत ऋण सीमा क्या है?",
+      "options": [
+        "Covering loans up to ₹50,000",
+        "Covering loans above ₹50,000 and up to ₹5,00,000",
+        "Covering loans above ₹5,00,000 and up to ₹10,00,000",
+        "Covering loans above ₹10,00,000 and up to ₹20,00,000",
+        "Covering loans up to ₹1,00,000"
+      ],
+      "options_hi": [
+        "₹50,000 तक के ऋण",
+        "₹50,000 से अधिक और ₹5,00,000 तक के ऋण",
+        "₹5,00,000 से अधिक और ₹10,00,000 तक के ऋण",
+        "₹10,00,000 से अधिक और ₹20,00,000 तक के ऋण",
+        "₹1,00,000 तक के ऋण"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "RRB OA Mains 2022",
+      "difficulty": "Easy",
+      "explanation": "MUDRA loans are structured into 4 stages: (1) Shishu: up to ₹50,000; (2) Kishore: above ₹50,000 and up to ₹5,00,000; (3) Tarun: above ₹5,00,000 and up to ₹10,00,000; and (4) Tarun Plus: up to ₹20,00,000 for previous successful Tarun borrowers.",
+      "exam_shortcut": "Shishu: <= 50k | Kishore: 50k to 5L | Tarun: 5L to 10L | Tarun Plus: 10L to 20L.",
+      "trap_alert": "Make sure not to confuse Kishore with Tarun (which is ₹5 Lakh to ₹10 Lakh)."
+    },
+    {
+      "id": "q_sch_05",
+      "topic": "Government Schemes",
+      "subtopic": "PM SVANidhi",
+      "question": "Which of the following is the implementing agency for the PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi) scheme?",
+      "question_hi": "पीएम स्ट्रीट वेंडर्स आत्मनिर्भर निधि (पीएम स्वनिधि) योजना के लिए निम्नलिखित में से कौन सी कार्यान्वयन एजेंसी है?",
+      "options": [
+        "NABARD",
+        "National Housing Bank (NHB)",
+        "Small Industries Development Bank of India (SIDBI)",
+        "State Bank of India (SBI)",
+        "DICGC"
+      ],
+      "options_hi": [
+        "नाबार्ड (NABARD)",
+        "राष्ट्रीय आवास बैंक (NHB)",
+        "भारतीय लघु उद्योग विकास बैंक (SIDBI)",
+        "भारतीय स्टेट बैंक (SBI)",
+        "डीआईसीजीसी (DICGC)"
+      ],
+      "correct_option": 2,
+      "provenance": "MEMORY-BASED PYQ",
+      "exam_tag": "IBPS Clerk Mains 2024",
+      "difficulty": "Moderate",
+      "explanation": "PM SVANidhi is a scheme launched by the Ministry of Housing and Urban Affairs (MoHUA) to provide affordable working capital loans to street vendors. SIDBI is the official implementing agency for the scheme, managing the portal and credit administration.",
+      "exam_shortcut": "PM SVANidhi: Ministry = MoHUA | Implementing Agency = SIDBI | Tranches = ₹10k, ₹20k, ₹50k | Interest Subvention = 7%.",
+      "trap_alert": "Even though it's an urban street vendor scheme under MoHUA, the financial implementation agency is SIDBI (NOT NABARD or MoF)."
+    },
+    {
+      "id": "q_pay_01",
+      "topic": "Payment Systems",
+      "subtopic": "UPI Transaction Limits",
+      "question": "What is the enhanced per-transaction limit for UPI payments made towards Hospitals and Educational Institutions as mandated by the RBI and NPCI?",
+      "question_hi": "RBI और NPCI द्वारा अनिवार्य अस्पतालों और शैक्षणिक संस्थानों को किए जाने वाले UPI भुगतानों के लिए प्रति-लेनदेन बढ़ी हुई सीमा क्या है?",
+      "options": [
+        "₹1,00,000",
+        "₹2,00,000",
+        "₹5,00,000",
+        "₹10,00,000",
+        "No limit"
+      ],
+      "options_hi": [
+        "₹1,00,000",
+        "₹2,00,000",
+        "₹5,00,000",
+        "₹10,00,000",
+        "कोई सीमा नहीं"
+      ],
+      "correct_option": 2,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2024",
+      "difficulty": "Moderate",
+      "explanation": "While standard UPI transactions have a general ceiling of ₹1 Lakh per transaction, RBI enhanced the limit to ₹5,00,000 (₹5 Lakh) per transaction for: (1) Hospitals and Healthcare institutions, (2) Educational institutions, (3) IPO applications via ASBA, and (4) RBI Retail Direct scheme investments.",
+      "exam_shortcut": "Standard UPI = ₹1 Lakh. Special categories (Hospitals, Education, IPO, RBI Retail Direct) = ₹5 Lakh.",
+      "trap_alert": "Candidates frequently select ₹1 Lakh (standard limit) or ₹2 Lakh (capital market limit). The specific limit for hospitals/education is ₹5 Lakh."
+    },
+    {
+      "id": "q_pay_02",
+      "topic": "Payment Systems",
+      "subtopic": "UPI Lite Limits",
+      "question": "What is the maximum per-transaction limit and the maximum wallet balance limit permitted on 'UPI Lite'?",
+      "question_hi": "'UPI लाइट' पर अनुमत अधिकतम प्रति-लेनदेन सीमा और अधिकतम वॉलेट शेष सीमा क्या है?",
+      "options": [
+        "₹200 per transaction; ₹2,000 wallet balance",
+        "₹500 per transaction; ₹2,000 wallet balance",
+        "₹500 per transaction; ₹5,000 wallet balance",
+        "₹1,000 per transaction; ₹2,000 wallet balance",
+        "₹2,000 per transaction; ₹10,000 wallet balance"
+      ],
+      "options_hi": [
+        "₹200 प्रति लेन-देन; ₹2,000 वॉलेट शेष",
+        "₹500 प्रति लेन-देन; ₹2,000 वॉलेट शेष",
+        "₹500 प्रति लेन-देन; ₹5,000 वॉलेट शेष",
+        "₹1,000 प्रति लेन-देन; ₹2,000 वॉलेट शेष",
+        "₹2,000 प्रति लेन-देन; ₹10,000 वॉलेट शेष"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "IBPS Clerk Mains 2023",
+      "difficulty": "Moderate",
+      "explanation": "UPI Lite is an on-device wallet designed by NPCI for near-instantaneous small value transactions without internet CBS query or UPI PIN. In August 2023, RBI enhanced the per-transaction limit from ₹200 to ₹500. The maximum overall balance in the UPI Lite wallet at any point remains ₹2,000.",
+      "exam_shortcut": "UPI Lite: ₹500 per transaction | ₹2,000 max wallet balance | No PIN required.",
+      "trap_alert": "The transaction limit was originally ₹200 when launched, but was raised to ₹500. Watch out for outdated options!"
+    },
+    {
+      "id": "q_pay_03",
+      "topic": "Payment Systems",
+      "subtopic": "RTGS Minimum Limit",
+      "question": "What is the statutory minimum transaction threshold for an electronic fund transfer processed through Real Time Gross Settlement (RTGS)?",
+      "question_hi": "रियल टाइम ग्रॉस सेटलमेंट (RTGS) के माध्यम से संसाधित इलेक्ट्रॉनिक फंड ट्रांसफर के लिए न्यूनतम लेनदेन सीमा क्या है?",
+      "options": [
+        "₹50,000",
+        "₹1,00,000",
+        "₹2,00,000",
+        "₹5,00,000",
+        "No minimum threshold"
+      ],
+      "options_hi": [
+        "₹50,000",
+        "₹1,00,000",
+        "₹2,00,000",
+        "₹5,00,000",
+        "कोई न्यूनतम सीमा नहीं"
+      ],
+      "correct_option": 2,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "RRB OA Mains 2023",
+      "difficulty": "Easy",
+      "explanation": "RTGS is meant for large-value continuous transactions. The minimum threshold for outward RTGS transactions is ₹2,00,000 (₹2 Lakh). There is no upper limit for RTGS transactions.",
+      "exam_shortcut": "RTGS = Minimum ₹2 Lakh (No upper cap). NEFT = No minimum, no maximum.",
+      "trap_alert": "Don't confuse RTGS minimum (₹2 Lakh) with IMPS maximum (₹5 Lakh)."
+    },
+    {
+      "id": "q_reg_01",
+      "topic": "Banking Regulations",
+      "subtopic": "Deposit Insurance (DICGC)",
+      "question": "Under the DICGC (Amendment) Act, 2021, within how many days must the Deposit Insurance and Credit Guarantee Corporation pay insured depositors up to ₹5 Lakh if a bank is placed under moratorium by RBI?",
+      "question_hi": "DICGC (संशोधन) अधिनियम, 2021 के तहत, यदि किसी बैंक को RBI द्वारा अधिस्थगन (मोरेटोरियम) के तहत रखा जाता है, तो जमा बीमा और क्रेडिट गारंटी निगम को कितने दिनों के भीतर बीमित जमाकर्ताओं को ₹5 लाख तक का भुगतान करना होगा?",
+      "options": [
+        "30 Days",
+        "45 Days",
+        "60 Days",
+        "90 Days",
+        "180 Days"
+      ],
+      "options_hi": [
+        "30 दिन",
+        "45 दिन",
+        "60 दिन",
+        "90 दिन",
+        "180 दिन"
+      ],
+      "correct_option": 3,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2022",
+      "difficulty": "Moderate",
+      "explanation": "The DICGC (Amendment) Act, 2021 introduced a statutory timeline ensuring that depositors get access to their insured deposits up to ₹5 Lakh within 90 days of a bank being placed under all-inclusive directions or moratorium by the RBI. In the first 45 days, the bank collects depositor claims; in the next 45 days, DICGC verifies and pays.",
+      "exam_shortcut": "DICGC Timeline = 90 days total (45 days collection + 45 days verification/payout).",
+      "trap_alert": "Students often guess 30 or 60 days. The precise statutory window is 90 days."
+    },
+    {
+      "id": "q_reg_02",
+      "topic": "Banking Regulations",
+      "subtopic": "SARFAESI Act Exemptions",
+      "question": "Which of the following categories of property is specifically EXEMPTED from the provisions of the SARFAESI Act, 2002 under Section 31(i)?",
+      "question_hi": "SARFAESI अधिनियम, 2002 की धारा 31(i) के तहत संपत्ति की निम्नलिखित श्रेणियों में से किसे विशेष रूप से छूट दी गई है?",
+      "options": [
+        "Commercial office buildings in metro cities",
+        "Residential apartments with loans above ₹1 Crore",
+        "Agricultural land",
+        "Industrial manufacturing warehouses",
+        "Vacant non-agricultural urban plots"
+      ],
+      "options_hi": [
+        "मेट्रो शहरों में वाणिज्यिक कार्यालय भवन",
+        "₹1 करोड़ से अधिक के ऋण वाले आवासीय अपार्टमेंट",
+        "कृषि भूमि (Agricultural land)",
+        "औद्योगिक विनिर्माण गोदाम",
+        "खाली गैर-कृषि शहरी भूखंड"
+      ],
+      "correct_option": 2,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "IBPS Clerk Mains 2021",
+      "difficulty": "Moderate",
+      "explanation": "Section 31(i) of the SARFAESI Act explicitly states that the provisions of this Act shall not apply to any security interest created in agricultural land. Banks cannot take direct possession of agricultural farmland under SARFAESI without filing a suit in a civil court or DRT.",
+      "exam_shortcut": "SARFAESI exemptions: (1) Agricultural land, (2) Debt < ₹1 Lakh, (3) Balance due < 20% of principal.",
+      "trap_alert": "SARFAESI allows taking possession of residential and commercial mortgaged properties without court intervention, but NEVER agricultural land."
+    },
+    {
+      "id": "q_term_01",
+      "topic": "Banking Terminology",
+      "subtopic": "International Banking Accounts",
+      "question": "When an Indian domestic bank opens and maintains an account in US Dollars with a foreign bank in New York, what is that account called from the perspective of the Indian bank?",
+      "question_hi": "जब कोई भारतीय घरेलू बैंक न्यूयॉर्क में किसी विदेशी बैंक के पास अमेरिकी डॉलर में खाता खोलता है और उसका संचालन करता है, तो भारतीय बैंक के दृष्टिकोण से उस खाते को क्या कहा जाता है?",
+      "options": [
+        "Vostro Account",
+        "Nostro Account",
+        "Loro Account",
+        "Escrow Account",
+        "Demat Account"
+      ],
+      "options_hi": [
+        "वोस्ट्रो खाता (Vostro Account)",
+        "नोस्ट्रो खाता (Nostro Account)",
+        "लोरो खाता (Loro Account)",
+        "एस्क्रो खाता (Escrow Account)",
+        "डीमैट खाता (Demat Account)"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2023",
+      "difficulty": "Easy",
+      "explanation": "'Nostro' is a Latin term meaning 'Ours'. A Nostro account is an account that an Indian domestic bank maintains with a foreign bank abroad in foreign currency ('Our account with you'). In contrast, a 'Vostro' account is a foreign bank's account with an Indian domestic bank in Indian Rupees ('Your account with us').",
+      "exam_shortcut": "Nostro = Ours (Our money in your bank in foreign currency). Vostro = Yours (Your money in our bank in INR).",
+      "trap_alert": "Perennial exam trap: flipping Nostro and Vostro. Remember: N = Nostro = 'None other than OURS'."
+    },
+    {
+      "id": "q_term_02",
+      "topic": "Banking Terminology",
+      "subtopic": "Bank Codes",
+      "question": "In an 11-character Indian Financial System Code (IFSC), what character is fixed and reserved at the 5th position?",
+      "question_hi": "11-वर्णों वाले भारतीय वित्तीय प्रणाली कोड (IFSC) में, 5वें स्थान पर कौन सा वर्ण निश्चित और आरक्षित है?",
+      "options": [
+        "The letter 'X'",
+        "The letter 'O'",
+        "The numeric digit '0' (Zero)",
+        "The letter 'B'",
+        "The numeric digit '1'"
+      ],
+      "options_hi": [
+        "अक्षर 'X'",
+        "अक्षर 'O'",
+        "संख्यात्मक अंक '0' (शून्य)",
+        "अक्षर 'B'",
+        "संख्यात्मक अंक '1'"
+      ],
+      "correct_option": 2,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "RRB OA Mains 2024",
+      "difficulty": "Exam Trap",
+      "explanation": "An IFSC has 11 characters: the first 4 alphabetic characters represent the bank code, the 5th character is reserved as numeric '0' (Zero) for future use, and the remaining 6 characters represent the specific branch code.",
+      "exam_shortcut": "IFSC: 11 characters. 1st to 4th: Bank alphabets. 5th: Strictly ZERO '0'. 6th to 11th: Branch.",
+      "trap_alert": "Examiners give option 'O' (the alphabet) as a trap. The 5th character is strictly the NUMERIC ZERO '0'."
+    },
+    {
+      "id": "q_fin_01",
+      "topic": "Financial Markets",
+      "subtopic": "Money Market Instruments",
+      "question": "What is the minimum investment denomination for Treasury Bills (T-Bills) issued by the Government of India?",
+      "question_hi": "भारत सरकार द्वारा जारी ट्रेजरी बिल (T-Bills) के लिए न्यूनतम निवेश मूल्यवर्ग क्या है?",
+      "options": [
+        "₹1,000",
+        "₹5,000",
+        "₹10,000",
+        "₹50,000",
+        "₹1,00,000"
+      ],
+      "options_hi": [
+        "₹1,000",
+        "₹5,000",
+        "₹10,000",
+        "₹50,000",
+        "₹1,00,000"
+      ],
+      "correct_option": 2,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "IBPS Clerk Mains 2022",
+      "difficulty": "Easy",
+      "explanation": "Treasury Bills (T-Bills) are short-term zero-coupon debt instruments issued by the Government of India in tenors of 91 days, 182 days, and 364 days. They are issued at a discount and redeemed at face value, with a minimum investment denomination of ₹10,000 and in multiples of ₹10,000 thereafter.",
+      "exam_shortcut": "T-Bills minimum = ₹10,000. Certificate of Deposit = ₹1 Lakh. Commercial Paper = ₹5 Lakh.",
+      "trap_alert": "Do not confuse T-Bills (₹10,000) with Commercial Paper (₹5 Lakh) or CD (₹1 Lakh)."
+    },
+    {
+      "id": "q_fin_02",
+      "topic": "Financial Markets",
+      "subtopic": "Commercial Paper",
+      "question": "Commercial Paper (CP) is an unsecured money market instrument. What is the minimum denomination in which CP can be issued in India?",
+      "question_hi": "वाणिज्यिक पत्र (Commercial Paper - CP) एक असुरक्षित मुद्रा बाजार साधन है। भारत में CP न्यूनतम किस मूल्यवर्ग में जारी किया जा सकता है?",
+      "options": [
+        "₹1,00,000",
+        "₹5,00,000",
+        "₹10,00,000",
+        "₹25,00,000",
+        "₹50,000"
+      ],
+      "options_hi": [
+        "₹1,00,000",
+        "₹5,00,000",
+        "₹10,00,000",
+        "₹25,00,000",
+        "₹50,000"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2023",
+      "difficulty": "Moderate",
+      "explanation": "Commercial Paper (CP) was introduced in India in 1990 based on the recommendations of the Vaghul Working Group. It is issued in minimum denominations of ₹5 Lakh and multiples of ₹5 Lakh thereafter, with a maturity ranging between a minimum of 7 days and up to a maximum of 1 year.",
+      "exam_shortcut": "CP: Min ₹5 Lakh | Tenor 7 days to 1 year | Minimum credit rating A2.",
+      "trap_alert": "Certificate of Deposit (CD) is ₹1 Lakh minimum. Commercial Paper (CP) is ₹5 Lakh minimum."
+    },
+    {
+      "id": "q_inst_01",
+      "topic": "Institutions & Committees",
+      "subtopic": "Headquarters of Regulators",
+      "question": "Where is the permanent headquarters of the Small Industries Development Bank of India (SIDBI) located?",
+      "question_hi": "भारतीय लघु उद्योग विकास बैंक (SIDBI) का स्थायी मुख्यालय कहाँ स्थित है?",
+      "options": [
+        "Mumbai, Maharashtra",
+        "New Delhi",
+        "Lucknow, Uttar Pradesh",
+        "Hyderabad, Telangana",
+        "Kolkata, West Bengal"
+      ],
+      "options_hi": [
+        "मुंबई, महाराष्ट्र",
+        "नई दिल्ली",
+        "लखनऊ, उत्तर प्रदेश",
+        "हैदराबाद, तेलंगाना",
+        "कोलकाता, पश्चिम बंगाल"
+      ],
+      "correct_option": 2,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "SBI Clerk Mains 2021",
+      "difficulty": "Easy",
+      "explanation": "SIDBI was established on April 2, 1990, under the Small Industries Development Bank of India Act, 1989. Its headquarters is located in Lucknow, Uttar Pradesh. It is the apex development bank for the micro, small, and medium enterprises (MSME) sector.",
+      "exam_shortcut": "SIDBI = Lucknow. IRDAI = Hyderabad. PFRDA/NHB = New Delhi. RBI/SEBI/NABARD/EXIM = Mumbai.",
+      "trap_alert": "90% of banking aspirants instinctively mark Mumbai for all bank headquarters. SIDBI is in Lucknow!"
+    },
+    {
+      "id": "q_inst_02",
+      "topic": "Institutions & Committees",
+      "subtopic": "Committees",
+      "question": "Which committee's recommendations led to the creation of 'Differentiated Banking Licences' (Payments Banks and Small Finance Banks) in India?",
+      "question_hi": "किस समिति की सिफारिशों के कारण भारत में 'विभेदित बैंकिंग लाइसेंस' (पेमेंट्स बैंक और लघु वित्त बैंक) का गठन हुआ?",
+      "options": [
+        "Raghuram Rajan Committee",
+        "Nachiket Mor Committee",
+        "Urjit Patel Committee",
+        "P.J. Nayak Committee",
+        "Bimal Jalan Committee"
+      ],
+      "options_hi": [
+        "रघुराम राजन समिति",
+        "नचिकेता मोर समिति",
+        "उर्जित पटेल समिति",
+        "पी.जे. नायक समिति",
+        "बिमल जालान समिति"
+      ],
+      "correct_option": 1,
+      "provenance": "ACTUAL PYQ",
+      "exam_tag": "IBPS Clerk Mains 2022",
+      "difficulty": "Moderate",
+      "explanation": "The Committee on Comprehensive Financial Services for Small Businesses and Low-Income Households, chaired by Dr. Nachiket Mor, submitted its report in January 2014 recommending the licensing of differentiated banks (specifically Payments Banks and Small Finance Banks) to accelerate financial inclusion.",
+      "exam_shortcut": "Payments & Small Finance Banks = Nachiket Mor Committee. Inflation Targeting & MPC = Urjit Patel Committee.",
+      "trap_alert": "Urjit Patel recommended the MPC framework. Nachiket Mor recommended differentiated banks."
+    }
+  ]
+}

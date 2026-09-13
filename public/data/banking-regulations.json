@@ -1,0 +1,145 @@
+{
+  "section": "Banking Regulations & Legal Framework",
+  "metadata": {
+    "source": "RBI Master Directions, Ministry of Law & Justice, IBBI, DICGC",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "High (6-9 Questions across Mains shifts)"
+  },
+  "acts": [
+    {
+      "act_name": "Banking Regulation Act, 1949",
+      "commenced": "March 16, 1949 (Originally Banking Companies Act, 1949; renamed in 1966)",
+      "applicability": "Applies to all banking companies in India, including Cooperative Banks (via Banking Regulation (Amendment) Act 2020)",
+      "key_sections": [
+        { "section": "Section 5(b)", "topic": "Definition of Banking", "detail": "Accepting, for the purpose of lending or investment, of deposits of money from the public, repayable on demand or otherwise, and withdrawable by cheque, draft, order or otherwise." },
+        { "section": "Section 10B", "topic": "Chairman & Managing Director", "detail": "RBI approval required for appointment, re-appointment, or termination of Wholetime Directors/CEOs." },
+        { "section": "Section 21", "topic": "Control over Advances", "detail": "Empowers RBI to issue policy directives on loans, margins, interest rates, and loan purposes." },
+        { "section": "Section 22", "topic": "Licensing of Banking Companies", "detail": "Mandates that no company can carry on banking business in India without a licence issued by RBI." },
+        { "section": "Section 24", "topic": "Statutory Liquidity Ratio (SLR)", "detail": "Prescribes maintenance of liquid assets (Cash, Gold, G-Secs) up to 40% of NDTL." },
+        { "section": "Section 35A", "topic": "Power of RBI to Give Directions", "detail": "Sweeping power to issue binding directions in public interest, banking policy, or depositor protection." },
+        { "section": "Section 45", "topic": "Compulsory Amalgamation & Moratorium", "detail": "RBI power to prepare scheme of reconstruction or amalgamation of stressed banks." }
+      ]
+    },
+    {
+      "act_name": "SARFAESI Act, 2002",
+      "full_form": "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002",
+      "commenced": "June 21, 2002 (enacted on recommendations of Narasimham Committee II & Andhyarujina Committee)",
+      "objective": "Empowers secured lenders (banks/FIs) to seize, manage, and auction mortgaged residential or commercial properties to recover NPAs WITHOUT the intervention of any court or tribunal.",
+      "enforcement_process": [
+        { "step": 1, "action": "Demand Notice under Section 13(2)", "duration": "Bank serves 60 days written notice to borrower demanding full repayment." },
+        { "step": 2, "action": "Borrower Representation", "duration": "Borrower may raise objection within 60 days; bank must reply within 15 days." },
+        { "step": 3, "action": "Taking Possession under Section 13(4)", "duration": "If loan remains unpaid after 60 days, bank takes physical possession of mortgaged asset." },
+        { "step": 4, "action": "Appeal before DRT", "duration": "Aggrieved borrower can appeal before Debt Recovery Tribunal (DRT) within 45 days of possession." }
+      ],
+      "exemptions": [
+        "Agricultural land CANNOT be seized under SARFAESI Act (Section 31(i)).",
+        "Loans where remaining principal debt is LESS than ₹1 Lakh.",
+        "Cases where remaining unpaid debt balance is LESS than 20% of the original principal."
+      ],
+      "cersai": {
+        "full_form": "Central Electronic Registry of Securitisation Asset Reconstruction and Security Interest of India",
+        "purpose": "Government company registered under Section 8 of Companies Act 2013 to maintain a central online registry of security interests created over properties to prevent fraudulent multiple mortgages on the same property."
+      }
+    },
+    {
+      "act_name": "Insolvency and Bankruptcy Code (IBC), 2016",
+      "enacted": "May 2016 (consolidated all existing insolvency laws)",
+      "regulator": "Insolvency and Bankruptcy Board of India (IBBI) - established October 1, 2016 in New Delhi",
+      "adjudicating_authorities": {
+        "nclt": "National Company Law Tribunal (NCLT) - handles insolvency of Corporate Debtors & LLPs",
+        "nclat": "National Company Law Appellate Tribunal (NCLAT) - hears appeals against NCLT orders",
+        "drt": "Debt Recovery Tribunal (DRT) - adjudicates insolvency and bankruptcy of Individuals and Partnership firms"
+      },
+      "cirp_timeline": {
+        "initial_period": "180 days from the date of admission of insolvency application",
+        "one_time_extension": "Up to 90 days (if approved by Committee of Creditors with 66% vote)",
+        "mandatory_outer_limit": "330 days maximum (including time taken in legal proceedings/litigation)"
+      },
+      "committee_of_creditors_coc": {
+        "composition": "All Financial Creditors of the corporate debtor",
+        "decision_threshold": "Minimum 66% voting share required for approving Resolution Plan or replacement of Resolution Professional (RP)"
+      }
+    },
+    {
+      "act_name": "Deposit Insurance and Credit Guarantee Corporation (DICGC) Act, 1961",
+      "current_insurance_limit": "₹5,00,000 (₹5 Lakh) per depositor per insured bank (increased from ₹1 Lakh on Feb 4, 2020)",
+      "coverage_details": "Covers Principal + Accrued Interest across all deposit accounts (Savings, Current, Fixed, Recurring) in the same capacity and same right across all branches of that bank.",
+      "premium": "Paid entirely by the insured bank (presently 12 paise per ₹100 of assessable deposits per annum). Depositors pay ZERO premium.",
+      "amendment_2021": "DICGC (Amendment) Act 2021 mandates payment of insured deposit up to ₹5 Lakh to depositors within 90 days if a bank is placed under RBI all-inclusive directions/moratorium.",
+      "exemptions_from_insurance": [
+        "Deposits of Foreign Governments",
+        "Deposits of Central and State Governments",
+        "Inter-bank deposits (deposits of one bank in another bank)",
+        "Any amount due on account of any deposit received outside India"
+      ]
+    },
+    {
+      "act_name": "Prevention of Money Laundering Act (PMLA), 2002 & KYC Rules",
+      "statutory_authority": "Financial Intelligence Unit - India (FIU-IND), established in 2004 under Ministry of Finance",
+      "mandatory_reports": [
+        {
+          "report": "Cash Transaction Report (CTR)",
+          "threshold": "All cash transactions of the value of more than ₹10 Lakh or its equivalent in foreign currency (or series of integrally connected cash transactions exceeding ₹10 Lakh in a month).",
+          "submission_deadline": "To FIU-IND by the 15th day of the succeeding month."
+        },
+        {
+          "report": "Suspicious Transaction Report (STR)",
+          "threshold": "Any transaction that gives rise to reasonable ground of suspicion regarding proceeds of crime or terror financing, irrespective of transaction amount.",
+          "submission_deadline": "To FIU-IND within 7 working days of arriving at a conclusion of suspicion."
+        },
+        {
+          "report": "Counterfeit Currency Report (CCR)",
+          "threshold": "All cash transactions where forged or counterfeit currency notes have been detected.",
+          "submission_deadline": "By the 15th day of the succeeding month."
+        }
+      ],
+      "kyc_officially_valid_documents_ovds": [
+        "Passport",
+        "Driving Licence",
+        "Proof of possession of Aadhaar number",
+        "Voter's Identity Card issued by Election Commission of India",
+        "Job card issued by NREGA duly signed by an officer of the State Government",
+        "Letter issued by the National Population Register containing name and address"
+      ],
+      "periodic_updation_of_kyc": [
+        { "risk_category": "High Risk Customers", "period": "At least once every 2 years" },
+        { "risk_category": "Medium Risk Customers", "period": "At least once every 8 years" },
+        { "risk_category": "Low Risk Customers", "period": "At least once every 10 years" }
+      ]
+    }
+  ],
+  "pca_framework": {
+    "title": "Prompt Corrective Action (PCA) Framework",
+    "objective": "Structured early-intervention mechanism by RBI to prevent bank insolvency and protect depositor money.",
+    "monitored_indicators": [
+      { "metric": "Capital Adequacy", "indicator": "CRAR (Capital to Risk Weighted Assets Ratio) & Common Equity Tier 1 (CET1) Ratio" },
+      { "metric": "Asset Quality", "indicator": "Net NPA Ratio" },
+      { "metric": "Leverage", "indicator": "Tier 1 Leverage Ratio" }
+    ],
+    "mandatory_restrictions": [
+      "Restriction on dividend distribution and remittance of profits",
+      "Promoters/shareholders mandatory capital infusion",
+      "Restrictions on branch expansion",
+      "Restrictions on domestic or overseas expansion",
+      "Cap on lending to high-risk sectors"
+    ]
+  },
+  "exam_traps": [
+    {
+      "trap": "Thinking SARFAESI Act can be used to auction agricultural farmland.",
+      "fact": "Section 31(i) of SARFAESI Act explicitly EXCLUDES agricultural land from securitisation and enforcement."
+    },
+    {
+      "trap": "Believing a person with ₹5 Lakh in Savings and ₹5 Lakh in FD in the same bank is insured for ₹10 Lakh.",
+      "fact": "DICGC insurance of ₹5 Lakh applies to the AGGREGATE of all deposit accounts of that person across all branches of the SAME bank in the same capacity."
+    },
+    {
+      "trap": "Thinking Low Risk KYC accounts need re-KYC every 5 years.",
+      "fact": "Low Risk is every 10 years, Medium Risk is every 8 years, and High Risk is every 2 years."
+    },
+    {
+      "trap": "Assuming IBC corporate resolution time limit is 180 days with no maximum cap.",
+      "fact": "CIRP is 180 days + 90 days extension, with a strict statutory maximum outer cap of 330 days including litigation."
+    }
+  ]
+}

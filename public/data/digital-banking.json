@@ -1,0 +1,88 @@
+{
+  "section": "Digital Banking, FinTech & Consumer Protection",
+  "metadata": {
+    "source": "RBI FinTech Department, Consumer Education and Protection Department (CEPD)",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "High (5-8 Questions across Mains shifts)"
+  },
+  "digital_banking_units_dbu": {
+    "announcement": "Announced in Union Budget 2022-23 by Union Finance Minister",
+    "target": "Setting up 75 Digital Banking Units (DBUs) in 75 districts of the country to commemorate 75 years of Indian Independence (Azadi ka Amrit Mahotsav)",
+    "dedication": "Dedicated to the nation by Prime Minister Narendra Modi on October 16, 2022",
+    "nature": "Specialized fixed-point business unit/hub housing certain minimal digital banking infrastructure for delivering digital banking products & services",
+    "zones": {
+      "self_service_zone": "24x7x365 access to Cash Deposit Machines (CDM), Cash Recyclers, Passbook printing kiosk, Internet banking kiosk, and tab-banking",
+      "assisted_zone": "Manned by bank staff during working hours to assist customers with digital onboarding, account opening, KYC updates, and financial literacy"
+    },
+    "eligibility": "Scheduled Commercial Banks (other than Regional Rural Banks, Payment Banks, and Local Area Banks) having past digital banking experience are permitted to open DBUs in Tier 1 to Tier 6 centres without prior RBI approval."
+  },
+  "digital_lending_framework": {
+    "notification_date": "RBI Guidelines issued on September 2, 2022 (recommendations of Working Group headed by Jayant Kumar Dash)",
+    "key_actors": {
+      "regulated_entities_res": "Commercial Banks, Primary UCBs, State & District Central Co-op Banks, and NBFCs",
+      "lending_service_providers_lsps": "Third-party agents of REs carrying out borrower acquisition, underwriting pricing, servicing, or recovery",
+      "digital_lending_apps_dlas": "Mobile and web-based applications used by REs or LSPs to offer digital lending products"
+    },
+    "core_mandates": [
+      {
+        "provision": "Direct Account-to-Account Disbursement",
+        "detail": "All loan disbursements and repayments must be executed directly between the bank account of the borrower and the RE, WITHOUT any pass-through or pool account of any third-party LSP."
+      },
+      {
+        "provision": "Key Fact Statement (KFS)",
+        "detail": "REs must provide a standardized Key Fact Statement to the borrower before loan execution, stating all-inclusive cost of the loan (Annual Percentage Rate - APR), recovery agent details, and cooling-off period."
+      },
+      {
+        "provision": "Cooling-off / Look-up Period",
+        "detail": "A mandatory period during which the borrower can exit the digital loan by paying the principal and proportionate APR without any prepayment penalty. Minimum 3 days for loans of tenor >= 7 days, and 1 day for loans of tenor < 7 days."
+      },
+      {
+        "provision": "Strict Mobile Permission Curbs",
+        "detail": "DLAs cannot access mobile phone resources like contact lists, call logs, media files, or biometric data. One-time access to camera and microphone is permitted only for video KYC."
+      }
+    ]
+  },
+  "neo_banks_ecosystem": {
+    "definition": "FinTech firms that offer digital-only financial services without any physical branch network.",
+    "regulatory_status_in_india": "RBI has NOT issued standalone digital banking or neo-banking licences. In India, Neo-banks are NOT banks under Section 5(b) of BR Act.",
+    "operating_model": "Partner Banking Model — Neo-banks build user interfaces, apps, and analytics, while underlying accounts, regulatory compliance, and deposits are hosted with licensed partner Scheduled Commercial Banks (e.g., Federal Bank, SBM Bank, Equitas SFB)."
+  },
+  "integrated_ombudsman_scheme": {
+    "official_name": "The Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS, 2021)",
+    "launched_on": "November 12, 2021 by Prime Minister Narendra Modi",
+    "theme": "One Nation, One Ombudsman",
+    "schemes_integrated": [
+      "The Banking Ombudsman Scheme, 2006",
+      "The Ombudsman Scheme for NBFCs, 2018",
+      "The Ombudsman Scheme for Digital Transactions, 2019"
+    ],
+    "entities_covered": [
+      "All Commercial Banks (including RRBs)",
+      "All Scheduled Primary (Urban) Co-operative Banks",
+      "Non-scheduled Urban Co-operative Banks with deposit size of ₹50 Crore and above",
+      "All Non-Banking Financial Companies (NBFCs) with deposit-taking permission or asset size of ₹100 Crore and above",
+      "All System Participants (Payment System Operators like NPCI, wallet providers)"
+    ],
+    "portal_and_crpc": "Complaints filed online via Complaint Management System (CMS portal: cms.rbi.org.in). RBI established the Centralised Receipt and Processing Centre (CRPC) at RBI Chandigarh for physical and email receipt.",
+    "compensation_powers": {
+      "maximum_pecuniary_compensation": "Up to ₹20,00,000 (₹20 Lakh) for actual loss suffered by the complainant directly arising out of the act or omission of the regulated entity",
+      "mental_agony_compensation": "Up to ₹1,00,000 (₹1 Lakh) for loss of complainant's time, expenses incurred, and harassment/mental anguish suffered"
+    },
+    "appellate_authority": "Executive Director in charge of Consumer Education and Protection Department (CEPD) at RBI",
+    "appeal_time_limit": "30 days from the date of receipt of communication of the award or rejection of complaint"
+  },
+  "exam_traps": [
+    {
+      "trap": "Assuming Neo-banks in India have separate banking licences from RBI.",
+      "fact": "Neo-banks do NOT hold banking licences in India. They operate exclusively via partner model with licensed commercial banks."
+    },
+    {
+      "trap": "Thinking maximum compensation under the RBI Integrated Ombudsman is ₹10 Lakh.",
+      "fact": "Maximum pecuniary compensation is ₹20 Lakh, plus up to ₹1 Lakh for mental agony and loss of time."
+    },
+    {
+      "trap": "Believing Digital Lending Apps can access contact lists and photo galleries for recovery.",
+      "fact": "RBI Digital Lending Guidelines explicitly PROHIBIT DLAs from accessing contact lists, call logs, and storage."
+    }
+  ]
+}

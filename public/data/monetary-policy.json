@@ -1,0 +1,176 @@
+{
+  "section": "Monetary Policy & Operations",
+  "metadata": {
+    "source": "RBI Monetary Policy Department & Resolution of the Monetary Policy Committee",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Extremely High (10-15 Questions across Mains shifts)"
+  },
+  "current_rates": {
+    "policy_repo_rate": { "rate": 6.50, "unit": "%", "facility": "Liquidity Adjustment Facility (LAF)" },
+    "standing_deposit_facility_sdf": { "rate": 6.25, "unit": "%", "spread": "25 bps below Repo", "introduced": "April 2022 (replaced fixed reverse repo as floor of LAF corridor)" },
+    "marginal_standing_facility_msf": { "rate": 6.75, "unit": "%", "spread": "25 bps above Repo", "ceiling": "Ceiling of LAF corridor" },
+    "bank_rate": { "rate": 6.75, "unit": "%", "aligned_with": "Aligned with MSF rate automatically" },
+    "fixed_reverse_repo_rate": { "rate": 3.35, "unit": "%", "note": "Remains in toolkit but SDF is the operative absorption rate" },
+    "cash_reserve_ratio_crr": { "rate": 4.50, "unit": "%", "basis": "Percentage of Net Demand and Time Liabilities (NDTL)" },
+    "statutory_liquidity_ratio_slr": { "rate": 18.00, "unit": "%", "basis": "Percentage of Net Demand and Time Liabilities (NDTL)" }
+  },
+  "mpc_framework": {
+    "statutory_basis": "Section 45ZB of the Reserve Bank of India Act, 1934 (amended by Finance Act, 2016)",
+    "constitution": "6-Member Committee",
+    "members_breakdown": {
+      "rbi_members": [
+        "RBI Governor (Ex-officio Chairperson)",
+        "Deputy Governor in charge of Monetary Policy (Member)",
+        "One Officer of the RBI nominated by the Central Board (Member)"
+      ],
+      "govt_appointed_members": [
+        "Three external experts appointed by the Central Government on recommendations of Search-cum-Selection Committee (hold office for 4 years, not eligible for re-appointment)"
+      ]
+    },
+    "quorum": "4 members, at least one of whom must be the Governor or in his absence, the Deputy Governor who is the member of the MPC",
+    "voting": "Each member has one vote. In case of a tie, the Governor has a second or casting vote.",
+    "meeting_frequency": "At least 4 times a year (usually meets bi-monthly: 6 times a year)",
+    "minutes_publication": "Minutes of proceedings published on the 14th day after the meeting",
+    "monetary_policy_report": "Published by RBI once every six months, explaining sources of inflation and forecasts for 6-18 months ahead"
+  },
+  "inflation_targeting": {
+    "anchor": "Consumer Price Index (CPI) Combined (Headline Inflation)",
+    "target": "4.00%",
+    "tolerance_band": "± 2.00% (Lower tolerance: 2.00%, Upper tolerance: 6.00%)",
+    "review_period": "Fixed every 5 years by Central Government in consultation with RBI (under Section 45ZA)",
+    "failure_definition": "RBI fails to meet the inflation target if the average headline inflation is more than 6% or less than 2% for three consecutive quarters",
+    "consequence_of_failure": "RBI must submit a report to the Central Government stating: (a) Reasons for failure, (b) Remedial actions proposed, (c) Estimated time period within which target will be achieved"
+  },
+  "policy_stances": [
+    {
+      "name": "Accommodative",
+      "meaning": "RBI is ready to expand money supply and cut interest rates to boost economic growth. A rate hike is ruled out.",
+      "economic_context": "Economic slowdown, recessionary pressures, or post-crisis recovery."
+    },
+    {
+      "name": "Neutral",
+      "meaning": "RBI can move interest rates in either direction (increase or decrease) or keep them unchanged depending on incoming data.",
+      "economic_context": "Balanced economic growth with inflation around target."
+    },
+    {
+      "name": "Calibrated Tightening / Hawkish",
+      "meaning": "RBI signals that interest rates may be hiked or kept steady, but a rate cut is off the table.",
+      "economic_context": "Rising inflationary pressures and overheating economy."
+    },
+    {
+      "name": "Withdrawal of Accommodation",
+      "meaning": "Gradually reducing excess liquidity injected during crisis periods to bring policy back to neutral/non-inflationary conditions.",
+      "economic_context": "High inflation post-pandemic stimulus."
+    }
+  ],
+  "instruments": {
+    "quantitative_tools": [
+      {
+        "name": "Cash Reserve Ratio (CRR)",
+        "section": "Section 42(1) of RBI Act, 1934",
+        "description": "Specified minimum percentage of total Net Demand and Time Liabilities (NDTL) that scheduled banks must maintain as unencumbered cash balance with the RBI.",
+        "interest_earned": "RBI pays NO interest to banks on CRR deposits (since 2007).",
+        "floor_ceiling": "The RBI (Amendment) Act 2006 removed the statutory floor (3%) and ceiling (20%). RBI has full discretion.",
+        "impact_of_increase": "Reduces bank lending capacity, contracts money supply, curbs inflation.",
+        "impact_of_decrease": "Infuses liquidity into banking system, promotes credit growth."
+      },
+      {
+        "name": "Statutory Liquidity Ratio (SLR)",
+        "section": "Section 24 of Banking Regulation Act, 1949",
+        "description": "Specified percentage of NDTL that banks must maintain in liquid assets with themselves in the form of: Cash, Gold, or Approved Central/State Government Securities (G-Secs/T-Bills).",
+        "interest_earned": "Banks earn interest on SLR G-Secs and coupon yield.",
+        "ceiling": "Maximum ceiling is 40% (floor of 25% was removed in 2007 amendment).",
+        "impact": "Ensures bank solvency, compels banks to invest in government debt, regulates credit flow."
+      },
+      {
+        "name": "Repo Rate (Repurchase Option)",
+        "section": "LAF Framework",
+        "description": "The fixed interest rate at which RBI injects overnight/short-term liquidity to commercial banks against the pledge of eligible government securities.",
+        "mechanism": "Banks borrow from RBI by selling G-Secs with an agreement to repurchase them at an agreed price/rate.",
+        "tenor": "Overnight Repo and Term Repos (7 days, 14 days, 28 days)."
+      },
+      {
+        "name": "Standing Deposit Facility (SDF)",
+        "section": "Section 17(1A) of RBI Act, 1934 (empowered in 2018, operationalised April 2022)",
+        "description": "Collateral-free liquidity absorption mechanism where banks can park surplus funds with RBI without RBI having to provide collateral/G-Secs.",
+        "significance": "Replaced the Fixed Reverse Repo as the lower bound (floor) of the LAF corridor. Rate is pegged 25 bps below Repo."
+      },
+      {
+        "name": "Marginal Standing Facility (MSF)",
+        "introduced": "May 2011 on recommendations of Working Group on Operating Procedure of Monetary Policy (Deepak Mohanty)",
+        "description": "Penal liquidity window for scheduled commercial banks to borrow overnight funds from RBI above their normal LAF quota by dipping into their SLR portfolio up to a prescribed limit (usually 2% of NDTL).",
+        "rate": "Pegged 25 bps above the Repo rate. Acts as ceiling of LAF corridor."
+      },
+      {
+        "name": "Bank Rate",
+        "section": "Section 49 of RBI Act, 1934",
+        "description": "Standard rate at which RBI is prepared to buy or rediscount bills of exchange or other commercial papers. Currently used as penal rate on shortfall in CRR/SLR.",
+        "alignment": "Directly aligned with MSF rate."
+      },
+      {
+        "name": "Open Market Operations (OMO)",
+        "description": "Outright purchase and sale of Government Securities in the open market to absorb or inject durable liquidity on a long-term basis.",
+        "variants": "Operation Twist (simultaneous buying of long-term G-Secs and selling of short-term G-Secs to flatten the yield curve without altering aggregate money supply)."
+      }
+    ],
+    "qualitative_tools": [
+      {
+        "name": "Margin Requirements / LTV (Loan to Value Ratio)",
+        "description": "Difference between market value of security offered and loan sanctioned. E.g. If margin is 20%, maximum loan is 80% of asset value. Raising margin discourages speculative borrowing."
+      },
+      {
+        "name": "Moral Suasion",
+        "description": "Informal advice, periodic meetings, exhortations, and persuasive appeals by RBI to banks to follow monetary objectives without formal statutory orders."
+      },
+      {
+        "name": "Credit Rationing",
+        "description": "Fixing maximum ceilings or quotas of credit for specific sectors or purposes to curb over-lending in speculative areas."
+      },
+      {
+        "name": "Direct Action",
+        "description": "Statutory penal action, fines, refusal of rediscounting, or supervisory restrictions imposed on non-compliant banks under Section 47A of BR Act."
+      }
+    ]
+  },
+  "transmission_mechanism": {
+    "rate_hike_cycle": {
+      "rbi_action": "Repo Rate Raised",
+      "steps": [
+        "RBI increases Repo Rate",
+        "Cost of funds for commercial banks rises",
+        "Banks hike Marginal Cost of Funds Based Lending Rate (MCLR) & External Benchmark Linked Rate (EBLR)",
+        "Home loan, car loan & commercial loan EMIs increase",
+        "Borrowing slows down; consumer spending and corporate capital expenditure moderate",
+        "Aggregate demand decreases, controlling price levels and headline inflation"
+      ]
+    },
+    "rate_cut_cycle": {
+      "rbi_action": "Repo Rate Reduced",
+      "steps": [
+        "RBI decreases Repo Rate",
+        "Cost of funds for commercial banks drops",
+        "Banks reduce lending rates for retail and corporate borrowers",
+        "Cheaper loans stimulate investment and consumption expenditure",
+        "Economic output and GDP growth receive positive momentum"
+      ]
+    }
+  },
+  "exam_traps": [
+    {
+      "trap": "Believing RBI pays 4% interest to banks on their CRR balances.",
+      "fact": "RBI pays ZERO interest on CRR balances maintained by banks (RBI Act Section 42 was amended in 2007)."
+    },
+    {
+      "trap": "Confusing SDF with Reverse Repo.",
+      "fact": "Reverse Repo requires RBI to transfer G-Secs as collateral to banks. SDF is uncollateralised (RBI does NOT pledge any securities to absorb liquidity)."
+    },
+    {
+      "trap": "Believing the MPC target is based on WPI (Wholesale Price Index).",
+      "fact": "Monetary Policy target is strictly based on CPI-Combined (Consumer Price Index), as recommended by the Urjit Patel Committee (2014)."
+    },
+    {
+      "trap": "Assuming the Government of India has 4 members and RBI has 2 members in the MPC.",
+      "fact": "MPC has exactly 6 members: 3 from RBI and 3 appointed by Government of India."
+    }
+  ]
+}

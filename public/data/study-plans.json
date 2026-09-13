@@ -1,0 +1,119 @@
+{
+  "section": "Structured Study Plans & Preparation Roadmaps",
+  "metadata": {
+    "source": "Expert Banking Exam Curriculum Design",
+    "last_verified": "2026-03-01"
+  },
+  "plans": [
+    {
+      "id": "plan_30_day",
+      "name": "30-Day High-Yield Crash Course",
+      "subtitle": "Target: 35+ in SBI/IBPS Clerk Mains in 4 Weeks",
+      "duration_days": 30,
+      "daily_time_commitment": "2.0 - 2.5 Hours",
+      "target_audience": "Candidates with Mains exam within 3-4 weeks or students looking for high-efficiency revision.",
+      "phases": [
+        {
+          "phase_name": "Week 1: Core Lifeline (Tier-1 Topics)",
+          "days": "Days 1 - 7",
+          "focus": "RBI Structure & History, Monetary Policy Tools, Policy Rates (Repo/SDF/MSF/Bank Rate), CRR & SLR, MPC Framework, PMJDY, PMJJBY, PMSBY, APY, MUDRA Scheme.",
+          "daily_checklist": [
+            "Study RBI establishment, acts, and subsidiaries",
+            "Simulate rate transmission on RBI Policy Visualizer",
+            "Master all numerical values for PMJDY, PMJJBY, PMSBY, APY, and MUDRA",
+            "Solve 40 Practice Arena questions on RBI & Policy Rates"
+          ]
+        },
+        {
+          "phase_name": "Week 2: Payments & Stressed Assets",
+          "days": "Days 8 - 14",
+          "focus": "Payment Systems (UPI, UPI Lite, UPI 123Pay, RTGS, NEFT, IMPS, CBDC), NPCI ecosystem, NPA Lifecycle, SMA-0/1/2, SARFAESI Act, IBC 2016, DICGC.",
+          "daily_checklist": [
+            "Explore UPI Transaction Flow and NPA Lifecycle Visualizers",
+            "Learn DICGC insurance limits and 90-day resolution timeline",
+            "Complete Payment Comparison Matrix",
+            "Solve 50 Practice Arena questions on Payment Systems and NPAs"
+          ]
+        },
+        {
+          "phase_name": "Week 3: Financial Markets & Terminology",
+          "days": "Days 15 - 21",
+          "focus": "Money Market (T-Bills, CP, CD, CMB, Call/Notice/Term Money), Capital Market basics, Basel III capital pyramid, Banking Dictionary 40+ terms, Confusion Buster.",
+          "daily_checklist": [
+            "Master T-Bills tenors, CP minimums, and CD maturities",
+            "Revise Confusion Buster pairs (Nostro vs Vostro, Repo vs SDF, MCLR vs EBLR)",
+            "Run 15-second drills in Speed Lab",
+            "Take 1 Full Mock Exam (SBI/IBPS Clerk pattern)"
+          ]
+        },
+        {
+          "phase_name": "Week 4: Current Affairs & Full Mocks",
+          "days": "Days 22 - 30",
+          "focus": "Last 6 months Banking Current Affairs, RBI Circulars, Question Selection Strategy Trainer, Revision of 'My Mistakes' notebook, 3 Full-length timed mocks.",
+          "daily_checklist": [
+            "Review Daily Capsules and Monthly Current Affairs repository",
+            "Practice First 5-Minute Question Selection Strategy Trainer",
+            "Review all bookmarked questions and error notebook",
+            "Take 2 Full Mock Tests with strict 35-minute timer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan_60_day",
+      "name": "60-Day Comprehensive Mastery Plan",
+      "subtitle": "Complete Theory + Concept Visualizers + Exhaustive Practice",
+      "duration_days": 60,
+      "daily_time_commitment": "1.5 - 2.0 Hours",
+      "target_audience": "Candidates preparing for upcoming Clerk & Office Assistant Mains with 2 months in hand.",
+      "phases": [
+        {
+          "phase_name": "Phase 1: Foundation (Days 1 - 20)",
+          "days": "Days 1 - 20",
+          "focus": "In-depth Banking History, BR Act 1949, RBI Act 1934, Public & Private Sector Banks, RRBs, SFBs, Payments Banks, Monetary Policy tools, CRR, SLR, Repo, SDF, MSF.",
+          "outcome": "Flawless conceptual clarity on institutional structure and central banking mechanics."
+        },
+        {
+          "phase_name": "Phase 2: Operational Frameworks & Schemes (Days 21 - 40)",
+          "days": "Days 21 - 40",
+          "focus": "All Government Schemes (PMJDY, PMMY, Stand-Up, KCC, SSY, MSSC), Priority Sector Lending norms, NPA classification, Basel III norms, Money Market instruments.",
+          "outcome": "Command over high-weightage numerical parameters, limits, and eligibility criteria."
+        },
+        {
+          "phase_name": "Phase 3: Digital Payments, PYQ Mastery & Mocks (Days 41 - 60)",
+          "days": "Days 41 - 60",
+          "focus": "UPI, IMPS, RTGS, NEFT, CBDC, Committees, Regulators (SEBI, IRDAI, PFRDA, NABARD, SIDBI), Monthly Current Affairs, Speed Lab drills, 5 Full Mocks.",
+          "outcome": "Peak exam speed, sub-15 second question resolution, and 95%+ accuracy."
+        }
+      ]
+    },
+    {
+      "id": "plan_90_day",
+      "name": "90-Day Foundation-to-Topper Roadmap",
+      "subtitle": "Zero to All-India Ranker: Complete Banking Curriculum",
+      "duration_days": 90,
+      "daily_time_commitment": "1.0 - 1.5 Hours",
+      "target_audience": "Fresh graduates or aspirants preparing for the full annual banking cycle (SBI, IBPS, RRB).",
+      "phases": [
+        {
+          "phase_name": "Month 1: Structural Banking & Core Acts",
+          "days": "Days 1 - 30",
+          "focus": "Evolution of Indian Banking, RBI Acts, Commercial Banking, Co-operative & Rural Banking, Monetary Policy deep-dive, Currency Management.",
+          "outcome": "Strong bedrock understanding of the Indian financial architecture."
+        },
+        {
+          "phase_name": "Month 2: Credit, Capital, Risk & Government Schemes",
+          "days": "Days 31 - 60",
+          "focus": "Financial Markets, Money & Capital Market, NPA Stressed Assets, Basel III capital ratios, Credit Rating Agencies, Complete Central Government Schemes.",
+          "outcome": "Exhaustive knowledge of lending, risk mitigation, and socio-economic schemes."
+        },
+        {
+          "phase_name": "Month 3: FinTech, PYQs, Current Affairs & Exam Simulation",
+          "days": "Days 61 - 90",
+          "focus": "Digital Banking Units, NPCI payment systems, Banking Committees, 2020-2025 PYQ deep-dive, Weekly Full Mocks, Speed Lab lightning rounds.",
+          "outcome": "Exam-ready confidence, automated question recognition, and top percentile scoring."
+        }
+      ]
+    }
+  ]
+}

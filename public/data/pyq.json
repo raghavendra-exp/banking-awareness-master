@@ -1,0 +1,107 @@
+{
+  "section": "Previous Year Questions (PYQ) Intelligence & Exam Analysis",
+  "metadata": {
+    "source": "Comprehensive Analysis of SBI Clerk Mains, IBPS Clerk Mains, and RRB OA Mains (2020-2025)",
+    "last_verified": "2026-03-01"
+  },
+  "overall_pattern_and_shift_evolution": {
+    "historical_trend": "In 2018-2020, questions were predominantly static GK (headquarters, taglines, currency/capital). Post-2021, the General / Financial Awareness section in Clerk Mains has shifted dramatically toward: (1) In-depth RBI regulatory circulars, (2) Detailed provisions and eligibility of Government schemes, (3) Payment ecosystem nuances (UPI/NPCI/CBDC), and (4) Stressed assets and monetary policy mechanics.",
+    "ideal_target_score": "32 - 40 marks out of 50 in SBI/IBPS Clerk Mains; 28 - 35 marks out of 40 in RRB OA Mains."
+  },
+  "topic_weightage_distribution": [
+    { "topic": "Banking & Financial Current Affairs (Last 6 Months)", "share_percentage": 32, "difficulty": "Moderate to High", "trend": "Increasingly nuanced (asks numerical limits, percentages, and sub-clauses)" },
+    { "topic": "Government Schemes & Social Security (PMJDY, MUDRA, APY, PMJJBY, etc.)", "share_percentage": 20, "difficulty": "Moderate", "trend": "Standard high-yield (tests revised limits, entry ages, and premium amounts)" },
+    { "topic": "RBI & Monetary Policy (MPC, Repo, SDF, MSF, CRR, SLR)", "share_percentage": 16, "difficulty": "Direct to Conceptual", "trend": "High predictability; guaranteed marks if concepts are crisp" },
+    { "topic": "Payment Systems & NPCI (UPI, UPI Lite, RTGS, NEFT, IMPS, CBDC)", "share_percentage": 14, "difficulty": "Direct to Moderate", "trend": "Rapidly growing topic with high frequency of limit-based questions" },
+    { "topic": "Banking Terminology & Financial Concepts (CASA, NPA, CRAR, PSL, Nostro)", "share_percentage": 10, "difficulty": "Moderate", "trend": "Tested via application-based scenario questions" },
+    { "topic": "Institutions, Acts & Banking Committees", "share_percentage": 8, "difficulty": "Factual", "trend": "Tests committee chairpersons, headquarters, and statutory years" }
+  ],
+  "five_tier_priority_matrix": [
+    {
+      "tier": "Tier 1: Core Lifeline (Guaranteed 18-22 Marks)",
+      "description": "Topics that appear without exception in every single shift of SBI Clerk, IBPS Clerk, and RRB OA Mains.",
+      "topics": [
+        "RBI Policy Rates (Repo 6.50%, SDF 6.25%, MSF 6.75%, Bank Rate 6.75%, CRR 4.50%, SLR 18%)",
+        "MPC Constitution (6 members, 4 quorum, 4% +/- 2% CPI target, Sec 45ZB)",
+        "Major Schemes: PMJDY (₹10k OD, ₹2L accident), PMJJBY (₹436/yr, 18-50 age), PMSBY (₹20/yr, 18-70 age), APY (18-40 age, ₹1k-5k)",
+        "MUDRA 4 Categories: Shishu (<=₹50k), Kishore (₹50k-5L), Tarun (₹5L-10L), Tarun Plus (₹10L-20L)",
+        "UPI & NPCI: UPI Lite (₹500/tx, ₹2,000 wallet), UPI 123Pay, RTGS (min ₹2 Lakh), NEFT (24x7 batch)",
+        "Deposit Insurance: DICGC (₹5 Lakh per depositor per bank, 90-day claim window)"
+      ],
+      "preparation_strategy": "Master all numerical figures, statutory sections, and revised updates to achieve 100% accuracy in under 15 seconds per question."
+    },
+    {
+      "tier": "Tier 2: High Yield Conceptual (10-14 Marks)",
+      "description": "Requires conceptual clarity; examiners set traps on terminology and sub-categories.",
+      "topics": [
+        "NPA Lifecycle & Stressed Assets: SMA-0 (1-30d), SMA-1 (31-60d), SMA-2 (61-90d), Substandard (<=12m), Doubtful, Loss",
+        "Agricultural NPA rules (2 crop seasons short duration, 1 crop season long duration)",
+        "Priority Sector Lending (PSL): 40% SCBs, 75% RRBs/SFBs, Agri sub-targets (18% overall, 10% small/marginal)",
+        "Basel III Capital Stack: CET1 (5.5%), Tier 1 (7.0%), Total Capital (9.0% SCBs / 12% PSBs), CCB (2.5%)",
+        "Money Market: T-Bills (91, 182, 364 days, min ₹10k), Commercial Paper (min ₹5L, 7d-1yr), CD (min ₹1L)",
+        "SARFAESI Act (60-day notice, DRT appeal 45 days, excludes agricultural land)"
+      ],
+      "preparation_strategy": "Solve interactive visualizer simulations and clear confusion pairs in the Confusion Buster."
+    },
+    {
+      "tier": "Tier 3: Factual & Committee Landmarks (5-8 Marks)",
+      "description": "Static institutional details, committee chairpersons, and banking acronyms.",
+      "topics": [
+        "Committees: Hilton Young (RBI), Gorwala (SBI), Narasimham I & II, Sivaraman (NABARD), Nachiket Mor (Payments/SFBs), Urjit Patel (MPC)",
+        "Headquarters: SIDBI (Lucknow), IRDAI (Hyderabad), PFRDA (New Delhi), EXIM/NABARD/SEBI/RBI (Mumbai)",
+        "Key codes: IFSC (11 digits, 5th is '0'), MICR (9 digits: city, bank, branch), LEI (20 digits, ₹50 Cr+ threshold)",
+        "Account types: Nostro ('Ours with you'), Vostro ('Yours with us'), Loro ('Theirs'), Escrow"
+      ],
+      "preparation_strategy": "Use Spaced Repetition Flashcards and Banking Dictionary daily."
+    },
+    {
+      "tier": "Tier 4: Volatile Current Affairs (8-12 Marks)",
+      "description": "Fast-moving banking events from the last 4-6 months before the exam date.",
+      "topics": [
+        "RBI Master Directions & Regulatory Penalties",
+        "International fast-payment linkages (UPI-PayNow, UAE Jaywan, etc.)",
+        "CBDC (e₹-R / e₹-W) pilot expansions and offline tests",
+        "Key leadership appointments (FSIB, RBI Deputy Governors, PSB MDs)",
+        "Union Budget financial sector announcements and Economic Survey credit growth data"
+      ],
+      "preparation_strategy": "Review Daily Capsule and Monthly Current Affairs repository weekly."
+    },
+    {
+      "tier": "Tier 5: Negative-Marking Hazards (Avoid Wild Guesses)",
+      "description": "Obscure circular sub-clauses, minor cooperative bank license cancellations, and ambiguous gossip.",
+      "topics": [
+        "Minor co-operative bank penal fines under ₹10 Lakh",
+        "Overly complex derivative formula derivations",
+        "Non-banking international sports or entertainment awards not relevant to finance"
+      ],
+      "preparation_strategy": "Use the Question Selection Trainer to identify and immediately skip these trap questions."
+    }
+  ],
+  "common_exam_traps": [
+    {
+      "trap_name": "Agricultural NPA Overdue Period",
+      "examiner_trick": "Option A mentions '90 days' for crop loan NPA.",
+      "correct_principle": "Agricultural loans are NOT classified on a 90-day basis! They turn NPA after 2 crop seasons for short duration crops, and 1 crop season for long duration crops."
+    },
+    {
+      "trap_name": "DICGC Insurance Threshold Coverage",
+      "examiner_trick": "Claiming ₹5 Lakh is insured for savings account and another ₹5 Lakh for fixed deposit in the same bank.",
+      "correct_principle": "The ₹5 Lakh limit applies to the AGGREGATE of all accounts held in the SAME capacity and same right across all branches of that bank."
+    },
+    {
+      "trap_name": "SARFAESI Action on Farmlands",
+      "examiner_trick": "Asking whether a bank can seize agricultural farmland mortgaged for a farm tractor loan without court intervention under SARFAESI.",
+      "correct_principle": "NO. Section 31(i) of SARFAESI Act specifically EXEMPTS agricultural land from enforcement."
+    },
+    {
+      "trap_name": "IFSC 5th Character",
+      "examiner_trick": "Asking whether the 5th character of IFSC is letter 'O' or digit '0'.",
+      "correct_principle": "It is strictly numeric ZERO ('0')."
+    },
+    {
+      "trap_name": "Currency Signature Authority",
+      "examiner_trick": "Stating that ₹1 currency note bears the signature of the RBI Governor.",
+      "correct_principle": "₹1 note is issued by Ministry of Finance and bears the signature of the Finance Secretary."
+    }
+  ]
+}

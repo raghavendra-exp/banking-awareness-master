@@ -1,0 +1,132 @@
+{
+  "version": "2026.09",
+  "lastVerified": "2026-09-13",
+  "source": "Banking Regulation Act, 1949 & Reserve Bank of India Act, 1934",
+  "sourceUrl": "https://www.rbi.org.in",
+  "definition": {
+    "statutory": "According to Section 5(b) of the Banking Regulation Act, 1949: 'Banking means the accepting, for the purpose of lending or investment, of deposits of money from the public, repayable on demand or otherwise, and withdrawable by cheque, draft, order or otherwise.'",
+    "simpleExplanation": "A bank is a licensed financial institution that takes deposits from people who have spare money, keeps it safe, pays interest, and lends that money out to borrowers who need capital for businesses, homes, or education.",
+    "examPoint": "Section 5(b) of Banking Regulation Act 1949 defines 'banking'; Section 5(c) defines a 'banking company'."
+  },
+  "coreFunctions": [
+    {
+      "category": "Primary Functions",
+      "items": [
+        { "name": "Accepting Deposits", "details": "Demand Deposits (Current Account, Savings Account - CASA) and Time/Term Deposits (Fixed Deposit, Recurring Deposit)." },
+        { "name": "Granting Loans & Advances", "details": "Cash Credit (CC), Overdraft (OD), Term Loans, Demand Loans, Discounting Bills of Exchange." },
+        { "name": "Credit Creation", "details": "Commercial banks create secondary deposits through the lending multiplier mechanism governed by CRR and SLR." }
+      ]
+    },
+    {
+      "category": "Secondary / Agency Functions",
+      "items": [
+        { "name": "Fund Transfer", "details": "NEFT, RTGS, IMPS, UPI, Demand Drafts, Cheque collection." },
+        { "name": "Periodic Collections & Payments", "details": "Collecting dividends, pensions, salaries; paying utility bills, taxes, insurance premiums via NACH/ECS." },
+        { "name": "Portfolio Management & Trust Services", "details": "Acting as trustee, executor, administrator, or attorney for clients." }
+      ]
+    },
+    {
+      "category": "General Utility Functions",
+      "items": [
+        { "name": "Safe Deposit Lockers", "details": "Relationship is Bailor-Bailee or Lessor-Lessee (bank has no knowledge of locker contents)." },
+        { "name": "Foreign Exchange Dealings", "details": "Authorized Dealers (AD Categories I, II, III) licensed under FEMA 1999." },
+        { "name": "Issuance of Letters of Credit (LC) & Bank Guarantees (BG)", "details": "Facilitating domestic and international trade." }
+      ]
+    }
+  ],
+  "bankTypes": [
+    {
+      "id": "scheduled-banks",
+      "name": "Scheduled Commercial Banks (SCBs)",
+      "hindiName": "अनुसूचित वाणिज्यिक बैंक",
+      "statutoryCriteria": "Included in the Second Schedule of the Reserve Bank of India Act, 1934. Must have paid-up capital and reserves of at least ₹5 lakh, and satisfy RBI that operations do not harm depositors' interests.",
+      "privileges": "Eligible for low-interest refinance facilities from RBI, access to the Liquidity Adjustment Facility (Repo window), and membership in the Clearing House.",
+      "examFact": "Second Schedule of RBI Act 1934 is the exact legal authority."
+    },
+    {
+      "id": "public-sector-banks",
+      "name": "Public Sector Banks (PSBs)",
+      "hindiName": "सार्वजनिक क्षेत्र के बैंक",
+      "count": 12,
+      "details": "Banks where the Government of India holds a majority shareholding (at least 51%). Following the mega-mergers effective April 1, 2020, there are exactly 12 Public Sector Banks in India: State Bank of India (SBI), Punjab National Bank (PNB), Bank of Baroda (BoB), Canara Bank, Union Bank of India, Bank of India, Indian Bank, Central Bank of India, Indian Overseas Bank, UCO Bank, Bank of Maharashtra, and Punjab & Sind Bank.",
+      "examFact": "SBI is governed by the State Bank of India Act, 1955. The other 11 are governed by the Banking Companies (Acquisition and Transfer of Undertakings) Acts of 1970 and 1980."
+    },
+    {
+      "id": "private-sector-banks",
+      "name": "Private Sector Banks",
+      "hindiName": "निजी क्षेत्र के बैंक",
+      "details": "Banks where major equity is held by private individuals and corporations rather than the government. Categorized into Old Private Sector Banks (existed before 1991 reforms, e.g., Federal Bank, South Indian Bank) and New Private Sector Banks (licensed post-1993 Narasimham Committee recommendations, e.g., HDFC Bank, ICICI Bank, Axis Bank, Kotak Mahindra Bank).",
+      "examFact": "Minimum initial capital requirement for a new universal private bank is ₹500 crore (increased to ₹1,000 crore under on-tap licensing)."
+    },
+    {
+      "id": "regional-rural-banks",
+      "name": "Regional Rural Banks (RRBs)",
+      "hindiName": "क्षेत्रीय ग्रामीण बैंक",
+      "established": "October 2, 1975",
+      "statutoryAct": "Regional Rural Banks Act, 1976",
+      "recommendation": "Narasimham Working Group on Rural Credit (1975)",
+      "firstRRB": "Prathama Bank (sponsored by Syndicate Bank in Moradabad, UP)",
+      "equityOwnership": "Central Government: 50%, Sponsor Bank: 35%, State Government: 15%",
+      "prioritySectorTarget": "75% of Adjusted Net Bank Credit (ANBC) must go to Priority Sector Lending (PSL).",
+      "regulatorySupervision": "Regulated by RBI and supervised/inspected by NABARD.",
+      "examFact": "Ownership ratio is a guaranteed question: 50% Centre : 35% Sponsor Bank : 15% State Govt."
+    },
+    {
+      "id": "small-finance-banks",
+      "name": "Small Finance Banks (SFBs)",
+      "hindiName": "लघु वित्त बैंक",
+      "committee": "Nachiket Mor Committee (2014)",
+      "purpose": "Financial inclusion: supply credit to small business units, micro and small industries, small and marginal farmers, and unorganized entities.",
+      "minCapital": "₹200 crore (₹100 crore for initial licensing transition).",
+      "pslRequirement": "75% of ANBC must be allocated to Priority Sector Lending (compared to 40% for universal commercial banks).",
+      "loanPortfolioRule": "At least 50% of loan portfolio must constitute loans and advances of up to ₹25 lakh.",
+      "promoterContribution": "Minimum 40% paid-up capital for the initial 5 years.",
+      "examFact": "SFBs can accept deposits AND make loans (unlike Payments Banks which cannot lend)."
+    },
+    {
+      "id": "payments-banks",
+      "name": "Payments Banks",
+      "hindiName": "पेमेंट्स बैंक",
+      "committee": "Nachiket Mor Committee (2014)",
+      "purpose": "Provide small savings accounts and payments/remittance services to migrant workers, low-income households, and small businesses.",
+      "depositLimit": "Can accept Demand Deposits (Savings & Current) up to ₹2,00,000 (₹2 Lakh) per individual customer (raised from ₹1 Lakh in 2021).",
+      "criticalProhibition": "CANNOT grant loans, advances, or issue credit cards. CAN issue ATM/Debit cards.",
+      "slrRule": "Must invest a minimum of 75% of demand deposit balances in Statutory Liquidity Ratio (SLR) eligible Government Securities/Treasury Bills with maturity up to 1 year.",
+      "crrRule": "Must maintain Cash Reserve Ratio (CRR) with the RBI just like other commercial banks.",
+      "minCapital": "₹100 crore.",
+      "firstPaymentsBank": "Airtel Payments Bank (launched November 2016 in Rajasthan).",
+      "examFact": "Payments Banks NEVER lend money and NEVER issue credit cards. Only debit cards and demand deposits up to ₹2 Lakh."
+    },
+    {
+      "id": "cooperative-banks",
+      "name": "Cooperative Banks",
+      "hindiName": "सहकारी बैंक",
+      "structure": "Organized on the principle of cooperation ('One member, one vote'). Structured in two broad segments: Urban Cooperative Banks (UCBs) and Rural Cooperative Credit Institutions.",
+      "ruralHierarchy": "3-Tier Structure: State Cooperative Banks (Apex state level) -> District Central Cooperative Banks (DCCB at district level) -> Primary Agricultural Credit Societies (PACS at village level).",
+      "regulatoryReform": "Banking Regulation (Amendment) Act, 2020 brought Urban Cooperative Banks and Multi-State Cooperative Banks under the direct regulatory and supervisory authority of the Reserve Bank of India.",
+      "examFact": "PACS (Primary Agricultural Credit Societies) operate at the grassroots level and are outside the direct regulation of the Banking Regulation Act."
+    },
+    {
+      "id": "foreign-banks",
+      "name": "Foreign Banks",
+      "hindiName": "विदेशी बैंक",
+      "details": "Banks incorporated outside India but operating branches within India under license from the RBI (e.g., Standard Chartered, Citibank, HSBC, Deutsche Bank). They can operate via branch mode or Wholly Owned Subsidiary (WOS) mode.",
+      "pslRequirement": "Foreign banks with 20 or more branches have a 40% PSL target identical to domestic commercial banks."
+    },
+    {
+      "id": "local-area-banks",
+      "name": "Local Area Banks (LABs)",
+      "hindiName": "स्थानीय क्षेत्र बैंक",
+      "established": "August 1996 (announced in Union Budget)",
+      "jurisdiction": "Restricted to a maximum of 3 contiguous districts to mobilize local rural and semi-urban savings.",
+      "minCapital": "₹5 crore.",
+      "currentStatus": "Only 2 functioning LABs exist today: Coastal Local Area Bank (Vijayawada, AP) and Krishna Bhima Samruddhi LAB (Mahbubnagar, Telangana)."
+    },
+    {
+      "id": "development-banks",
+      "name": "Development Financial Institutions (DFIs)",
+      "hindiName": "विकास वित्तीय संस्थान",
+      "details": "Specialized financial institutions providing long-term capital for infrastructure, industrialization, and agriculture. Major statutory DFIs include NaBFID (National Bank for Financing Infrastructure and Development, 2021), NABARD (1982), SIDBI (1990), and EXIM Bank (1982)."
+    }
+  ]
+}

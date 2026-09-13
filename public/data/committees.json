@@ -1,0 +1,132 @@
+{
+  "section": "Important Banking & Financial Committees",
+  "metadata": {
+    "source": "Reserve Bank of India Historical Archive & Ministry of Finance",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Extremely High (5-8 Questions across Mains shifts)"
+  },
+  "committees": [
+    {
+      "id": "hilton_young",
+      "name": "Royal Commission on Indian Currency and Finance (Hilton Young Commission)",
+      "year": "1926",
+      "chairman": "Edward Hilton Young",
+      "mandate": "Examining the Indian currency and exchange system and central banking framework",
+      "landmark_recommendation": "Recommended the creation of a central bank to be called the 'Reserve Bank of India' to separate the control of currency and credit from the Government.",
+      "outcome": "Enactment of the Reserve Bank of India Act, 1934 and establishment of RBI on April 1, 1935."
+    },
+    {
+      "id": "gorwala",
+      "name": "All India Rural Credit Survey Committee (Gorwala Committee)",
+      "year": "1954",
+      "chairman": "A.D. Gorwala",
+      "mandate": "Assessment of institutional rural credit supply in post-independence India",
+      "landmark_recommendation": "Recommended creation of a strong state-partnered commercial banking institution through amalgamation of Imperial Bank of India and major state-associated banks.",
+      "outcome": "Enactment of State Bank of India Act, 1955 and nationalisation/creation of State Bank of India on July 1, 1955."
+    },
+    {
+      "id": "narasimham_1",
+      "name": "Committee on the Financial System (Narasimham Committee I)",
+      "year": "1991",
+      "chairman": "Maidavolu Narasimham (13th RBI Governor)",
+      "mandate": "Blueprint for modern banking sector reforms post-1991 economic balance of payments crisis",
+      "landmark_recommendation": "Progressive reduction of high SLR and CRR, deregulation of bank lending/deposit interest rates, introduction of 4-tier banking structure, adoption of prudential norms for income recognition, asset classification, and provisioning.",
+      "outcome": "Entry of new private sector banks (HDFC, ICICI, Axis), introduction of 90-day NPA norms, and phased reduction of SLR from 38.5% towards 25%."
+    },
+    {
+      "id": "narasimham_2",
+      "name": "Committee on Banking Sector Reforms (Narasimham Committee II)",
+      "year": "1998",
+      "chairman": "Maidavolu Narasimham",
+      "mandate": "Strengthening banking system architecture, legal frameworks, and capital buffers",
+      "landmark_recommendation": "Creation of Asset Reconstruction Companies (ARCs), strengthening legal powers of lenders without court intervention, revision of capital adequacy norms, concept of 'Narrow Banking' for weak banks.",
+      "outcome": "Enactment of the SARFAESI Act, 2002; setting up of CERSAI; and foundation of modern NPA recovery machinery."
+    },
+    {
+      "id": "sivaraman",
+      "name": "Committee to Review Arrangements for Institutional Credit for Agriculture and Rural Development (CRAFICARD / Sivaraman Committee)",
+      "year": "1979 - 1981",
+      "chairman": "B. Sivaraman (former Cabinet Secretary)",
+      "mandate": "Evaluating institutional credit delivery mechanism for rural agriculture",
+      "landmark_recommendation": "Creation of an apex national development bank dedicated exclusively to rural financing, agriculture, and cottage industries by transferring relevant departments from RBI.",
+      "outcome": "Passage of NABARD Act, 1981 and establishment of NABARD on July 12, 1982."
+    },
+    {
+      "id": "malhotra",
+      "name": "Committee on Reforms in the Insurance Sector (Malhotra Committee)",
+      "year": "1993 - 1994",
+      "chairman": "R.N. Malhotra (former RBI Governor)",
+      "mandate": "Reforms, demonopolisation, and restructuring of the Indian insurance sector",
+      "landmark_recommendation": "Opening up the domestic insurance market to private sector companies, permitting joint ventures with foreign players, and establishing an independent statutory regulatory body.",
+      "outcome": "Passage of the IRDA Act, 1999 and establishment of IRDAI in 2000."
+    },
+    {
+      "id": "rv_gupta",
+      "name": "High-Level Committee on Agricultural Credit through Commercial Banks (R.V. Gupta Committee)",
+      "year": "1998",
+      "chairman": "R.V. Gupta",
+      "mandate": "Simplification of agricultural loan sanctioning procedures and credit delivery",
+      "landmark_recommendation": "Formulation of an easy revolving credit mechanism for farmers to purchase agricultural inputs and withdraw cash flexibly.",
+      "outcome": "Launch of the revolutionary Kisan Credit Card (KCC) scheme in August 1998."
+    },
+    {
+      "id": "khan",
+      "name": "Working Group on Harmonising the Role and Operations of DFIs and Banks (Khan Committee)",
+      "year": "1998",
+      "chairman": "S.H. Khan (former Chairman of IDBI)",
+      "mandate": "Examining structural convergence between specialized development financial institutions and commercial banks",
+      "landmark_recommendation": "Transition of specialized DFIs into full-fledged commercial banks under the concept of 'Universal Banking'.",
+      "outcome": "Reverse merger of ICICI with ICICI Bank (2002) and IDBI with IDBI Bank (2004)."
+    },
+    {
+      "id": "nachiket_mor",
+      "name": "Committee on Comprehensive Financial Services for Small Businesses and Low-Income Households (Nachiket Mor Committee)",
+      "year": "2013 - 2014",
+      "chairman": "Dr. Nachiket Mor",
+      "mandate": "Universal financial inclusion, deepen digital penetration, and institutional innovations",
+      "landmark_recommendation": "Pioneered the concept of 'Differentiated Banking Licences' in India: specifically proposing Payments Banks (for payments/remittances) and Small Finance Banks (for unserved credit).",
+      "outcome": "RBI issued guidelines for Payments Banks and Small Finance Banks in November 2014; launch of Airtel Payments Bank, Paytm, Equitas SFB, Ujjivan SFB, etc."
+    },
+    {
+      "id": "urjit_patel",
+      "name": "Expert Committee to Revise and Strengthen the Monetary Policy Framework (Urjit Patel Committee)",
+      "year": "2013 - 2014",
+      "chairman": "Dr. Urjit Patel (then Deputy Governor, RBI)",
+      "mandate": "Overhaul the operating procedures of monetary policy and inflation control in India",
+      "landmark_recommendation": "Shift anchor from WPI to CPI-Combined headline inflation; adopt flexible inflation targeting with target of 4% (+/- 2%); institutionalize monetary policy decisions through a statutory 6-member Monetary Policy Committee (MPC).",
+      "outcome": "Amendment of RBI Act 1934 in 2016; creation of the statutory MPC; and operationalisation of modern inflation-targeting framework."
+    },
+    {
+      "id": "pj_nayak",
+      "name": "Committee to Review Governance of Boards of Banks in India (P.J. Nayak Committee)",
+      "year": "2014",
+      "chairman": "P.J. Nayak (former Chairman of Axis Bank)",
+      "mandate": "Improving governance, autonomy, leadership selection, and performance of Public Sector Banks",
+      "landmark_recommendation": "Abolish dual regulation of PSBs, split CMD post into Chairman and MD/CEO, create an autonomous body for top banking appointments, and reduce government equity stake to below 50%.",
+      "outcome": "Creation of the Banks Board Bureau (BBB) in 2016, later restructured into Financial Services Institutions Bureau (FSIB) in 2022; separation of Chairman and MD/CEO roles in PSBs."
+    },
+    {
+      "id": "bimal_jalan",
+      "name": "Expert Committee on Economic Capital Framework (Bimal Jalan Committee)",
+      "year": "2018 - 2019",
+      "chairman": "Dr. Bimal Jalan (former RBI Governor)",
+      "mandate": "Determining appropriate levels of reserves, contingency risk buffer, and surplus transfer from RBI to Government of India",
+      "landmark_recommendation": "Maintain Contingency Risk Buffer (CRB) within a band of 5.5% to 6.5% of RBI's balance sheet; transfer excess realized equity beyond this buffer to the Government as dividend.",
+      "outcome": "Historic surplus capital dividend transfer of ₹1.76 Lakh Crore from RBI to Government of India in August 2019."
+    }
+  ],
+  "exam_traps": [
+    {
+      "trap": "Confusing Nachiket Mor Committee with Urjit Patel Committee.",
+      "fact": "Nachiket Mor Committee recommended Differentiated Banking Licences (Payments Banks and SFBs). Urjit Patel Committee recommended Inflation Targeting (4% +/- 2%) and the MPC."
+    },
+    {
+      "trap": "Believing Narasimham Committee recommended KCC.",
+      "fact": "Kisan Credit Card (KCC) was recommended by the R.V. Gupta Committee (1998)."
+    },
+    {
+      "trap": "Thinking Gorwala Committee recommended creation of RBI.",
+      "fact": "Hilton Young Commission recommended RBI (1926). Gorwala Committee recommended creation of State Bank of India (1954)."
+    }
+  ]
+}

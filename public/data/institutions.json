@@ -1,0 +1,173 @@
+{
+  "section": "Regulatory Bodies & All-India Financial Institutions (AIFIs)",
+  "metadata": {
+    "source": "Official Portals of RBI, SEBI, IRDAI, PFRDA, NABARD, SIDBI, NaBFID, EXIM Bank, NHB",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Extremely High (8-12 Questions across Mains shifts)"
+  },
+  "institutions": [
+    {
+      "id": "rbi",
+      "name": "Reserve Bank of India",
+      "acronym": "RBI",
+      "category": "Apex Central Bank & Monetary Authority",
+      "established": "April 1, 1935",
+      "nationalised": "January 1, 1949",
+      "governing_act": "Reserve Bank of India Act, 1934",
+      "recommended_by": "Hilton Young Commission (1926)",
+      "headquarters": "Mumbai, Maharashtra (initially Calcutta until 1937)",
+      "ownership": "100% Government of India",
+      "role": "Apex regulator and supervisor of commercial banks, cooperative banks, NBFCs, foreign exchange, money market, and issuer of Indian currency.",
+      "exam_tip": "Look out for question on which committee recommended it (Hilton Young) and first Indian governor (C.D. Deshmukh)."
+    },
+    {
+      "id": "sebi",
+      "name": "Securities and Exchange Board of India",
+      "acronym": "SEBI",
+      "category": "Capital Markets Regulator",
+      "established": "April 12, 1988 (administrative body); Statutory powers granted on January 30, 1992",
+      "governing_act": "Securities and Exchange Board of India Act, 1992 (SEBI Act, 1992)",
+      "headquarters": "Mumbai, Maharashtra",
+      "regional_offices": "Ahmedabad, Kolkata, Chennai, and New Delhi",
+      "first_chairman": "Dr. S.A. Dave (non-statutory) / G.V. Ramakrishna (post-statutory)",
+      "role": "Protects investor interests in securities, promotes the development of and regulates securities markets, stock exchanges, mutual funds, credit rating agencies, and depositories."
+    },
+    {
+      "id": "irdai",
+      "name": "Insurance Regulatory and Development Authority of India",
+      "acronym": "IRDAI",
+      "category": "Insurance Sector Regulator",
+      "established": "1999 (as an autonomous statutory body on April 19, 2000)",
+      "governing_act": "Insurance Regulatory and Development Authority Act, 1999",
+      "recommended_by": "R.N. Malhotra Committee on Reforms in the Insurance Sector (1994)",
+      "headquarters": "Hyderabad, Telangana (shifted from New Delhi in 2001)",
+      "composition": "10-member body (1 Chairman, 5 whole-time members, 4 part-time members appointed by GoI)",
+      "role": "Regulates, promotes, and ensures orderly growth of the insurance and re-insurance industries in India.",
+      "exam_tip": "Frequently asked trap: IRDAI headquarters is in HYDERABAD (Telangana), NOT Mumbai or Delhi!"
+    },
+    {
+      "id": "pfrda",
+      "name": "Pension Fund Regulatory and Development Authority",
+      "acronym": "PFRDA",
+      "category": "Pension Sector Regulator",
+      "established": "August 23, 2003 (statutory status effective February 1, 2014)",
+      "governing_act": "Pension Fund Regulatory and Development Authority Act, 2013",
+      "headquarters": "New Delhi",
+      "role": "Regulates and develops the pension sector in India, administers National Pension System (NPS) and Atal Pension Yojana (APY)."
+    },
+    {
+      "id": "ifsca",
+      "name": "International Financial Services Centres Authority",
+      "acronym": "IFSCA",
+      "category": "Unified Financial Regulator for IFSCs",
+      "established": "April 27, 2020",
+      "governing_act": "International Financial Services Centres Authority Act, 2019",
+      "headquarters": "GIFT City, Gandhinagar, Gujarat",
+      "role": "Unified regulator to develop and regulate financial products, services, and institutions in the International Financial Services Centres (IFSCs) in India (e.g. GIFT IFSC)."
+    },
+    {
+      "id": "nabard",
+      "name": "National Bank for Agriculture and Rural Development",
+      "acronym": "NABARD",
+      "category": "Apex DFI for Rural Development (AIFI)",
+      "established": "July 12, 1982",
+      "governing_act": "National Bank for Agriculture and Rural Development Act, 1981",
+      "recommended_by": "B. Sivaraman Committee (CRAFICARD - Committee to Review Arrangements for Institutional Credit for Agriculture and Rural Development)",
+      "headquarters": "Mumbai, Maharashtra",
+      "ownership": "100% Government of India (RBI divested its remaining shareholding to GoI)",
+      "key_funds_managed": "Rural Infrastructure Development Fund (RIDF), Long Term Irrigation Fund (LTIF), Micro Irrigation Fund (MIF)",
+      "supervisory_power": "Conducts statutory inspections of Regional Rural Banks (RRBs) and State/District Central Cooperative Banks under Section 35(6) of Banking Regulation Act 1949.",
+      "exam_tip": "NABARD was formed by merging Agricultural Credit Department (ACD) & Rural Planning and Credit Cell (RPCC) of RBI, and Agricultural Refinance and Development Corporation (ARDC)."
+    },
+    {
+      "id": "sidbi",
+      "name": "Small Industries Development Bank of India",
+      "acronym": "SIDBI",
+      "category": "Apex DFI for MSME Sector (AIFI)",
+      "established": "April 2, 1990",
+      "governing_act": "Small Industries Development Bank of India Act, 1989",
+      "headquarters": "Lucknow, Uttar Pradesh (Crucial exam fact)",
+      "original_status": "Wholly-owned subsidiary of IDBI, de-linked in 2000",
+      "major_shareholders": "State Bank of India (SBI), Government of India, LIC, NABARD",
+      "key_subsidiaries": "MUDRA (Micro Units Development & Refinance Agency), SIDBI Venture Capital Ltd, SMERA Ratings",
+      "role": "Principal financial institution for the promotion, financing, and development of the Micro, Small and Medium Enterprises (MSME) sector.",
+      "exam_tip": "High frequency PYQ trap: Headquarters is LUCKNOW (not Mumbai or New Delhi)!"
+    },
+    {
+      "id": "exim",
+      "name": "Export-Import Bank of India",
+      "acronym": "EXIM Bank",
+      "category": "Apex DFI for Foreign Trade (AIFI)",
+      "established": "January 1, 1982 (commenced operations March 1982)",
+      "governing_act": "Export-Import Bank of India Act, 1981",
+      "headquarters": "Mumbai, Maharashtra",
+      "ownership": "100% Government of India",
+      "role": "Principal financial institution for coordinating the working of institutions engaged in financing export and import trade of India, extends Lines of Credit (LoC) to foreign governments."
+    },
+    {
+      "id": "nhb",
+      "name": "National Housing Bank",
+      "acronym": "NHB",
+      "category": "Apex DFI for Housing Finance (AIFI)",
+      "established": "July 9, 1988",
+      "governing_act": "National Housing Bank Act, 1987",
+      "recommended_by": "High Level Group chaired by Dr. C. Rangarajan",
+      "headquarters": "New Delhi",
+      "ownership": "100% Government of India (RBI divested its entire 100% equity stake to GoI in March 2019)",
+      "regulatory_note": "Regulatory powers over Housing Finance Companies (HFCs) were transferred from NHB to RBI in August 2019 via the Finance Act (No. 2), 2019; NHB now acts purely as a refinancing and developmental institution.",
+      "exam_tip": "HFCs are now REGULATED by RBI, while NHB continues to provide refinancing and supervision assistance."
+    },
+    {
+      "id": "nabfid",
+      "name": "National Bank for Financing Infrastructure and Development",
+      "acronym": "NaBFID",
+      "category": "Apex Infrastructure DFI (5th AIFI)",
+      "established": "April 2021 (commenced operations late 2021)",
+      "governing_act": "National Bank for Financing Infrastructure and Development Act, 2021",
+      "headquarters": "Mumbai, Maharashtra",
+      "first_chairman": "K.V. Kamath",
+      "ownership": "100% Government of India initially (GoI shareholding will be brought down to 26% over time)",
+      "regulatory_status": "Regulated and supervised by RBI as an All-India Financial Institution (AIFI) under Sections 45L and 45N of RBI Act, 1934.",
+      "role": "Dedicated statutory Development Financial Institution (DFI) established to support long-term non-recourse infrastructure financing in India and develop the domestic bond and derivatives market."
+    },
+    {
+      "id": "ecgc",
+      "name": "Export Credit Guarantee Corporation of India",
+      "acronym": "ECGC",
+      "category": "Export Credit Insurer",
+      "established": "July 30, 1957 (originally Export Risks Insurance Corporation - ERIC)",
+      "nodal_ministry": "Ministry of Commerce and Industry",
+      "headquarters": "Mumbai, Maharashtra",
+      "ownership": "100% Government of India enterprise",
+      "role": "Provides credit risk insurance covers to Indian exporters against commercial and political risks in overseas markets, and guarantees to commercial banks against losses on export credit loans."
+    },
+    {
+      "id": "iba",
+      "name": "Indian Banks' Association",
+      "acronym": "IBA",
+      "category": "Industry Association",
+      "established": "September 26, 1946",
+      "headquarters": "Mumbai, Maharashtra",
+      "members": "Public Sector Banks, Private Sector Banks, Foreign Banks, Co-operative Banks, and Regional Rural Banks",
+      "role": "Voluntary representative body of Indian banking management. Plays a central role in industry wage negotiations (Bipartite Settlements with bank unions), standardization of banking practices, and policy recommendations to RBI/MoF."
+    }
+  ],
+  "exam_traps": [
+    {
+      "trap": "Thinking SIDBI headquarters is located in Mumbai.",
+      "fact": "SIDBI headquarters is in LUCKNOW, Uttar Pradesh."
+    },
+    {
+      "trap": "Believing IRDAI headquarters is in New Delhi.",
+      "fact": "IRDAI headquarters was shifted to HYDERABAD, Telangana in 2001."
+    },
+    {
+      "trap": "Assuming NHB still regulates Housing Finance Companies (HFCs).",
+      "fact": "Regulation of HFCs was transferred to the RBI in August 2019. NHB now acts solely as a refinancing institution."
+    },
+    {
+      "trap": "Believing RBI owns 100% of NABARD and NHB.",
+      "fact": "Government of India owns 100% of both NABARD and NHB. RBI transferred/divested its entire equity stake in both to the Government of India."
+    }
+  ]
+}

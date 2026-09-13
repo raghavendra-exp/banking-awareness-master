@@ -1,0 +1,112 @@
+{
+  "section": "Key Banking & Financial Appointments",
+  "metadata": {
+    "source": "Appointments Committee of the Cabinet (ACC), RBI, SEBI, MoF DFS",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "High (4-7 Questions across Mains shifts)"
+  },
+  "appointments": [
+    {
+      "id": "rbi_governor",
+      "position": "Governor, Reserve Bank of India",
+      "current_incumbent": "Shaktikanta Das (25th Governor, assumed office Dec 12, 2018; granted extensions)",
+      "term": "Initial term up to 3 years; eligible for extension (max 5 years per statutory provision)",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC) headed by the Prime Minister",
+      "historical_milestones": {
+        "first_governor": "Sir Osborne Smith (1935-1937)",
+        "first_indian_governor": "Sir C.D. Deshmukh (1943-1949)",
+        "longest_serving": "Sir Benegal Rama Rau (1949-1957)",
+        "shortest_serving": "Amitav Ghosh (1985 - 21 days)",
+        "only_pm_governor": "Dr. Manmohan Singh (1982-1985)"
+      }
+    },
+    {
+      "id": "rbi_deputy_governors",
+      "position": "Deputy Governors, Reserve Bank of India",
+      "statutory_limit": "Not more than 4 Deputy Governors at any given time (Section 8(1)(a) of RBI Act)",
+      "convention": "Conventionally: 2 promoted internally from RBI executive directors, 1 commercial banker, and 1 professional economist",
+      "current_incumbents": [
+        { "name": "Michael Debabrata Patra", "portfolio": "Monetary Policy Department, Economic & Policy Research" },
+        { "name": "M. Rajeshwar Rao", "portfolio": "Regulation, Risk Monitoring, Legal" },
+        { "name": "T. Rabi Sankar", "portfolio": "Payments & Settlement, FinTech, Information Technology, Currency Management" },
+        { "name": "Swaminathan Janakiraman", "portfolio": "Supervision, Financial Inclusion, Inspection" }
+      ],
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "sbi_chairman",
+      "position": "Chairman, State Bank of India (SBI)",
+      "current_incumbent": "Challa Sreenivasulu Setty (CS Setty, succeeded Dinesh Kumar Khara)",
+      "headquarters": "State Bank Bhavan, Madame Cama Road, Nariman Point, Mumbai",
+      "appointing_authority": "Recommended by Financial Services Institutions Bureau (FSIB) and approved by ACC"
+    },
+    {
+      "id": "sebi_chairperson",
+      "position": "Chairperson, Securities and Exchange Board of India (SEBI)",
+      "current_incumbent": "Madhabi Puri Buch (first woman chairperson and first private-sector professional to head SEBI)",
+      "headquarters": "SEBI Bhavan, Bandra Kurla Complex (BKC), Mumbai",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "irdai_chairman",
+      "position": "Chairman, Insurance Regulatory and Development Authority of India (IRDAI)",
+      "current_incumbent": "Debasish Panda (former Financial Services Secretary)",
+      "headquarters": "Sy No. 115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad",
+      "term": "5 years or till age 65 years, whichever is earlier",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "pfrda_chairman",
+      "position": "Chairman, Pension Fund Regulatory and Development Authority (PFRDA)",
+      "current_incumbent": "Deepak Mohanty (former Executive Director and MPC member, RBI)",
+      "headquarters": "B-14/A, Chatrapati Shivaji Niketan, Qutab Institutional Area, New Delhi",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "nabard_chairman",
+      "position": "Chairman, National Bank for Agriculture and Rural Development (NABARD)",
+      "current_incumbent": "Shaji K.V.",
+      "headquarters": "Plot C-24, 'G' Block, Bandra Kurla Complex, Bandra (East), Mumbai",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "sidbi_cmd",
+      "position": "Chairman & Managing Director (CMD), Small Industries Development Bank of India (SIDBI)",
+      "current_incumbent": "Manoj Mittal (succeeded S. Ramann)",
+      "headquarters": "SIDBI Tower, 15, Ashok Marg, Lucknow, Uttar Pradesh",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "exim_md",
+      "position": "Managing Director, Export-Import Bank of India (EXIM Bank)",
+      "current_incumbent": "Harsha Bangari",
+      "headquarters": "Center One Building, World Trade Centre Complex, Cuffe Parade, Mumbai",
+      "appointing_authority": "Appointments Committee of the Cabinet (ACC)"
+    },
+    {
+      "id": "nabfid_chairman",
+      "position": "Chairman, National Bank for Financing Infrastructure and Development (NaBFID)",
+      "current_incumbent": "K.V. Kamath (veteran banker, first President of New Development Bank / BRICS Bank)",
+      "headquarters": "Mumbai, Maharashtra",
+      "managing_director": "Rajkiran Rai G. (former MD & CEO of Union Bank of India)"
+    },
+    {
+      "id": "iba_chairman",
+      "position": "Chairman, Indian Banks' Association (IBA)",
+      "current_incumbent": "M.V. Rao (MD & CEO of Central Bank of India)",
+      "headquarters": "World Trade Centre, Cuffe Parade, Mumbai"
+    },
+    {
+      "id": "npci_md_ceo",
+      "position": "MD & CEO, National Payments Corporation of India (NPCI)",
+      "current_incumbent": "Dilip Asbe",
+      "headquarters": "1001A, The Capital, B Wing, 10th Floor, Bandra Kurla Complex, Bandra (East), Mumbai"
+    },
+    {
+      "id": "fsib_chairman",
+      "position": "Chairman, Financial Services Institutions Bureau (FSIB)",
+      "current_incumbent": "Bhanu Pratap Sharma (former DoPT Secretary)",
+      "role": "Autonomous government body responsible for screening and recommending whole-time directors and non-executive chairpersons on boards of PSBs, Public Sector Insurance Companies, and Financial Institutions."
+    }
+  ]
+}

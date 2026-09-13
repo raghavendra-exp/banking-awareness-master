@@ -1,0 +1,72 @@
+{
+  "section": "Standard Full-Length Mock Test Presets",
+  "metadata": {
+    "source": "Standard Exam Simulations for SBI Clerk, IBPS Clerk, and RRB OA Mains",
+    "last_verified": "2026-03-01"
+  },
+  "mock_tests": [
+    {
+      "id": "mock_sbi_clerk_01",
+      "exam_type": "sbi_clerk_mains",
+      "title": "SBI Clerk (Junior Associate) Mains - Full Mock 1",
+      "duration_minutes": 35,
+      "total_questions": 50,
+      "total_marks": 50,
+      "marking_scheme": {
+        "correct": 1.0,
+        "incorrect": -0.25,
+        "unattempted": 0.0
+      },
+      "sectional_cutoff": 0,
+      "target_benchmark_score": 36.0,
+      "difficulty_breakdown": {
+        "easy": 18,
+        "moderate": 24,
+        "exam_trap": 8
+      },
+      "description": "Exact replica of the General/Financial Awareness section of SBI Clerk Mains, featuring RBI circulars, latest schemes, payment limits, and tricky factual traps."
+    },
+    {
+      "id": "mock_ibps_clerk_01",
+      "exam_type": "ibps_clerk_mains",
+      "title": "IBPS Clerk (Customer Service Associate) Mains - Full Mock 1",
+      "duration_minutes": 35,
+      "total_questions": 50,
+      "total_marks": 50,
+      "marking_scheme": {
+        "correct": 1.0,
+        "incorrect": -0.25,
+        "unattempted": 0.0
+      },
+      "sectional_cutoff": 15.0,
+      "target_benchmark_score": 35.0,
+      "difficulty_breakdown": {
+        "easy": 20,
+        "moderate": 22,
+        "exam_trap": 8
+      },
+      "description": "Standard IBPS Clerk Mains simulation with mandatory sectional cutoff (15.0 Marks). Tests precision under time pressure and elimination technique."
+    },
+    {
+      "id": "mock_rrb_oa_01",
+      "exam_type": "rrb_oa_mains",
+      "title": "IBPS RRB Office Assistant (Multipurpose) Mains - Full Mock 1",
+      "duration_minutes": 20,
+      "total_questions": 40,
+      "total_marks": 40,
+      "marking_scheme": {
+        "correct": 1.0,
+        "incorrect": -0.25,
+        "unattempted": 0.0
+      },
+      "sectional_cutoff": 13.0,
+      "target_benchmark_score": 30.0,
+      "difficulty_breakdown": {
+        "easy": 20,
+        "moderate": 15,
+        "exam_trap": 5
+      },
+      "description": "Specialized rural banking simulation for RRB Office Assistant Mains with emphasis on NABARD, KCC, Priority Sector Lending, RRBs, and financial inclusion."
+    }
+  ]
+}

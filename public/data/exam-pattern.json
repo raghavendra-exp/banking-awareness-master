@@ -1,0 +1,88 @@
+{
+  "section": "Exam Patterns & Strategic Time Allocation",
+  "metadata": {
+    "source": "Official Notifications of SBI, IBPS & IBPS RRB",
+    "last_verified": "2026-03-01"
+  },
+  "exams": [
+    {
+      "id": "sbi_clerk_mains",
+      "name": "SBI Clerk (Junior Associate) Mains",
+      "conducting_body": "State Bank of India (SBI)",
+      "target_section": "General / Financial Awareness",
+      "total_questions": 50,
+      "total_marks": 50,
+      "sectional_time_minutes": 35,
+      "marking_scheme": {
+        "correct_answer": "+1.00 Mark",
+        "incorrect_answer": "-0.25 Mark (1/4th negative marking)",
+        "unattempted": "0.00 Marks"
+      },
+      "sectional_cutoff": "No sectional cutoffs prescribed by SBI; only overall aggregate cutoff applies.",
+      "ideal_attempt_strategy": {
+        "recommended_attempts": "38 - 44 questions",
+        "safe_accuracy": "90%+",
+        "target_score": "35+ Marks",
+        "time_management": [
+          { "phase": "Round 1 (00:00 - 15:00 min)", "strategy": "Direct Factual Sweep: Read questions and instantly mark 100% known questions (Target: 25-30 Qs answered)." },
+          { "phase": "Round 2 (15:00 - 28:00 min)", "strategy": "Analytical / Elimination Sweep: Attack 50-50 eliminated questions and current affairs where memory recall is required." },
+          { "phase": "Round 3 (28:00 - 35:00 min)", "strategy": "Review Marked for Review & Negative Risk Assessment: Strictly avoid wild guesses on unknown facts." }
+        ]
+      }
+    },
+    {
+      "id": "ibps_clerk_mains",
+      "name": "IBPS Clerk (Customer Service Associate) Mains",
+      "conducting_body": "Institute of Banking Personnel Selection (IBPS)",
+      "target_section": "General / Financial Awareness",
+      "total_questions": 50,
+      "total_marks": 50,
+      "sectional_time_minutes": 35,
+      "marking_scheme": {
+        "correct_answer": "+1.00 Mark",
+        "incorrect_answer": "-0.25 Mark",
+        "unattempted": "0.00 Marks"
+      },
+      "sectional_cutoff": "YES. IBPS applies mandatory sectional cutoffs (typically 12 - 18 marks depending on category and state).",
+      "ideal_attempt_strategy": {
+        "recommended_attempts": "36 - 42 questions",
+        "safe_accuracy": "92%+",
+        "target_score": "34+ Marks",
+        "time_management": [
+          { "phase": "Phase 1 (15 min)", "strategy": "Clear the sectional cutoff immediately by nailing guaranteed Tier-1 banking facts and schemes." },
+          { "phase": "Phase 2 (15 min)", "strategy": "Maximise score on recent RBI circulars, payment systems, and financial current affairs." },
+          { "phase": "Phase 3 (5 min)", "strategy": "Recheck doubtful questions and secure high percentile." }
+        ]
+      }
+    },
+    {
+      "id": "rrb_oa_mains",
+      "name": "IBPS RRB Office Assistant (Multipurpose) Mains",
+      "conducting_body": "IBPS (Regional Rural Banks)",
+      "target_section": "General Awareness (with strong Rural Banking emphasis)",
+      "total_questions": 40,
+      "total_marks": 40,
+      "sectional_time_minutes": "Composite Time (Recommended: 15 - 18 minutes)",
+      "marking_scheme": {
+        "correct_answer": "+1.00 Mark",
+        "incorrect_answer": "-0.25 Mark",
+        "unattempted": "0.00 Marks"
+      },
+      "sectional_cutoff": "YES. Mandatory sectional cutoff applies in RRB Mains.",
+      "ideal_attempt_strategy": {
+        "recommended_attempts": "30 - 35 questions",
+        "safe_accuracy": "90%+",
+        "target_score": "28+ Marks",
+        "time_management": [
+          { "phase": "Direct Sprint (15 minutes max)", "strategy": "Because RRB OA has a composite 2-hour duration for all 5 sections, finish Financial Awareness in 15-18 minutes to save critical time for Quantitative Aptitude and Reasoning puzzles." }
+        ]
+      },
+      "special_focus_areas": [
+        "NABARD role, structure, and refinance schemes (RIDF, LTIF)",
+        "RRB capital shareholding (50% Centre : 35% Sponsor Bank : 15% State Govt)",
+        "Agricultural Priority Sector targets (18% overall, 10% small/marginal farmers)",
+        "Kisan Credit Card (KCC), PM-KISAN, PMFBY, and SHG bank linkage"
+      ]
+    }
+  ]
+}

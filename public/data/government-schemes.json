@@ -1,0 +1,178 @@
+{
+  "section": "Government Schemes & Financial Inclusion Initiatives",
+  "metadata": {
+    "source": "Ministry of Finance (DFS), MoA&FW, MoHUA, PFRDA, NABARD, SIDBI",
+    "last_verified": "2026-03-01",
+    "exam_weightage": "Extremely High (8-14 Questions across Mains shifts)"
+  },
+  "schemes": [
+    {
+      "id": "pmjdy",
+      "name": "Pradhan Mantri Jan-Dhan Yojana (PMJDY)",
+      "launch_date": "August 28, 2014 (announced on August 15, 2014)",
+      "slogan": "Mera Khata, Bhagya Vidhata",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "eligibility": "Any individual above 10 years of age (minor account operated by guardian)",
+      "account_type": "Basic Savings Bank Deposit (BSBD) Account with zero minimum balance",
+      "benefits": {
+        "rupay_card": "Free RuPay debit card with in-built accidental insurance",
+        "accidental_insurance": "₹2 Lakh for new accounts opened after August 28, 2018 (₹1 Lakh for accounts opened before August 28, 2018)",
+        "condition_for_claim": "RuPay card must have been used at least once in 90 days prior to the accident date",
+        "overdraft_facility": "Up to ₹10,000 (raised from ₹5,000 in 2018); OD up to ₹2,000 without any conditions",
+        "overdraft_age_limit": "18 to 65 years (revised from 18 to 60 years in 2018)",
+        "cheque_book": "Not mandatory; can be issued if minimum balance conditions are maintained"
+      },
+      "exam_trap": "Overdraft age limit was increased from 18-60 to 18-65 years, and max OD was doubled from ₹5,000 to ₹10,000. Accidental cover is ₹2 Lakh for accounts opened after Aug 28, 2018."
+    },
+    {
+      "id": "pmjjby",
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "launch_date": "May 9, 2015 (effective from June 1, 2015)",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "administering_entities": "Life Insurance Corporation (LIC) and other life insurance companies partnering with banks",
+      "entry_age": "18 to 50 years",
+      "maximum_risk_cover_age": "Up to age 55 years (subject to regular annual premium payment)",
+      "premium": "₹436 per annum (revised from ₹330/year effective June 1, 2022) auto-debited in one installment from bank account",
+      "risk_coverage": "₹2,00,000 (₹2 Lakh) in case of death of the insured due to ANY reason (natural or accidental)",
+      "lien_period": "30 days for new enrollments (claims due to accident are covered from day one)",
+      "exam_trap": "Entry age is 18-50, but risk cover continues till age 55. Covers death due to ANY reason (unlike PMSBY which covers only accidental death/disability). Current annual premium is ₹436."
+    },
+    {
+      "id": "pmsby",
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "launch_date": "May 9, 2015 (effective from June 1, 2015)",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "administering_entities": "General insurance companies partnering with banks",
+      "entry_age": "18 to 70 years",
+      "maximum_risk_cover_age": "Up to age 70 years",
+      "premium": "₹20 per annum (revised from ₹12/year effective June 1, 2022) auto-debited annually",
+      "benefits": {
+        "accidental_death": "₹2,00,000 (₹2 Lakh)",
+        "permanent_total_disability": "₹2,00,000 (loss of both eyes or loss of use of both hands or feet)",
+        "permanent_partial_disability": "₹1,00,000 (loss of sight of one eye or loss of use of one hand or foot)"
+      },
+      "exam_trap": "Entry age is up to 70 years (higher than PMJJBY's 50 years). Premium is ₹20 per annum. Covers ONLY accidental death and permanent disability, NOT natural death."
+    },
+    {
+      "id": "apy",
+      "name": "Atal Pension Yojana (APY)",
+      "launch_date": "May 9, 2015 (replaced Swavalamban Scheme)",
+      "nodal_agency": "Pension Fund Regulatory and Development Authority (PFRDA)",
+      "entry_age": "18 to 40 years",
+      "vesting_age": "60 years (pension starts after attaining age 60)",
+      "guaranteed_pension": "₹1,000, ₹2,00,00, ₹3,000, ₹4,000, or ₹5,000 per month based on contribution",
+      "government_guarantee": "Central Government guarantees the minimum pension amount in case of fund underperformance",
+      "nominee_benefit": "On death of subscriber, spouse receives same pension for life. On death of both, accumulated corpus is returned to the nominee.",
+      "taxpayer_restriction": "From October 1, 2022, any citizen who is or has been an income-tax payer is NOT eligible to join APY.",
+      "exam_trap": "Entry age is strictly 18 to 40 years. Taxpayers are banned since Oct 1, 2022. Minimum contribution period is 20 years (since entry is max 40 and pension begins at 60)."
+    },
+    {
+      "id": "pmmy",
+      "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "launch_date": "April 8, 2015",
+      "slogan": "Funding the Unfunded",
+      "implementing_agency": "Micro Units Development and Refinance Agency (MUDRA) Bank (subsidiary of SIDBI)",
+      "target_sector": "Non-Corporate Small Business Sector (NCSBS) / micro enterprises in manufacturing, trading, and services",
+      "categories": [
+        { "category": "Shishu", "loan_amount": "Covering loans up to ₹50,000", "focus": "Startups and micro entrepreneurs" },
+        { "category": "Kishore", "loan_amount": "Covering loans above ₹50,000 and up to ₹5,00,000 (₹5 Lakh)", "focus": "Established units buying equipment" },
+        { "category": "Tarun", "loan_amount": "Covering loans above ₹5,00,000 and up to ₹10,00,000 (₹10 Lakh)", "focus": "Growth and business expansion" },
+        { "category": "Tarun Plus (Announced in Budget 2024)", "loan_amount": "Covering loans above ₹10,00,000 and up to ₹20,00,000 (₹20 Lakh) for entrepreneurs who previously availed and successfully repaid Tarun loans", "focus": "Scaling up micro-enterprises" }
+      ],
+      "collateral": "NO collateral or third-party guarantee required for MUDRA loans up to ₹10 Lakh (covered under Credit Guarantee Fund for Micro Units - CGFMU)",
+      "exam_trap": "MUDRA does NOT lend directly to individuals. It refinances commercial banks, RRBs, SFBs, MFIs, and NBFCs. Budget 2024 introduced Tarun Plus raising limit to ₹20 Lakh."
+    },
+    {
+      "id": "stand_up_india",
+      "name": "Stand-Up India Scheme",
+      "launch_date": "April 5, 2016 (extended up to 2025)",
+      "nodal_agency": "Department of Financial Services (DFS), managed by SIDBI and NABARD",
+      "mandate": "Each bank branch must facilitate bank loans between ₹10 Lakh and ₹1 Crore to at least one SC or ST borrower and at least one Woman borrower for setting up a greenfield enterprise.",
+      "eligible_sectors": "Manufacturing, services, agri-allied activities, or the trading sector",
+      "enterprise_type": "Greenfield enterprise (first time venture)",
+      "non_individual_shareholding": "At least 51% of shareholding and controlling stake must be held by either SC/ST or woman entrepreneur",
+      "margin_money": "Up to 15% (can be provided in convergence with eligible Central/State schemes)",
+      "exam_trap": "Mandate is AT LEAST ONE SC/ST and AT LEAST ONE Woman borrower PER BANK BRANCH. Loan range is ₹10 Lakh to ₹1 Crore. Applicable ONLY to greenfield (new) ventures."
+    },
+    {
+      "id": "pm_svanidhi",
+      "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+      "launch_date": "June 1, 2020",
+      "nodal_ministry": "Ministry of Housing and Urban Affairs (MoHUA)",
+      "implementing_agency": "Small Industries Development Bank of India (SIDBI)",
+      "target_group": "Street vendors vending in urban areas on or before March 24, 2020",
+      "tranches": [
+        { "tranche": "First Tranche", "amount": "Working capital loan up to ₹10,000 (tenor 1 year)" },
+        { "tranche": "Second Tranche", "amount": "Up to ₹20,000 upon timely repayment of first tranche" },
+        { "tranche": "Third Tranche", "amount": "Up to ₹50,000 upon timely repayment of second tranche" }
+      ],
+      "interest_subvention": "7% per annum credited into borrower's bank account quarterly on timely repayment",
+      "digital_incentive": "Cashback up to ₹1,200 per year (₹100/month) for digital transactions",
+      "collateral": "Completely collateral-free micro-credit",
+      "exam_trap": "PM SVANidhi is under Ministry of Housing and Urban Affairs (NOT Finance Ministry), but implemented through SIDBI. Offers 7% interest subvention and up to ₹50,000 in third tranche."
+    },
+    {
+      "id": "kcc",
+      "name": "Kisan Credit Card (KCC) Scheme",
+      "introduced": "August 1998 (formulated by NABARD on recommendations of R.V. Gupta Committee)",
+      "purpose": "Adequate and timely credit support from banking system under single window for agricultural operations and allied activities",
+      "credit_limit": "Short term crop loan up to ₹3,00,000 (₹3 Lakh) at nominal 7% interest per annum",
+      "interest_subvention": "2% interest subvention to banks + 3% prompt repayment incentive (PRI) to farmers, resulting in effective interest rate of 4% per annum",
+      "allied_sectors_extension": "Extended to Animal Husbandry, Dairy, and Fisheries in 2018-19 (limit up to ₹2 Lakh within overall ₹3 Lakh ceiling)",
+      "validity": "Card valid for 5 years subject to annual review",
+      "collateral_free_limit": "Collateral-free agricultural loans enhanced from ₹1 Lakh to ₹1.60 Lakh"
+    },
+    {
+      "id": "pm_kisan",
+      "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "launch_date": "February 24, 2019 (effective retrospectively from December 1, 2018)",
+      "nodal_ministry": "Ministry of Agriculture and Farmers Welfare",
+      "nature_of_support": "Central Sector Scheme (100% funded by Government of India)",
+      "financial_benefit": "₹6,000 per year transferred directly into bank accounts of landholder farmer families",
+      "installments": "3 equal installments of ₹2,000 every 4 months (April-July, August-November, December-March)",
+      "eligibility": "All landholding farmer families having cultivable landholding in their names (subject to exclusion criteria like institutional landholders, income taxpayers, constitutional post holders)",
+      "exam_trap": "PM-KISAN is 100% funded by Central Govt. Benefit is ₹6,000 in 3 installments of ₹2,000 via DBT. Excludes income-tax payers and institutional landholders."
+    },
+    {
+      "id": "ssy",
+      "name": "Sukanya Samriddhi Yojana (SSY)",
+      "launch_date": "January 22, 2015 (launched under Beti Bachao Beti Padhao campaign in Panipat, Haryana)",
+      "nodal_department": "Department of Posts & Department of Economic Affairs",
+      "account_opening_age": "From birth till girl child attains 10 years of age",
+      "number_of_accounts": "Maximum 1 account per girl child, and maximum 2 accounts per family (exception: twins/triplets)",
+      "deposit_limits": "Minimum ₹250 per financial year; Maximum ₹1,50,000 (₹1.50 Lakh) per financial year",
+      "deposit_tenor": "Deposits can be made for maximum 15 years from account opening date",
+      "maturity_period": "Matures 21 years from account opening or on marriage of the girl child after attaining 18 years",
+      "tax_treatment": "Exempt-Exempt-Exempt (EEE) status under Section 80C of Income Tax Act",
+      "partial_withdrawal": "Up to 50% of balance at the end of preceding financial year allowed after age 18 or passing 10th standard for higher education"
+    },
+    {
+      "id": "mssc",
+      "name": "Mahila Samman Savings Certificate (MSSC)",
+      "introduced": "Union Budget 2023-24 (effective April 1, 2023 to March 31, 2025)",
+      "tenor": "Fixed 2-year tenure",
+      "interest_rate": "7.50% per annum compounded quarterly",
+      "investment_limit": "Minimum ₹1,000; Maximum ₹2,00,000 (₹2 Lakh) in name of a woman or girl child",
+      "partial_withdrawal": "Up to 40% of balance allowed after one year from opening date",
+      "exam_trap": "Tenure is strictly 2 years. Maximum investment is ₹2 Lakh. Interest rate is fixed at 7.5% compounded quarterly."
+    }
+  ],
+  "exam_traps": [
+    {
+      "trap": "Believing PMJDY provides ₹5,000 overdraft to everyone automatically.",
+      "fact": "Maximum OD is ₹10,000 (age 18-65). Only OD up to ₹2,000 is without conditions. The account must be operated satisfactorily for 6 months."
+    },
+    {
+      "trap": "Thinking PMSBY covers natural death.",
+      "fact": "PMSBY covers ONLY accidental death and permanent disability. PMJJBY covers death due to ANY reason."
+    },
+    {
+      "trap": "Confusing APY entry age with PMJJBY.",
+      "fact": "APY entry age is 18 to 40 years. PMJJBY entry age is 18 to 50 years. PMSBY entry age is 18 to 70 years."
+    },
+    {
+      "trap": "Assuming KCC crop loan limit is ₹5 Lakh.",
+      "fact": "Standard KCC crop loan limit eligible for interest subvention is ₹3 Lakh (at 7% base, 4% with prompt repayment)."
+    }
+  ]
+}
