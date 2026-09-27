@@ -117,15 +117,15 @@ export default function BaselCapitalPyramid({ lang = 'en' }) {
             <h3 className="text-xl font-bold">{pcaStatus.title}</h3>
             <p className="text-xs text-slate-300 mt-1">{pcaStatus.description}</p>
           </div>
-          <div className="flex items-center gap-6">
-            <div className="text-right">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
+            <div className="text-left md:text-right">
               <div className="text-xs text-slate-400 uppercase font-semibold">Bank CRAR / CAR</div>
-              <div className="text-4xl font-extrabold font-mono text-emerald-400">{crar}%</div>
+              <div className="text-3xl sm:text-4xl font-extrabold font-mono text-emerald-400">{crar}%</div>
               <div className="text-[11px] text-slate-300">Min 11.5% with CCB</div>
             </div>
-            <div className="text-right pl-6 border-l border-slate-800">
+            <div className="text-left md:text-right pl-4 sm:pl-6 border-l border-slate-800">
               <div className="text-xs text-slate-400 uppercase font-semibold">Tier 1 Ratio</div>
-              <div className="text-2xl font-bold font-mono text-indigo-300">{tier1Ratio}%</div>
+              <div className="text-xl sm:text-2xl font-bold font-mono text-indigo-300">{tier1Ratio}%</div>
               <div className="text-[11px] text-slate-300">Min 7.0% (RBI)</div>
             </div>
           </div>
@@ -133,33 +133,33 @@ export default function BaselCapitalPyramid({ lang = 'en' }) {
       </div>
 
       {/* The Visual Capital Pyramid Stack */}
-      <div className="max-w-2xl mx-auto space-y-2 mb-8 text-center">
+      <div className="max-w-2xl mx-auto space-y-2 mb-8 text-center px-1 sm:px-0">
         {/* Top: CET 1 */}
-        <div className="p-4 bg-emerald-600 text-white rounded-t-2xl shadow-sm border border-emerald-500 mx-16">
-          <div className="text-xs font-bold uppercase tracking-wider">Common Equity Tier 1 (CET1)</div>
-          <div className="text-lg font-black font-mono">5.50% Min of RWA</div>
-          <div className="text-[11px] text-emerald-100 mt-0.5">Paid-up equity shares, statutory reserves, retained earnings</div>
+        <div className="p-3.5 sm:p-4 bg-emerald-600 text-white rounded-t-2xl shadow-sm border border-emerald-500 mx-3 sm:mx-16">
+          <div className="text-[11px] sm:text-xs font-bold uppercase tracking-wider">Common Equity Tier 1 (CET1)</div>
+          <div className="text-base sm:text-lg font-black font-mono">5.50% Min of RWA</div>
+          <div className="text-[10px] sm:text-[11px] text-emerald-100 mt-0.5">Paid-up equity shares, statutory reserves, retained earnings</div>
         </div>
 
         {/* Level 2: CCB */}
-        <div className="p-3 bg-emerald-500 text-white shadow-sm border border-emerald-400 mx-10">
-          <div className="text-xs font-bold uppercase tracking-wider">Capital Conservation Buffer (CCB)</div>
-          <div className="text-base font-black font-mono">2.50% in CET1 Capital</div>
-          <div className="text-[11px] text-emerald-50">Builds capital cushion during normal times to absorb distress</div>
+        <div className="p-3 bg-emerald-500 text-white shadow-sm border border-emerald-400 mx-2 sm:mx-10">
+          <div className="text-[11px] sm:text-xs font-bold uppercase tracking-wider">Capital Conservation Buffer (CCB)</div>
+          <div className="text-sm sm:text-base font-black font-mono">2.50% in CET1 Capital</div>
+          <div className="text-[10px] sm:text-[11px] text-emerald-50">Builds capital cushion during normal times to absorb distress</div>
         </div>
 
         {/* Level 3: AT1 */}
-        <div className="p-3 bg-bank-600 text-white shadow-sm border border-bank-500 mx-5">
-          <div className="text-xs font-bold uppercase tracking-wider">Additional Tier 1 (AT1)</div>
-          <div className="text-base font-black font-mono">Up to 1.50% of RWA</div>
-          <div className="text-[11px] text-bank-100">Perpetual Non-Cumulative Preference Shares & PDI</div>
+        <div className="p-3 bg-bank-600 text-white shadow-sm border border-bank-500 mx-1 sm:mx-5">
+          <div className="text-[11px] sm:text-xs font-bold uppercase tracking-wider">Additional Tier 1 (AT1)</div>
+          <div className="text-sm sm:text-base font-black font-mono">Up to 1.50% of RWA</div>
+          <div className="text-[10px] sm:text-[11px] text-bank-100">Perpetual Non-Cumulative Preference Shares & PDI</div>
         </div>
 
         {/* Base: Tier 2 */}
-        <div className="p-4 bg-indigo-700 text-white rounded-b-2xl shadow-sm border border-indigo-600">
-          <div className="text-xs font-bold uppercase tracking-wider">Tier 2 Capital (Gone-Concern Capital)</div>
-          <div className="text-base font-black font-mono">Up to 2.00% of RWA</div>
-          <div className="text-[11px] text-indigo-100">Subordinated debt bonds, revaluation reserves, standard asset provisions</div>
+        <div className="p-3.5 sm:p-4 bg-indigo-700 text-white rounded-b-2xl shadow-sm border border-indigo-600 mx-0">
+          <div className="text-[11px] sm:text-xs font-bold uppercase tracking-wider">Tier 2 Capital (Gone-Concern Capital)</div>
+          <div className="text-sm sm:text-base font-black font-mono">Up to 2.00% of RWA</div>
+          <div className="text-[10px] sm:text-[11px] text-indigo-100">Subordinated debt bonds, revaluation reserves, standard asset provisions</div>
         </div>
       </div>
 

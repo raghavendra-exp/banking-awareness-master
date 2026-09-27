@@ -150,37 +150,37 @@ export default function NpaLifecycleVisualizer({ lang = 'en' }) {
           onChange={(e) => setCurrentDay(parseInt(e.target.value))}
           className="w-full h-3 bg-slate-200 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-rose-600"
         />
-        <div className="flex justify-between text-[11px] text-slate-400 mt-2 font-mono">
-          <span>Day 0 (Standard)</span>
-          <span>Day 30 (SMA-0)</span>
-          <span>Day 60 (SMA-1)</span>
-          <span className="font-bold text-rose-500">Day 90 (NPA Trigger)</span>
-          <span>Day 455 (Doubtful D1)</span>
+        <div className="flex justify-between text-[10px] sm:text-[11px] text-slate-400 mt-2 font-mono">
+          <span>Day 0 <span className="hidden sm:inline">(Standard)</span></span>
+          <span>Day 30</span>
+          <span>Day 60</span>
+          <span className="font-bold text-rose-500">Day 90 (NPA)</span>
+          <span>Day 455+</span>
         </div>
       </div>
 
       {/* Live Stage Classification Card */}
-      <div className={`p-6 rounded-2xl border-2 ${stage.borderColor} bg-white dark:bg-slate-800/80 shadow-sm mb-8 transition-all duration-200`}>
+      <div className={`p-4 sm:p-6 rounded-2xl border-2 ${stage.borderColor} bg-white dark:bg-slate-800/80 shadow-sm mb-8 transition-all duration-200`}>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-700">
           <div>
             <span className={`inline-block px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider text-white ${stage.color} mb-2`}>
               {stage.code}
             </span>
-            <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
+            <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
               {stage.title}
             </h3>
-            <div className="text-sm font-medium text-slate-500 mt-0.5">{stage.status}</div>
+            <div className="text-xs sm:text-sm font-medium text-slate-500 mt-0.5">{stage.status}</div>
           </div>
-          <div className="flex gap-4">
-            <div className="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl text-center border border-slate-200 dark:border-slate-800 min-w-[120px]">
-              <div className="text-[11px] text-slate-400 uppercase font-semibold">Secured Provision</div>
-              <div className="text-xl font-bold text-slate-900 dark:text-white font-mono mt-0.5">
+          <div className="grid grid-cols-2 gap-2 sm:gap-4 w-full sm:w-auto">
+            <div className="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl text-center border border-slate-200 dark:border-slate-800">
+              <div className="text-[10px] sm:text-[11px] text-slate-400 uppercase font-semibold">Secured Provision</div>
+              <div className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white font-mono mt-0.5">
                 {stage.provisionSecured}
               </div>
             </div>
-            <div className="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl text-center border border-slate-200 dark:border-slate-800 min-w-[120px]">
-              <div className="text-[11px] text-slate-400 uppercase font-semibold">Unsecured Provision</div>
-              <div className="text-xl font-bold text-rose-600 dark:text-rose-400 font-mono mt-0.5">
+            <div className="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl text-center border border-slate-200 dark:border-slate-800">
+              <div className="text-[10px] sm:text-[11px] text-slate-400 uppercase font-semibold">Unsecured Provision</div>
+              <div className="text-lg sm:text-xl font-bold text-rose-600 dark:text-rose-400 font-mono mt-0.5">
                 {stage.provisionUnsecured}
               </div>
             </div>
@@ -203,14 +203,14 @@ export default function NpaLifecycleVisualizer({ lang = 'en' }) {
       </div>
 
       {/* Recovery Pathways Switcher */}
-      <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
         <h4 className="text-base font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
           <Scale className="w-5 h-5 text-bank-600" />
           {lang === 'hi' ? 'एनपीए वसूली के वैधानिक मार्ग (Recovery Frameworks)' : 'NPA Recovery & Resolution Pathways'}
         </h4>
 
         {/* Pathway Tabs */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 mb-6">
           {Object.keys(recoveryPathways).map((key) => {
             const path = recoveryPathways[key];
             const isSelected = selectedPathway === key;
@@ -231,12 +231,12 @@ export default function NpaLifecycleVisualizer({ lang = 'en' }) {
         </div>
 
         {/* Selected Pathway Details */}
-        <div className="p-5 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
-          <div className="flex items-center justify-between mb-2">
-            <div className="font-bold text-base text-slate-900 dark:text-white">
+        <div className="p-4 sm:p-5 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+            <div className="font-bold text-sm sm:text-base text-slate-900 dark:text-white">
               {recoveryPathways[selectedPathway].name}
             </div>
-            <span className="text-xs px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-md font-semibold">
+            <span className="text-xs px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-md font-semibold self-start sm:self-auto">
               {recoveryPathways[selectedPathway].authority}
             </span>
           </div>

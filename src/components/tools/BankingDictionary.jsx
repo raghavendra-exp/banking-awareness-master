@@ -36,7 +36,7 @@ export default function BankingDictionary({ lang = 'en' }) {
   });
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -55,14 +55,14 @@ export default function BankingDictionary({ lang = 'en' }) {
         </div>
 
         {/* Search Input */}
-        <div className="relative">
+        <div className="relative w-full md:w-64">
           <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
             placeholder="Search term, acronym, definition..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-9 pr-3 py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500 w-64"
+            className="w-full pl-9 pr-3 py-2 sm:py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500"
           />
         </div>
       </div>
@@ -87,7 +87,7 @@ export default function BankingDictionary({ lang = 'en' }) {
       {/* Master Detail Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
         {/* Term List Column */}
-        <div className="lg:col-span-1 space-y-2 max-h-[600px] overflow-y-auto pr-2">
+        <div className="lg:col-span-1 space-y-2 max-h-64 sm:max-h-80 lg:max-h-[600px] overflow-y-auto pr-1 sm:pr-2">
           {filteredTerms.length === 0 ? (
             <div className="p-8 text-center text-xs text-slate-400">
               No matching banking terms found.
@@ -125,13 +125,13 @@ export default function BankingDictionary({ lang = 'en' }) {
         {/* Term Detail View Column */}
         <div className="lg:col-span-2">
           {activeTerm ? (
-            <div className="p-6 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-5">
+            <div className="p-4 sm:p-6 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-4 sm:space-y-5">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 pb-4 border-b border-slate-200 dark:border-slate-700">
                 <div>
                   <div className="text-xs font-bold text-bank-600 dark:text-bank-400 uppercase tracking-wider">
                     {activeTerm.acronym}
                   </div>
-                  <h3 className="text-2xl font-black text-slate-900 dark:text-white mt-0.5">
+                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white mt-0.5 break-words">
                     {activeTerm.term}
                   </h3>
                   <div className="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5">

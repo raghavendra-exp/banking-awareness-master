@@ -22,7 +22,7 @@ export default function RbiRateTracker({ lang = 'en' }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -39,18 +39,18 @@ export default function RbiRateTracker({ lang = 'en' }) {
               : 'Current verified policy rates, LAF corridor spreads, reserve requirements, and statutory MPC provisions.'}
           </p>
         </div>
-        <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 bg-slate-50 dark:bg-slate-800 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 bg-slate-50 dark:bg-slate-800 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 self-start md:self-auto">
           <Calendar className="w-4 h-4 text-bank-600" />
           <span>Status: Verified Active Cycle</span>
         </div>
       </div>
 
       {/* Live Policy Rates Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4 my-6 sm:my-8">
         {rates.map((item, idx) => (
           <div
             key={idx}
-            className={`p-5 rounded-2xl border transition-all ${
+            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
               item.highlight
                 ? 'border-bank-500 bg-bank-50/40 dark:bg-bank-950/30 shadow-xs'
                 : 'border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40'
@@ -65,7 +65,7 @@ export default function RbiRateTracker({ lang = 'en' }) {
             <div className="text-xs font-bold text-slate-600 dark:text-slate-400">
               {item.name}
             </div>
-            <div className="text-3xl font-black font-mono text-slate-900 dark:text-white my-1">
+            <div className="text-2xl sm:text-3xl font-black font-mono text-slate-900 dark:text-white my-1">
               {item.rate}
             </div>
             <p className="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed mt-2">
@@ -76,7 +76,7 @@ export default function RbiRateTracker({ lang = 'en' }) {
       </div>
 
       {/* MPC Statutory Details Card */}
-      <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
         <h3 className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-wider mb-4 flex items-center gap-2">
           <FileText className="w-4 h-4 text-bank-600" />
           Monetary Policy Committee (MPC) Statutory Blueprint (Section 45ZB)

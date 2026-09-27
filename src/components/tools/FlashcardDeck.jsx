@@ -76,7 +76,7 @@ export default function FlashcardDeck({ lang = 'en' }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -95,7 +95,7 @@ export default function FlashcardDeck({ lang = 'en' }) {
         </div>
 
         {/* Counter & Controls */}
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <span className="text-xs font-bold text-slate-500 bg-slate-100 dark:bg-slate-800 px-3 py-1.5 rounded-xl">
             Card {currentIndex + 1} of {cards.length}
           </span>
@@ -106,10 +106,10 @@ export default function FlashcardDeck({ lang = 'en' }) {
       </div>
 
       {/* The 3D Flipping Flashcard */}
-      <div className="my-8 max-w-xl mx-auto">
+      <div className="my-6 sm:my-8 max-w-xl mx-auto">
         <div
           onClick={() => setIsFlipped(!isFlipped)}
-          className={`min-h-[280px] p-8 rounded-3xl cursor-pointer transition-all duration-300 shadow-md border-2 flex flex-col justify-between select-none ${
+          className={`min-h-[260px] sm:min-h-[280px] p-5 sm:p-8 rounded-2xl sm:rounded-3xl cursor-pointer transition-all duration-300 shadow-md border-2 flex flex-col justify-between select-none ${
             isFlipped
               ? 'bg-gradient-to-br from-bank-600 to-indigo-700 text-white border-bank-500'
               : 'bg-slate-50 dark:bg-slate-800/60 text-slate-900 dark:text-white border-slate-200 dark:border-slate-700 hover:border-bank-400'
@@ -124,11 +124,11 @@ export default function FlashcardDeck({ lang = 'en' }) {
               </span>
               <span className="text-xs opacity-70 flex items-center gap-1">
                 <RotateCcw className="w-3.5 h-3.5" />
-                {isFlipped ? 'Click to show question' : 'Click to flip answer'}
+                {isFlipped ? 'Show question' : 'Flip answer'}
               </span>
             </div>
 
-            <div className="text-lg md:text-xl font-bold leading-relaxed mt-4">
+            <div className="text-base sm:text-lg md:text-xl font-bold leading-relaxed mt-4 break-words">
               {isFlipped ? currentCard.back : currentCard.front}
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function FlashcardDeck({ lang = 'en' }) {
                 <Sparkles className="w-3.5 h-3.5" />
                 Direct Exam Key:
               </div>
-              <div className="text-sm font-black font-mono mt-0.5">{currentCard.shortcut}</div>
+              <div className="text-sm font-black font-mono mt-0.5 break-words">{currentCard.shortcut}</div>
             </div>
           )}
 
@@ -151,28 +151,28 @@ export default function FlashcardDeck({ lang = 'en' }) {
         </div>
 
         {/* Action Controls */}
-        <div className="flex items-center justify-between gap-4 mt-6">
+        <div className="flex flex-wrap items-center justify-between gap-2.5 sm:gap-4 mt-6">
           <button
             onClick={handlePrev}
-            className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50"
+            className="flex items-center gap-1.5 px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50 order-1"
           >
             <ChevronLeft className="w-4 h-4" />
-            Previous
+            <span>Prev</span>
           </button>
 
           <button
             onClick={handleMastered}
-            className="flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-all shadow-sm"
+            className="flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-all shadow-sm order-3 sm:order-2 w-full sm:w-auto justify-center"
           >
             <CheckCircle className="w-4 h-4" />
-            I Know This (Mastered)
+            <span>I Know This (Mastered)</span>
           </button>
 
           <button
             onClick={handleNext}
-            className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50"
+            className="flex items-center gap-1.5 px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50 order-2 sm:order-3"
           >
-            Next
+            <span>Next</span>
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>

@@ -16,7 +16,7 @@ export default function BookmarksViewer({ lang = 'en' }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -42,8 +42,8 @@ export default function BookmarksViewer({ lang = 'en' }) {
       {/* Bookmarks List */}
       <div className="my-6 space-y-4">
         {bookmarks.length === 0 ? (
-          <div className="p-12 text-center rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-dashed border-slate-200 dark:border-slate-700">
-            <Bookmark className="w-12 h-12 text-slate-400 mx-auto mb-3 opacity-60" />
+          <div className="p-8 sm:p-12 text-center rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-dashed border-slate-200 dark:border-slate-700">
+            <Bookmark className="w-10 h-10 sm:w-12 sm:h-12 text-slate-400 mx-auto mb-3 opacity-60" />
             <h3 className="text-base font-bold text-slate-900 dark:text-white">
               No Bookmarked Questions Yet
             </h3>
@@ -55,10 +55,10 @@ export default function BookmarksViewer({ lang = 'en' }) {
           bookmarks.map((b) => (
             <div
               key={b.id}
-              className="p-5 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-3"
+              className="p-4 sm:p-5 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-3"
             >
               <div className="flex items-start justify-between gap-2">
-                <div className="flex items-center gap-2">
+                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
                   <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-bank-100 dark:bg-bank-950/60 text-bank-700 dark:text-bank-300">
                     {b.topic}
                   </span>
@@ -68,7 +68,7 @@ export default function BookmarksViewer({ lang = 'en' }) {
                 </div>
                 <button
                   onClick={() => handleRemove(b)}
-                  className="text-xs font-semibold text-rose-600 hover:text-rose-700 flex items-center gap-1"
+                  className="text-xs font-semibold text-rose-600 hover:text-rose-700 flex items-center gap-1 shrink-0"
                   title="Remove bookmark"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -76,7 +76,7 @@ export default function BookmarksViewer({ lang = 'en' }) {
                 </button>
               </div>
 
-              <h4 className="font-bold text-sm text-slate-900 dark:text-white leading-relaxed">
+              <h4 className="font-bold text-xs sm:text-sm text-slate-900 dark:text-white leading-relaxed break-words">
                 {b.question}
               </h4>
 
@@ -86,7 +86,7 @@ export default function BookmarksViewer({ lang = 'en' }) {
                   {b.options.map((opt, oIdx) => (
                     <div
                       key={oIdx}
-                      className={`p-2.5 rounded-xl text-xs font-medium border ${
+                      className={`p-2.5 rounded-xl text-xs font-medium border break-words ${
                         oIdx === b.correct_option
                           ? 'bg-emerald-50 dark:bg-emerald-950/30 text-emerald-900 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800 font-bold'
                           : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-800'

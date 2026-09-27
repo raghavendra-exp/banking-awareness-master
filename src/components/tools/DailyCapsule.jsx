@@ -98,12 +98,12 @@ export default function DailyCapsule({ lang = 'en' }) {
         </div>
 
         {/* Streak & Status Badge */}
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-orange-50 dark:bg-orange-950/30 border border-orange-200 dark:border-orange-800/50 text-orange-700 dark:text-orange-400">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-xl bg-orange-50 dark:bg-orange-950/30 border border-orange-200 dark:border-orange-800/50 text-orange-700 dark:text-orange-400">
             <Flame className="w-5 h-5 text-orange-500 animate-bounce" />
             <div>
               <div className="text-[10px] uppercase font-bold tracking-wider">Study Streak</div>
-              <div className="text-base font-black font-mono">{streak} Days</div>
+              <div className="text-sm sm:text-base font-black font-mono">{streak} Days</div>
             </div>
           </div>
           {completed && (
@@ -116,10 +116,10 @@ export default function DailyCapsule({ lang = 'en' }) {
       </div>
 
       {/* Capsule Section Tabs */}
-      <div className="flex gap-2 py-4 border-b border-slate-100 dark:border-slate-800">
+      <div className="flex gap-2 overflow-x-auto py-4 scrollbar-none border-b border-slate-100 dark:border-slate-800">
         <button
           onClick={() => setActiveTab('news')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap shrink-0 ${
             activeTab === 'news' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
           }`}
         >
@@ -127,7 +127,7 @@ export default function DailyCapsule({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setActiveTab('facts')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap shrink-0 ${
             activeTab === 'facts' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
           }`}
         >
@@ -135,7 +135,7 @@ export default function DailyCapsule({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setActiveTab('quiz')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap shrink-0 ${
             activeTab === 'quiz' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
           }`}
         >
@@ -143,7 +143,7 @@ export default function DailyCapsule({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setActiveTab('terms')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap shrink-0 ${
             activeTab === 'terms' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
           }`}
         >

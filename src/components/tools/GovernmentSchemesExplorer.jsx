@@ -33,7 +33,7 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
   });
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -52,23 +52,23 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
         </div>
 
         {/* Search */}
-        <div className="relative">
+        <div className="relative w-full md:w-60">
           <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
             placeholder="Search scheme name, ministry..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500 w-60"
+            className="w-full pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500"
           />
         </div>
       </div>
 
       {/* Categories Filter Tabs */}
-      <div className="flex gap-2 overflow-x-auto py-4 scrollbar-none border-b border-slate-100 dark:border-slate-800">
+      <div className="flex gap-2 overflow-x-auto py-3 sm:py-4 scrollbar-none border-b border-slate-100 dark:border-slate-800">
         <button
           onClick={() => setSelectedCategory('all')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all ${
             selectedCategory === 'all' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
           }`}
         >
@@ -76,7 +76,7 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setSelectedCategory('social')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all ${
             selectedCategory === 'social' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
           }`}
         >
@@ -84,7 +84,7 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setSelectedCategory('credit')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all ${
             selectedCategory === 'credit' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
           }`}
         >
@@ -92,7 +92,7 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setSelectedCategory('agri')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all ${
             selectedCategory === 'agri' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
           }`}
         >
@@ -100,7 +100,7 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
         </button>
         <button
           onClick={() => setSelectedCategory('savings')}
-          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all ${
             selectedCategory === 'savings' ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
           }`}
         >
@@ -109,11 +109,11 @@ export default function GovernmentSchemesExplorer({ lang = 'en' }) {
       </div>
 
       {/* Schemes Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mt-6">
         {filteredSchemes.map((s) => (
           <div
             key={s.id}
-            className="p-5 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between"
+            className="p-4 sm:p-5 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between"
           >
             <div>
               <div className="flex items-start justify-between gap-2 mb-2">

@@ -192,7 +192,7 @@ export default function ConfusionBuster({ lang = 'en' }) {
   const selectedPair = filteredPairs[selectedPairIndex] || filteredPairs[0] || confusionPairs[0];
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -211,14 +211,14 @@ export default function ConfusionBuster({ lang = 'en' }) {
         </div>
 
         {/* Search */}
-        <div className="relative">
+        <div className="relative w-full md:w-56">
           <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
             placeholder="Filter confusion pairs..."
             value={searchTerm}
             onChange={(e) => { setSearchTerm(e.target.value); setSelectedPairIndex(0); }}
-            className="pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500 w-56"
+            className="w-full pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500"
           />
         </div>
       </div>
@@ -245,11 +245,11 @@ export default function ConfusionBuster({ lang = 'en' }) {
 
       {/* Active Comparison Card */}
       <div className="mt-6 space-y-6">
-        <div className="flex items-center justify-between">
-          <h3 className="text-lg font-bold text-slate-900 dark:text-white">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-white break-words">
             {selectedPair.title}
           </h3>
-          <span className="px-2.5 py-1 bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 rounded-lg text-xs font-semibold">
+          <span className="px-2.5 py-1 bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 rounded-lg text-xs font-semibold shrink-0">
             {selectedPair.category}
           </span>
         </div>

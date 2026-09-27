@@ -52,12 +52,12 @@ export default function RbiPolicyVisualizer({ lang = 'en' }) {
       </div>
 
       {/* Interactive Slider */}
-      <div className="my-8 p-6 bg-gradient-to-r from-bank-50/50 to-indigo-50/30 dark:from-slate-800/40 dark:to-slate-800/20 rounded-2xl border border-bank-100 dark:border-slate-800">
+      <div className="my-6 sm:my-8 p-4 sm:p-6 bg-gradient-to-r from-bank-50/50 to-indigo-50/30 dark:from-slate-800/40 dark:to-slate-800/20 rounded-2xl border border-bank-100 dark:border-slate-800">
         <div className="flex items-center justify-between mb-3">
-          <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">
+          <label className="text-xs sm:text-sm font-semibold text-slate-700 dark:text-slate-300">
             Policy Repo Rate (LAF):
           </label>
-          <span className="text-2xl font-extrabold text-bank-600 dark:text-bank-400 font-mono">
+          <span className="text-xl sm:text-2xl font-extrabold text-bank-600 dark:text-bank-400 font-mono">
             {repoRate.toFixed(2)}%
           </span>
         </div>
@@ -70,15 +70,15 @@ export default function RbiPolicyVisualizer({ lang = 'en' }) {
           onChange={(e) => setRepoRate(parseFloat(e.target.value))}
           className="w-full h-3 bg-slate-200 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-bank-600"
         />
-        <div className="flex justify-between text-xs text-slate-400 mt-2 font-mono">
-          <span>4.00% (Ultra-Accommodative)</span>
-          <span className="font-semibold text-bank-600 dark:text-bank-400">6.50% (Current Rate)</span>
-          <span>8.50% (Severe Tightening)</span>
+        <div className="flex justify-between text-[11px] sm:text-xs text-slate-400 mt-2 font-mono">
+          <span>4.00% <span className="hidden sm:inline">(Ultra-Accommodative)</span><span className="sm:hidden">(Low)</span></span>
+          <span className="font-semibold text-bank-600 dark:text-bank-400 text-center">6.50% <span className="hidden sm:inline">(Current Rate)</span><span className="sm:hidden">(Active)</span></span>
+          <span className="text-right">8.50% <span className="hidden sm:inline">(Severe Tightening)</span><span className="sm:hidden">(Tight)</span></span>
         </div>
       </div>
 
       {/* LAF Corridor Visual Stack */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mb-8">
         {/* MSF / Bank Rate (Ceiling) */}
         <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/50 relative overflow-hidden">
           <div className="absolute top-0 right-0 px-2.5 py-0.5 bg-amber-500 text-white text-[10px] font-bold rounded-bl-lg uppercase">

@@ -114,7 +114,7 @@ export default function SpeedLab({ lang = 'en' }) {
     : 0;
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -179,7 +179,7 @@ export default function SpeedLab({ lang = 'en' }) {
       {isActive && currentQ && (
         <div className="my-6 space-y-6">
           {/* Top Status Bar: Timer + Combo + Question Counter */}
-          <div className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <div className="flex flex-wrap items-center justify-between gap-2.5 p-3.5 sm:p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-200 dark:border-slate-800">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-slate-500">Question:</span>
               <span className="text-sm font-black font-mono text-slate-900 dark:text-white">
@@ -189,26 +189,26 @@ export default function SpeedLab({ lang = 'en' }) {
 
             {/* Countdown Gauge */}
             <div className="flex items-center gap-2">
-              <Timer className={`w-5 h-5 ${timeLeft <= 4 ? 'text-rose-500 animate-spin' : 'text-amber-500'}`} />
-              <span className={`text-xl font-black font-mono ${timeLeft <= 4 ? 'text-rose-600 animate-pulse' : 'text-slate-900 dark:text-white'}`}>
+              <Timer className={`w-4 h-4 sm:w-5 sm:h-5 ${timeLeft <= 4 ? 'text-rose-500 animate-spin' : 'text-amber-500'}`} />
+              <span className={`text-lg sm:text-xl font-black font-mono ${timeLeft <= 4 ? 'text-rose-600 animate-pulse' : 'text-slate-900 dark:text-white'}`}>
                 {timeLeft}s
               </span>
             </div>
 
             {/* Combo Multiplier */}
-            <div className="flex items-center gap-1.5 px-3 py-1 bg-orange-100 dark:bg-orange-950/50 text-orange-700 dark:text-orange-300 rounded-xl text-xs font-black">
-              <Flame className="w-4 h-4 text-orange-500" />
+            <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 bg-orange-100 dark:bg-orange-950/50 text-orange-700 dark:text-orange-300 rounded-xl text-xs font-black">
+              <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-orange-500" />
               <span>{combo}x Combo</span>
             </div>
           </div>
 
           {/* Question Text */}
-          <h3 className="text-base md:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
+          <h3 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 dark:text-white leading-relaxed break-words">
             {lang === 'hi' && currentQ.question_hi ? currentQ.question_hi : currentQ.question}
           </h3>
 
           {/* Options */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 sm:gap-3">
             {(lang === 'hi' && currentQ.options_hi ? currentQ.options_hi : currentQ.options)?.map((opt, idx) => {
               const isSelected = selectedOption === idx;
               const isCorrect = idx === currentQ.correct_option;
@@ -224,10 +224,10 @@ export default function SpeedLab({ lang = 'en' }) {
                   key={idx}
                   disabled={showFeedback}
                   onClick={() => handleSelectOption(idx)}
-                  className={`p-4 rounded-xl border text-xs md:text-sm font-semibold text-left transition-all flex items-center justify-between ${style}`}
+                  className={`p-3 sm:p-4 rounded-xl border text-xs sm:text-sm font-semibold text-left transition-all flex items-start justify-between gap-2 break-words ${style}`}
                 >
-                  <span>{opt}</span>
-                  {showFeedback && isCorrect && <CheckCircle2 className="w-4 h-4 text-white" />}
+                  <span className="min-w-0 flex-1">{opt}</span>
+                  {showFeedback && isCorrect && <CheckCircle2 className="w-4 h-4 text-white shrink-0 mt-0.5" />}
                 </button>
               );
             })}
@@ -237,7 +237,7 @@ export default function SpeedLab({ lang = 'en' }) {
 
       {/* Finished Summary Screen */}
       {isFinished && (
-        <div className="my-8 max-w-md mx-auto p-6 rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 text-center space-y-4">
+        <div className="my-8 max-w-md mx-auto p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 text-center space-y-4">
           <Trophy className="w-12 h-12 text-amber-500 mx-auto" />
           <h3 className="text-xl font-bold text-slate-900 dark:text-white">
             Drill Completed!

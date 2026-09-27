@@ -17,7 +17,7 @@ export default function PyqAnalytics({ lang = 'en' }) {
   }
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-8">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-6 sm:space-y-8">
       {/* Header */}
       <div className="pb-6 border-b border-slate-100 dark:border-slate-800">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-400 mb-2">
@@ -35,7 +35,7 @@ export default function PyqAnalytics({ lang = 'en' }) {
       </div>
 
       {/* Target Score & Strategic Overview */}
-      <div className="p-6 rounded-2xl bg-gradient-to-r from-bank-50/70 to-indigo-50/50 dark:from-slate-800/40 dark:to-slate-800/20 border border-bank-100 dark:border-slate-800">
+      <div className="p-4 sm:p-6 rounded-2xl bg-gradient-to-r from-bank-50/70 to-indigo-50/50 dark:from-slate-800/40 dark:to-slate-800/20 border border-bank-100 dark:border-slate-800">
         <div className="flex items-center gap-2 text-xs font-bold text-bank-600 dark:text-bank-400 uppercase tracking-wide mb-1">
           <Target className="w-4 h-4" />
           Mains Benchmark Target
@@ -56,12 +56,12 @@ export default function PyqAnalytics({ lang = 'en' }) {
         </h3>
         <div className="space-y-3">
           {pyqData.topic_weightage_distribution?.map((t, idx) => (
-            <div key={idx} className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
-                <div className="font-bold text-xs text-slate-900 dark:text-white">
+            <div key={idx} className="p-3.5 sm:p-4 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 sm:gap-2 mb-2">
+                <div className="font-bold text-xs text-slate-900 dark:text-white break-words">
                   {t.topic}
                 </div>
-                <div className="flex items-center gap-3 text-xs">
+                <div className="flex items-center gap-3 text-xs shrink-0">
                   <span className="font-mono font-bold text-bank-600 dark:text-bank-400">{t.share_percentage}% Weightage</span>
                   <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
                     {t.difficulty}
@@ -95,7 +95,7 @@ export default function PyqAnalytics({ lang = 'en' }) {
             if (idx === 4) badgeColor = 'bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300 border-rose-300';
 
             return (
-              <div key={idx} className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3">
+              <div key={idx} className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3">
                 <div className="flex items-center justify-between">
                   <span className={`px-3 py-1 rounded-xl text-xs font-bold border ${badgeColor}`}>
                     {tier.tier}
@@ -136,7 +136,7 @@ export default function PyqAnalytics({ lang = 'en' }) {
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {pyqData.common_exam_traps?.map((trap, idx) => (
-            <div key={idx} className="p-4 rounded-xl bg-rose-50/30 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/40 space-y-2">
+            <div key={idx} className="p-3.5 sm:p-4 rounded-xl bg-rose-50/30 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/40 space-y-2">
               <div className="font-bold text-xs text-rose-900 dark:text-rose-300">
                 {trap.trap_name}
               </div>

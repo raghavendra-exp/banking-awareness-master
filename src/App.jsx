@@ -128,21 +128,22 @@ export default function App() {
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 transition-colors">
       {/* Top Main Navigation Header */}
       <header className="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2 sm:gap-4">
           {/* Brand Logo & Title */}
           <div
             onClick={() => handleNavigate('dashboard')}
-            className="flex items-center gap-3 cursor-pointer select-none shrink-0"
+            className="flex items-center gap-2 sm:gap-3 cursor-pointer select-none min-w-0"
           >
-            <div className="w-10 h-10 rounded-xl bg-bank-600 dark:bg-bank-500 text-white flex items-center justify-center shadow-md shadow-bank-600/20">
-              <Landmark className="w-5 h-5" />
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-bank-600 dark:bg-bank-500 text-white flex items-center justify-center shadow-md shadow-bank-600/20 shrink-0">
+              <Landmark className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <div>
-              <div className="font-black text-base text-slate-900 dark:text-white tracking-tight leading-none">
-                BANKING AWARENESS MASTER
+            <div className="min-w-0">
+              <div className="font-black text-xs sm:text-base text-slate-900 dark:text-white tracking-tight leading-tight truncate">
+                <span className="sm:hidden">BANKING MASTER</span>
+                <span className="hidden sm:inline">BANKING AWARENESS MASTER</span>
               </div>
-              <div className="text-[10px] font-bold text-bank-600 dark:text-bank-400 mt-0.5 tracking-wide uppercase">
-                SBI Clerk • IBPS Clerk/CSA • RRB OA
+              <div className="text-[9px] sm:text-[10px] font-bold text-bank-600 dark:text-bank-400 mt-0.5 tracking-wide uppercase truncate">
+                SBI Clerk • IBPS • RRB OA
               </div>
             </div>
           </div>
@@ -211,24 +212,24 @@ export default function App() {
           </nav>
 
           {/* Quick Controls: Search, Lang, Dark Mode, Mobile Menu */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             {/* Search Button (Ctrl + K) */}
             <button
               onClick={() => setSearchOpen(true)}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs font-semibold transition-all"
+              className="flex items-center gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs font-semibold transition-all"
               title="Global Search (Ctrl + K)"
             >
-              <Search className="w-4 h-4 text-slate-400" />
+              <Search className="w-4 h-4 text-slate-400 shrink-0" />
               <span className="hidden sm:inline font-mono text-[11px] text-slate-400">Ctrl+K</span>
             </button>
 
             {/* Language Toggle */}
             <button
               onClick={toggleLanguage}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
+              className="flex items-center gap-1 px-2 py-1.5 sm:px-2.5 rounded-xl border border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
               title="Toggle English / हिंदी"
             >
-              <Languages className="w-3.5 h-3.5 text-bank-600" />
+              <Languages className="w-3.5 h-3.5 text-bank-600 shrink-0" />
               <span className="uppercase text-[11px]">{lang}</span>
             </button>
 
@@ -288,7 +289,7 @@ export default function App() {
       </header>
 
       {/* Main App Content Area */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8">
         {activeTab === 'dashboard' && <Dashboard onNavigate={handleNavigate} lang={lang} />}
         {activeTab === 'learn' && <ConceptLearner onStartPractice={() => handleNavigate('practice')} lang={lang} />}
         {activeTab === 'visualizers' && <VisualizersHub lang={lang} />}

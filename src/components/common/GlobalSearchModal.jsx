@@ -48,29 +48,29 @@ export default function GlobalSearchModal({ isOpen, onClose, onSelectResult }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-start justify-center p-4 sm:pt-20 animate-fadeIn">
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl w-full max-w-xl shadow-2xl overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-start justify-center p-3 sm:p-4 sm:pt-20 animate-fadeIn">
+      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl sm:rounded-3xl w-full max-w-xl shadow-2xl overflow-hidden mt-2 sm:mt-0">
         {/* Search Bar Input */}
-        <div className="p-4 border-b border-slate-100 dark:border-slate-800 flex items-center gap-3">
-          <Search className="w-5 h-5 text-bank-600 shrink-0" />
+        <div className="p-3.5 sm:p-4 border-b border-slate-100 dark:border-slate-800 flex items-center gap-2.5 sm:gap-3">
+          <Search className="w-4 h-4 sm:w-5 sm:h-5 text-bank-600 shrink-0" />
           <input
             type="text"
             autoFocus
-            placeholder="Search any term, scheme, institution, act, or rate (Ctrl + K)..."
+            placeholder="Search term, scheme, institution (Ctrl + K)..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="w-full bg-transparent text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none"
+            className="w-full bg-transparent text-xs sm:text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none"
           />
           <button
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-white"
+            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-white shrink-0"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
 
         {/* Results List */}
-        <div className="p-3 max-h-80 overflow-y-auto space-y-1">
+        <div className="p-2.5 sm:p-3 max-h-80 overflow-y-auto space-y-1">
           {filtered.length === 0 ? (
             <div className="p-8 text-center text-xs text-slate-400">
               No matching banking topics found.
@@ -83,18 +83,18 @@ export default function GlobalSearchModal({ isOpen, onClose, onSelectResult }) {
                   onSelectResult(item.target);
                   onClose();
                 }}
-                className="w-full p-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 text-left transition-colors flex items-center justify-between group"
+                className="w-full p-2.5 sm:p-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 text-left transition-colors flex items-center justify-between group gap-2"
               >
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-bold text-xs text-slate-900 dark:text-white group-hover:text-bank-600">
+                <div className="min-w-0 flex-1">
+                  <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                    <span className="font-bold text-xs text-slate-900 dark:text-white group-hover:text-bank-600 break-words">
                       {item.title}
                     </span>
-                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-500">
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-500 shrink-0">
                       {item.category}
                     </span>
                   </div>
-                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5 line-clamp-1 sm:line-clamp-2">
                     {item.desc}
                   </p>
                 </div>
@@ -105,8 +105,8 @@ export default function GlobalSearchModal({ isOpen, onClose, onSelectResult }) {
         </div>
 
         {/* Footer info */}
-        <div className="p-3 bg-slate-50 dark:bg-slate-850 border-t border-slate-100 dark:border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
-          <span>Navigate with click or arrow keys</span>
+        <div className="p-3 bg-slate-50 dark:bg-slate-850 border-t border-slate-100 dark:border-slate-800 text-[10px] sm:text-[11px] text-slate-400 flex flex-wrap items-center justify-between gap-1">
+          <span>Navigate with click</span>
           <span>Press ESC to close</span>
         </div>
       </div>

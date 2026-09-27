@@ -162,7 +162,7 @@ export default function PracticeArena({ lang = 'en', onToggleLang }) {
       <div className="my-6 space-y-6">
         {/* Metadata badges */}
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
             <span className="text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-md bg-bank-100 dark:bg-bank-950/60 text-bank-700 dark:text-bank-300">
               {currentQ.topic}
             </span>
@@ -205,16 +205,16 @@ export default function PracticeArena({ lang = 'en', onToggleLang }) {
                 key={idx}
                 disabled={isAnswered}
                 onClick={() => handleSelectOption(idx)}
-                className={`w-full text-left p-4 rounded-xl border text-xs md:text-sm font-medium transition-all flex items-center justify-between ${optStyle}`}
+                className={`w-full text-left p-3.5 sm:p-4 rounded-xl border text-xs sm:text-sm font-medium transition-all flex items-start sm:items-center justify-between gap-3 ${optStyle}`}
               >
-                <div className="flex items-center gap-3">
-                  <span className="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold flex items-center justify-center text-xs shrink-0">
+                <div className="flex items-start gap-3 min-w-0 flex-1">
+                  <span className="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold flex items-center justify-center text-xs shrink-0 mt-0.5 sm:mt-0">
                     {String.fromCharCode(65 + idx)}
                   </span>
-                  <span>{opt}</span>
+                  <span className="break-words leading-relaxed">{opt}</span>
                 </div>
-                {isAnswered && isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />}
-                {isAnswered && isSelected && !isCorrect && <AlertCircle className="w-5 h-5 text-rose-600 shrink-0" />}
+                {isAnswered && isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5 sm:mt-0" />}
+                {isAnswered && isSelected && !isCorrect && <AlertCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5 sm:mt-0" />}
               </button>
             );
           })}

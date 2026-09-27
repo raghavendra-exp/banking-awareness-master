@@ -53,36 +53,36 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
       </div>
 
       {/* Hero Welcome & Readiness Score Card */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
         {/* Main Readiness Gauge */}
-        <div className="lg:col-span-2 p-6 md:p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+        <div className="lg:col-span-2 p-5 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
           <div>
-            <div className="flex items-center justify-between gap-2 mb-3">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-bank-100 dark:bg-bank-950/60 text-bank-700 dark:text-bank-400">
-                <ShieldCheck className="w-3.5 h-3.5" />
-                SBI Clerk • IBPS Clerk/CSA • RRB OA Mains
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-bank-100 dark:bg-bank-950/60 text-bank-700 dark:text-bank-400 max-w-full">
+                <ShieldCheck className="w-3.5 h-3.5 shrink-0" />
+                <span className="truncate">SBI Clerk • IBPS Clerk/CSA • RRB OA Mains</span>
               </div>
-              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-950/30 text-orange-700 dark:text-orange-400 text-xs font-bold border border-orange-200 dark:border-orange-800/40">
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-950/30 text-orange-700 dark:text-orange-400 text-xs font-bold border border-orange-200 dark:border-orange-800/40 shrink-0">
                 <Flame className="w-4 h-4 text-orange-500 animate-bounce" />
                 <span>{streak} Day Streak</span>
               </div>
             </div>
 
-            <h1 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
               Banking Awareness Master
             </h1>
-            <p className="text-sm text-slate-500 dark:text-slate-400 mt-1 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 leading-relaxed">
               Target 35+ Marks out of 50 with high-yield concepts, interactive visualizers, and authentic PYQ drills.
             </p>
           </div>
 
           {/* Readiness Meter */}
-          <div className="my-6 p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
-            <div className="flex items-center justify-between mb-2">
-              <div className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide">
+          <div className="my-5 sm:my-6 p-4 sm:p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
+            <div className="flex flex-wrap items-center justify-between gap-1 mb-2">
+              <div className="text-[11px] sm:text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide">
                 Banking Readiness Score:
               </div>
-              <div className="text-sm font-black font-mono text-bank-600 dark:text-bank-400">
+              <div className="text-xs sm:text-sm font-black font-mono text-bank-600 dark:text-bank-400">
                 {readiness} / 100 ({readinessLevel.label})
               </div>
             </div>
@@ -92,32 +92,32 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
                 style={{ width: `${readiness}%` }}
               />
             </div>
-            <div className="flex justify-between text-[11px] text-slate-400 mt-2 font-mono">
+            <div className="flex justify-between text-[10px] sm:text-[11px] text-slate-400 mt-2 font-mono">
               <span>0 (Beginner)</span>
               <span>50 (Competitive)</span>
-              <span>100 (Exam Topper)</span>
+              <span>100 (Topper)</span>
             </div>
           </div>
 
           {/* Quick Action CTAs */}
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-2.5 sm:gap-3">
             <button
               onClick={() => onNavigate('practice')}
-              className="px-5 py-3 rounded-xl bg-bank-600 hover:bg-bank-700 text-white text-xs font-bold transition-all shadow-sm flex items-center gap-2"
+              className="w-full sm:w-auto justify-center px-4 sm:px-5 py-3 rounded-xl bg-bank-600 hover:bg-bank-700 text-white text-xs font-bold transition-all shadow-sm flex items-center gap-2"
             >
               <span>Practice Arena</span>
               <ArrowRight className="w-4 h-4" />
             </button>
             <button
               onClick={() => onNavigate('visualizers')}
-              className="px-5 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-white text-xs font-bold transition-all flex items-center gap-2"
+              className="w-full sm:w-auto justify-center px-4 sm:px-5 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-white text-xs font-bold transition-all flex items-center gap-2"
             >
               <Sliders className="w-4 h-4 text-bank-600" />
               <span>Interactive Visualizers</span>
             </button>
             <button
               onClick={() => onNavigate('mocks')}
-              className="px-5 py-3 rounded-xl bg-rose-50 dark:bg-rose-950/30 hover:bg-rose-100 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-900/40 text-xs font-bold transition-all flex items-center gap-2"
+              className="w-full sm:w-auto justify-center px-4 sm:px-5 py-3 rounded-xl bg-rose-50 dark:bg-rose-950/30 hover:bg-rose-100 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-900/40 text-xs font-bold transition-all flex items-center gap-2"
             >
               <Award className="w-4 h-4" />
               <span>Take Full Mock</span>
@@ -126,7 +126,7 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
         </div>
 
         {/* Daily Capsule & Streak Widget */}
-        <div className="p-6 rounded-3xl bg-gradient-to-br from-indigo-50/50 to-bank-50/30 dark:from-slate-900 dark:to-slate-850 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+        <div className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-indigo-50/50 to-bank-50/30 dark:from-slate-900 dark:to-slate-850 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
           <div>
             <div className="w-10 h-10 rounded-2xl bg-bank-600 text-white flex items-center justify-center mb-4 shadow-sm shadow-bank-500/20">
               <Sparkles className="w-5 h-5" />
@@ -162,9 +162,9 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
           <span>Topic Mastery Heatmap (Mains Syllabus Coverage)</span>
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {Object.entries(progress.topicsMastery || {}).map(([topic, val]) => (
-            <div key={topic} className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
+            <div key={topic} className="p-3.5 sm:p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
               <div className="flex items-center justify-between text-xs mb-1">
                 <span className="font-bold text-slate-800 dark:text-white line-clamp-1">{topic}</span>
                 <span className="font-mono font-bold text-bank-600 dark:text-bank-400">{val}%</span>
@@ -181,10 +181,10 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
       </div>
 
       {/* Quick Access Tools Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <button
           onClick={() => onNavigate('confusion_buster')}
-          className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-amber-400 text-left transition-all group"
+          className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-amber-400 text-left transition-all group"
         >
           <div className="text-amber-500 font-bold text-xs uppercase mb-1">High-Frequency</div>
           <div className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-amber-600">Confusion Buster</div>
@@ -193,7 +193,7 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
 
         <button
           onClick={() => onNavigate('speed_lab')}
-          className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-orange-400 text-left transition-all group"
+          className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-orange-400 text-left transition-all group"
         >
           <div className="text-orange-500 font-bold text-xs uppercase mb-1">Velocity Training</div>
           <div className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-orange-600">Speed Lab</div>
@@ -202,7 +202,7 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
 
         <button
           onClick={() => onNavigate('mistakes')}
-          className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-rose-400 text-left transition-all group"
+          className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-rose-400 text-left transition-all group"
         >
           <div className="text-rose-500 font-bold text-xs uppercase mb-1">Zero Penalty</div>
           <div className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-rose-600">Wrong Answer Notebook</div>
@@ -211,7 +211,7 @@ export default function Dashboard({ onNavigate, lang = 'en' }) {
 
         <button
           onClick={() => onNavigate('pyq_analytics')}
-          className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-400 text-left transition-all group"
+          className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-400 text-left transition-all group"
         >
           <div className="text-indigo-500 font-bold text-xs uppercase mb-1">Exam Intelligence</div>
           <div className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-indigo-600">PYQ Shift Analytics</div>

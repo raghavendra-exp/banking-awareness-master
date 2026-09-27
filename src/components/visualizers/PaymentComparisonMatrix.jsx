@@ -122,42 +122,47 @@ export default function PaymentComparisonMatrix({ lang = 'en' }) {
         </div>
 
         {/* Filters and Search */}
-        <div className="flex flex-wrap items-center gap-2">
-          <div className="relative">
+        <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2 w-full md:w-auto">
+          <div className="relative w-full sm:w-auto">
             <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
               placeholder="Search payment system..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500 w-48"
+              className="pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-bank-500 w-full sm:w-48"
             />
           </div>
-          <div className="flex gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl">
+          <div className="flex flex-wrap sm:flex-nowrap gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl w-full sm:w-auto">
             <button
               onClick={() => setFilterType('all')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${filterType === 'all' ? 'bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs' : 'text-slate-500'}`}
+              className={`flex-1 sm:flex-none px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-center ${filterType === 'all' ? 'bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs' : 'text-slate-500'}`}
             >
               All Systems
             </button>
             <button
               onClick={() => setFilterType('rbi')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${filterType === 'rbi' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+              className={`flex-1 sm:flex-none px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-center ${filterType === 'rbi' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
             >
-              RBI Operated
+              RBI
             </button>
             <button
               onClick={() => setFilterType('npci')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${filterType === 'npci' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+              className={`flex-1 sm:flex-none px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-center ${filterType === 'npci' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
             >
-              NPCI Operated
+              NPCI
             </button>
           </div>
         </div>
       </div>
 
+      {/* Mobile Swipe Hint */}
+      <div className="md:hidden flex items-center gap-1.5 text-[11px] text-slate-400 mt-4 mb-1">
+        <span>👉 Scroll horizontally to compare all limits & features</span>
+      </div>
+
       {/* Comparison Table */}
-      <div className="my-6 overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
+      <div className="my-2 sm:my-6 overflow-x-auto scrollbar-none rounded-xl border border-slate-200 dark:border-slate-800">
         <table className="w-full text-xs text-left">
           <thead className="bg-slate-50 dark:bg-slate-800/70 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider">
             <tr>

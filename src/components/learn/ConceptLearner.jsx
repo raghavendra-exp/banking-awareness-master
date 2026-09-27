@@ -54,27 +54,27 @@ export default function ConceptLearner({ onStartPractice, lang = 'en' }) {
       </div>
 
       {/* Chapters Layout: Sidebar + Reader */}
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
-        {/* Sidebar Navigation */}
-        <div className="lg:col-span-1 space-y-1.5">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6 mt-6">
+        {/* Sidebar Navigation (Swipeable horizontal tabs on mobile/tablet, vertical stack on desktop) */}
+        <div className="lg:col-span-1 flex lg:block overflow-x-auto lg:overflow-visible gap-2 lg:space-y-1.5 pb-2 lg:pb-0 scrollbar-none">
           {chapters.map((ch) => (
             <button
               key={ch.id}
               onClick={() => setActiveChapter(ch.id)}
-              className={`w-full text-left p-3 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
+              className={`w-auto lg:w-full text-left px-3.5 py-2.5 lg:p-3 rounded-xl text-xs font-bold transition-all flex items-center justify-between gap-2 whitespace-nowrap lg:whitespace-normal shrink-0 ${
                 activeChapter === ch.id
                   ? 'bg-bank-600 text-white shadow-sm'
-                  : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                  : 'bg-slate-100 lg:bg-transparent dark:bg-slate-800 lg:dark:bg-transparent text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
               }`}
             >
               <span className="line-clamp-1">{ch.title}</span>
-              <ChevronRight className="w-4 h-4 shrink-0" />
+              <ChevronRight className="hidden lg:block w-4 h-4 shrink-0" />
             </button>
           ))}
         </div>
 
         {/* Reader Area */}
-        <div className="lg:col-span-3 p-6 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-6">
+        <div className="lg:col-span-3 p-4 sm:p-6 rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-5 sm:space-y-6">
           {activeChapter === 'basics' && basicsData && (
             <div className="space-y-6 animate-fadeIn">
               <div>

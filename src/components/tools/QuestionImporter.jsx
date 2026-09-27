@@ -24,7 +24,7 @@ export default function QuestionImporter({ lang = 'en' }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="pb-6 border-b border-slate-100 dark:border-slate-800">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 mb-2">
@@ -42,9 +42,9 @@ export default function QuestionImporter({ lang = 'en' }) {
       </div>
 
       {/* Export / Import Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 my-6 sm:my-8">
         {/* Export Card */}
-        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+        <div className="p-4 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
           <div>
             <div className="w-10 h-10 rounded-xl bg-bank-100 dark:bg-bank-950/60 text-bank-600 dark:text-bank-400 flex items-center justify-center mb-4">
               <Download className="w-5 h-5" />
@@ -66,7 +66,7 @@ export default function QuestionImporter({ lang = 'en' }) {
         </div>
 
         {/* Import Card */}
-        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+        <div className="p-4 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
           <div>
             <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-4">
               <Upload className="w-5 h-5" />

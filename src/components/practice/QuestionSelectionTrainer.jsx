@@ -65,7 +65,7 @@ export default function QuestionSelectionTrainer({ lang = 'en' }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="pb-6 border-b border-slate-100 dark:border-slate-800">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-400 mb-2">
@@ -83,18 +83,18 @@ export default function QuestionSelectionTrainer({ lang = 'en' }) {
       </div>
 
       {!isFinished ? (
-        <div className="my-8 max-w-xl mx-auto space-y-6">
-          <div className="flex items-center justify-between text-xs font-bold text-slate-500">
+        <div className="my-6 sm:my-8 max-w-xl mx-auto space-y-5 sm:space-y-6">
+          <div className="flex flex-wrap items-center justify-between gap-1 text-xs font-bold text-slate-500">
             <span>Scenario {currentIndex + 1} of {testSet.length}</span>
             <span className="text-bank-600">First 5-Minute Triage Drill</span>
           </div>
 
-          <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-4">
-            <h3 className="font-bold text-base text-slate-900 dark:text-white leading-relaxed">
+          <div className="p-4 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-3 sm:space-y-4">
+            <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white leading-relaxed break-words">
               {currentQ.q}
             </h3>
 
-            <div className="text-xs text-slate-500">
+            <div className="text-xs text-slate-500 break-words">
               Exam Options Preview: {currentQ.options.join(' | ')}
             </div>
           </div>
@@ -104,10 +104,10 @@ export default function QuestionSelectionTrainer({ lang = 'en' }) {
           </div>
 
           {/* Decision Buttons */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">
             <button
               onClick={() => handleDecision('DO NOW')}
-              className="p-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black transition-all shadow-sm text-center"
+              className="p-3.5 sm:p-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black transition-all shadow-sm text-center"
             >
               1. DO NOW (Under 15s)
               <div className="text-[10px] font-normal opacity-80 mt-0.5">100% Certain Fact</div>
@@ -115,7 +115,7 @@ export default function QuestionSelectionTrainer({ lang = 'en' }) {
 
             <button
               onClick={() => handleDecision('REVIEW LATER')}
-              className="p-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-xs font-black transition-all shadow-sm text-center"
+              className="p-3.5 sm:p-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-xs font-black transition-all shadow-sm text-center"
             >
               2. REVIEW LATER
               <div className="text-[10px] font-normal opacity-80 mt-0.5">Needs Calculation / Long</div>
@@ -123,7 +123,7 @@ export default function QuestionSelectionTrainer({ lang = 'en' }) {
 
             <button
               onClick={() => handleDecision('SKIP / AVOID')}
-              className="p-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-black transition-all shadow-sm text-center"
+              className="p-3.5 sm:p-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-black transition-all shadow-sm text-center"
             >
               3. SKIP / AVOID
               <div className="text-[10px] font-normal opacity-80 mt-0.5">Negative Hazard Trap</div>
@@ -132,10 +132,10 @@ export default function QuestionSelectionTrainer({ lang = 'en' }) {
         </div>
       ) : (
         /* Evaluation Screen */
-        <div className="my-8 max-w-2xl mx-auto space-y-6">
-          <div className="p-6 rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 text-center space-y-2">
+        <div className="my-6 sm:my-8 max-w-2xl mx-auto space-y-6">
+          <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 text-center space-y-2">
             <Trophy className="w-10 h-10 text-amber-500 mx-auto" />
-            <h3 className="text-xl font-bold text-slate-900 dark:text-white">
+            <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
               Triage Strategy Score: {calculateScore()} / {testSet.length} Matches
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400">

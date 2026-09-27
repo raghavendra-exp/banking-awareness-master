@@ -86,20 +86,20 @@ export default function UpiTransactionFlow({ lang = 'en' }) {
       </div>
 
       {/* Mode Selector */}
-      <div className="flex gap-2 my-6">
+      <div className="flex flex-col sm:flex-row gap-2 my-4 sm:my-6">
         <button
           onClick={() => { setActiveMode('standard'); handleReset(); }}
-          className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+          className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all text-center ${
             activeMode === 'standard'
               ? 'bg-bank-600 text-white'
               : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200'
           }`}
         >
-          Standard UPI (Limit: ₹1 Lakh / ₹5 Lakh)
+          Standard UPI (Limit: ₹1L / ₹5L)
         </button>
         <button
           onClick={() => { setActiveMode('lite'); handleReset(); }}
-          className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+          className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all text-center ${
             activeMode === 'lite'
               ? 'bg-bank-600 text-white'
               : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200'
@@ -110,7 +110,7 @@ export default function UpiTransactionFlow({ lang = 'en' }) {
       </div>
 
       {/* Animated Flow Nodes */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 my-6 sm:my-8">
         <div className={`p-4 rounded-xl border text-center transition-all ${
           currentStep >= 1 ? 'border-bank-500 bg-bank-50/50 dark:bg-bank-950/30' : 'border-slate-200 dark:border-slate-800 opacity-60'
         }`}>

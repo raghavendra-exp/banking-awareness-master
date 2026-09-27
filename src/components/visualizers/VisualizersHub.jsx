@@ -29,7 +29,7 @@ export default function VisualizersHub({ lang = 'en' }) {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-4 py-3 rounded-2xl text-xs font-bold whitespace-nowrap transition-all border ${
+              className={`flex items-center gap-2 px-3 sm:px-4 py-2.5 sm:py-3 rounded-2xl text-xs font-bold whitespace-nowrap shrink-0 transition-all border ${
                 isActive
                   ? 'bg-bank-600 text-white border-bank-600 shadow-md shadow-bank-500/20'
                   : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800'

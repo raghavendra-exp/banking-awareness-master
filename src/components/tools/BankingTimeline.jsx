@@ -38,7 +38,7 @@ export default function BankingTimeline({ lang = 'en' }) {
   const filtered = selectedEra === 'all' ? milestones : milestones.filter(m => m.era === selectedEra);
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -57,34 +57,34 @@ export default function BankingTimeline({ lang = 'en' }) {
         </div>
 
         {/* Era Filter Pills */}
-        <div className="flex flex-wrap gap-1.5 bg-slate-100 dark:bg-slate-800 p-1.5 rounded-2xl">
+        <div className="flex flex-wrap gap-1 sm:gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 sm:p-1.5 rounded-2xl">
           <button
             onClick={() => setSelectedEra('all')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'all' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+            className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'all' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
           >
             All Eras
           </button>
           <button
             onClick={() => setSelectedEra('pre')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'pre' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+            className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'pre' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
           >
             Pre-1947
           </button>
           <button
             onClick={() => setSelectedEra('post')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'post' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+            className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'post' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
           >
             1947-1990
           </button>
           <button
             onClick={() => setSelectedEra('lib')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'lib' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+            className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'lib' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
           >
             1991-2015
           </button>
           <button
             onClick={() => setSelectedEra('digital')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'digital' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
+            className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${selectedEra === 'digital' ? 'bg-white dark:bg-slate-900 text-bank-600 dark:text-bank-400 shadow-xs' : 'text-slate-500'}`}
           >
             2016-2026
           </button>
@@ -92,21 +92,21 @@ export default function BankingTimeline({ lang = 'en' }) {
       </div>
 
       {/* Timeline List */}
-      <div className="relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 md:ml-32 mt-8 space-y-8 pb-4">
+      <div className="relative border-l-2 border-slate-200 dark:border-slate-800 ml-2 sm:ml-4 md:ml-28 mt-8 space-y-6 sm:space-y-8 pb-4">
         {filtered.map((m, idx) => (
-          <div key={idx} className="relative pl-6 md:pl-8 group">
+          <div key={idx} className="relative pl-4 sm:pl-6 md:pl-8 group">
             {/* Year Badge (Desktop left column, Mobile inline) */}
-            <div className="md:absolute md:-left-28 md:top-0 font-mono font-extrabold text-sm md:text-base text-bank-600 dark:text-bank-400 bg-white dark:bg-slate-900 md:bg-transparent pr-2 inline-block">
+            <div className="md:absolute md:-left-24 md:top-0 font-mono font-extrabold text-sm md:text-base text-bank-600 dark:text-bank-400 bg-white dark:bg-slate-900 md:bg-transparent pr-2 inline-block">
               {m.year}
             </div>
 
             {/* Dot Node */}
-            <div className="absolute -left-2 top-1.5 w-3.5 h-3.5 rounded-full bg-white dark:bg-slate-900 border-2 border-bank-500 group-hover:scale-125 transition-transform" />
+            <div className="absolute -left-[7px] top-1.5 w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full bg-white dark:bg-slate-900 border-2 border-bank-500 group-hover:scale-125 transition-transform" />
 
             {/* Event Content Card */}
-            <div className="p-4 rounded-xl bg-slate-50/80 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 hover:border-bank-400 transition-colors">
-              <div className="flex flex-wrap items-center justify-between gap-2 mb-1">
-                <h3 className="font-bold text-sm text-slate-900 dark:text-white">
+            <div className="p-3.5 sm:p-4 rounded-xl bg-slate-50/80 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 hover:border-bank-400 transition-colors">
+              <div className="flex flex-wrap items-center justify-between gap-1.5 sm:gap-2 mb-1">
+                <h3 className="font-bold text-xs sm:text-sm text-slate-900 dark:text-white break-words">
                   {m.title}
                 </h3>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-bank-100 dark:bg-bank-950/60 text-bank-700 dark:text-bank-300">

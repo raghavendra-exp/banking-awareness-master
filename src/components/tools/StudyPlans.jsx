@@ -34,7 +34,7 @@ export default function StudyPlans({ lang = 'en' }) {
   const activePlan = plans.find(p => p.id === activePlanId) || plans[0];
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -54,7 +54,7 @@ export default function StudyPlans({ lang = 'en' }) {
       </div>
 
       {/* Plan Selectors */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 my-6">
         {plans.map((p) => {
           const isSelected = p.id === activePlanId;
           return (
@@ -87,16 +87,16 @@ export default function StudyPlans({ lang = 'en' }) {
       {/* Active Plan Detail */}
       {activePlan && (
         <div className="space-y-6">
-          <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4">
+          <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h3 className="text-lg font-bold text-slate-900 dark:text-white">
+              <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
                 {activePlan.name}
               </h3>
               <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
                 Target: {activePlan.target_audience}
               </p>
             </div>
-            <div className="flex items-center gap-4 text-xs font-semibold text-slate-600 dark:text-slate-300">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs font-semibold text-slate-600 dark:text-slate-300">
               <div className="flex items-center gap-1.5">
                 <Clock className="w-4 h-4 text-bank-600" />
                 <span>{activePlan.daily_time_commitment}</span>
@@ -113,19 +113,19 @@ export default function StudyPlans({ lang = 'en' }) {
             {activePlan.phases?.map((phase, pIdx) => (
               <div
                 key={pIdx}
-                className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3"
+                className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <div className="font-bold text-sm text-slate-900 dark:text-white flex items-center gap-2">
                     <Calendar className="w-4 h-4 text-bank-600" />
                     <span>{phase.phase_name}</span>
                   </div>
-                  <span className="text-xs font-bold text-bank-600 dark:text-bank-400 bg-bank-50 dark:bg-bank-950/40 px-2.5 py-0.5 rounded-lg">
+                  <span className="text-xs font-bold text-bank-600 dark:text-bank-400 bg-bank-50 dark:bg-bank-950/40 px-2.5 py-0.5 rounded-lg shrink-0">
                     {phase.days}
                   </span>
                 </div>
 
-                <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed break-words">
                   <strong>Core Focus: </strong>{phase.focus}
                 </p>
 
@@ -141,14 +141,14 @@ export default function StudyPlans({ lang = 'en' }) {
                         <div
                           key={tIdx}
                           onClick={() => toggleTask(taskKey)}
-                          className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/40 cursor-pointer transition-colors text-xs text-slate-700 dark:text-slate-300 select-none"
+                          className="flex items-start gap-2.5 p-2 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/40 cursor-pointer transition-colors text-xs text-slate-700 dark:text-slate-300 select-none"
                         >
                           {isChecked ? (
-                            <CheckSquare className="w-4 h-4 text-emerald-600 shrink-0" />
+                            <CheckSquare className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                           ) : (
-                            <Square className="w-4 h-4 text-slate-400 shrink-0" />
+                            <Square className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" />
                           )}
-                          <span className={isChecked ? 'line-through text-slate-400' : ''}>
+                          <span className={`break-words min-w-0 flex-1 ${isChecked ? 'line-through text-slate-400' : ''}`}>
                             {task}
                           </span>
                         </div>

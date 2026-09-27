@@ -151,7 +151,7 @@ export default function ExamSimulator({ lang = 'en' }) {
   const isCutoffCleared = activePreset ? parseFloat(netScore) >= (activePreset.sectional_cutoff || 0) : true;
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 dark:border-slate-800">
       {/* Preset Selection & Instructions (When Exam is NOT running or finished) */}
       {!isExamRunning && !isExamSubmitted && (
         <div className="space-y-6">
@@ -231,9 +231,9 @@ export default function ExamSimulator({ lang = 'en' }) {
       {isExamRunning && currentQ && (
         <div className="space-y-6">
           {/* Top Bar: Exam Title + Timer + Submit Button */}
-          <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-50 dark:bg-slate-800/60 rounded-2xl border border-slate-200 dark:border-slate-800">
-            <div>
-              <div className="text-xs font-bold text-slate-900 dark:text-white">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 sm:p-4 bg-slate-50 dark:bg-slate-800/60 rounded-2xl border border-slate-200 dark:border-slate-800">
+            <div className="min-w-0">
+              <div className="text-xs sm:text-sm font-bold text-slate-900 dark:text-white truncate">
                 {activePreset?.title}
               </div>
               <div className="text-[11px] text-slate-500">
@@ -241,17 +241,17 @@ export default function ExamSimulator({ lang = 'en' }) {
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700">
+            <div className="flex items-center justify-between sm:justify-end gap-3 w-full sm:w-auto">
+              <div className="flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700">
                 <Timer className={`w-4 h-4 ${secondsRemaining <= 300 ? 'text-rose-500 animate-spin' : 'text-bank-600'}`} />
-                <span className={`text-base font-black font-mono ${secondsRemaining <= 300 ? 'text-rose-600 animate-pulse' : 'text-slate-900 dark:text-white'}`}>
+                <span className={`text-sm sm:text-base font-black font-mono ${secondsRemaining <= 300 ? 'text-rose-600 animate-pulse' : 'text-slate-900 dark:text-white'}`}>
                   {formatTime(secondsRemaining)}
                 </span>
               </div>
 
               <button
                 onClick={handleSubmitExam}
-                className="px-4 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm"
+                className="px-3.5 sm:px-4 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm shrink-0"
               >
                 Submit Section
               </button>
@@ -259,9 +259,9 @@ export default function ExamSimulator({ lang = 'en' }) {
           </div>
 
           {/* Main Layout: Question Area + Palette Sidebar */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6">
             {/* Question Area (3 Cols) */}
-            <div className="lg:col-span-3 space-y-6 p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+            <div className="lg:col-span-3 space-y-5 sm:space-y-6 p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
               <div className="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800 text-xs">
                 <span className="font-bold text-bank-600 dark:text-bank-400">
                   Question {currentIdx + 1} of {examQuestions.length}
@@ -271,38 +271,38 @@ export default function ExamSimulator({ lang = 'en' }) {
                 </span>
               </div>
 
-              <h3 className="text-base font-bold text-slate-900 dark:text-white leading-relaxed">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed break-words">
                 {currentQ.question}
               </h3>
 
               {/* Options */}
-              <div className="space-y-3">
+              <div className="space-y-2.5 sm:space-y-3">
                 {currentQ.options?.map((opt, idx) => {
                   const isSelected = answers[currentIdx] === idx;
                   return (
                     <button
                       key={idx}
                       onClick={() => handleSelectOption(idx)}
-                      className={`w-full text-left p-4 rounded-xl border text-xs md:text-sm font-medium transition-all flex items-center gap-3 ${
+                      className={`w-full text-left p-3 sm:p-4 rounded-xl border text-xs sm:text-sm font-medium transition-all flex items-start gap-2.5 sm:gap-3 ${
                         isSelected
                           ? 'border-bank-600 bg-bank-50/80 dark:bg-bank-950/40 text-bank-950 dark:text-bank-100 font-bold shadow-xs'
                           : 'border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/40 text-slate-800 dark:text-slate-200'
                       }`}
                     >
-                      <span className={`w-6 h-6 rounded-lg text-xs font-bold flex items-center justify-center shrink-0 ${
+                      <span className={`w-6 h-6 rounded-lg text-xs font-bold flex items-center justify-center shrink-0 mt-0.5 ${
                         isSelected ? 'bg-bank-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600'
                       }`}>
                         {String.fromCharCode(65 + idx)}
                       </span>
-                      <span>{opt}</span>
+                      <span className="min-w-0 flex-1 break-words">{opt}</span>
                     </button>
                   );
                 })}
               </div>
 
               {/* Navigation Action Buttons */}
-              <div className="flex flex-wrap items-center justify-between gap-2 pt-4 border-t border-slate-100 dark:border-slate-800">
-                <div className="flex gap-2">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-4 border-t border-slate-100 dark:border-slate-800">
+                <div className="flex flex-wrap items-center gap-2">
                   <button
                     onClick={handleToggleReview}
                     className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all ${
@@ -323,7 +323,7 @@ export default function ExamSimulator({ lang = 'en' }) {
                   </button>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex items-center justify-end gap-2">
                   <button
                     onClick={() => handleNavigateQuestion(Math.max(0, currentIdx - 1))}
                     disabled={currentIdx === 0}
@@ -333,7 +333,7 @@ export default function ExamSimulator({ lang = 'en' }) {
                   </button>
                   <button
                     onClick={() => handleNavigateQuestion(Math.min(examQuestions.length - 1, currentIdx + 1))}
-                    className="px-5 py-2 rounded-xl bg-bank-600 hover:bg-bank-700 text-white text-xs font-bold transition-all"
+                    className="px-4 sm:px-5 py-2 rounded-xl bg-bank-600 hover:bg-bank-700 text-white text-xs font-bold transition-all shrink-0"
                   >
                     Save & Next
                   </button>
@@ -399,32 +399,32 @@ export default function ExamSimulator({ lang = 'en' }) {
       {isExamSubmitted && (
         <div className="my-6 space-y-8 animate-fadeIn">
           {/* Score Header Card */}
-          <div className="p-8 rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 text-center space-y-4">
-            <Trophy className="w-14 h-14 text-amber-500 mx-auto" />
-            <h3 className="text-2xl font-black text-slate-900 dark:text-white">
+          <div className="p-4 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 text-center space-y-4">
+            <Trophy className="w-12 h-12 sm:w-14 sm:h-14 text-amber-500 mx-auto" />
+            <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
               Mock Test Performance Card
             </h3>
             <div className="text-xs text-slate-500">{activePreset?.title}</div>
 
             {/* Score Numbers */}
-            <div className="flex flex-wrap items-center justify-center gap-8 py-6 border-y border-slate-200 dark:border-slate-700">
+            <div className="flex flex-wrap items-center justify-around sm:justify-center gap-4 sm:gap-8 py-4 sm:py-6 border-y border-slate-200 dark:border-slate-700">
               <div>
                 <div className="text-xs uppercase font-bold text-slate-400">Net Score</div>
-                <div className="text-4xl font-black font-mono text-bank-600 dark:text-bank-400 mt-1">
+                <div className="text-3xl sm:text-4xl font-black font-mono text-bank-600 dark:text-bank-400 mt-1">
                   {netScore} <span className="text-sm font-normal text-slate-400">/ {examQuestions.length}</span>
                 </div>
               </div>
 
               <div>
                 <div className="text-xs uppercase font-bold text-slate-400">Accuracy</div>
-                <div className="text-3xl font-black font-mono text-emerald-600 mt-1">
+                <div className="text-2xl sm:text-3xl font-black font-mono text-emerald-600 mt-1">
                   {correctCount + incorrectCount > 0 ? Math.round((correctCount / (correctCount + incorrectCount)) * 100) : 0}%
                 </div>
               </div>
 
               <div>
                 <div className="text-xs uppercase font-bold text-slate-400">Sectional Cutoff</div>
-                <div className={`text-lg font-bold mt-1.5 ${isCutoffCleared ? 'text-emerald-600' : 'text-rose-600'}`}>
+                <div className={`text-base sm:text-lg font-bold mt-1.5 ${isCutoffCleared ? 'text-emerald-600' : 'text-rose-600'}`}>
                   {isCutoffCleared ? 'CLEARED ✅' : 'MISSED ❌'}
                 </div>
                 <div className="text-[10px] text-slate-400 font-mono">Benchmark: {activePreset?.sectional_cutoff || 15} M</div>
@@ -432,7 +432,7 @@ export default function ExamSimulator({ lang = 'en' }) {
             </div>
 
             {/* Breakdown Pills */}
-            <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-semibold">
+            <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-xs font-semibold">
               <span className="text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 px-3 py-1 rounded-lg">
                 Correct: {correctCount}
               </span>
